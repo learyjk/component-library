@@ -1,15 +1,13 @@
 {
-  "by": "Web Bae - https://webbae.net",
-  "license": "CC BY-SA",
   "type": "@webflow/XscpData",
   "payload": {
     "nodes": [
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f29",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc211e",
         "type": "Block",
         "tag": "header",
         "classes": [],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f2a"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc211f"],
         "data": {
           "tag": "header",
           "text": false,
@@ -20,11 +18,11 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2a",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc211f",
         "type": "Block",
         "tag": "div",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f2b"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc2120"],
         "data": {
           "tag": "div",
           "text": false,
@@ -35,11 +33,11 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2b",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2120",
         "type": "Block",
         "tag": "div",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f2c"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc2121"],
         "data": {
           "tag": "div",
           "text": false,
@@ -50,11 +48,11 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2c",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2121",
         "type": "Block",
         "tag": "div",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f2d"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc2122"],
         "data": {
           "tag": "div",
           "text": false,
@@ -65,13 +63,13 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2d",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2122",
         "type": "Grid",
         "tag": "div",
         "classes": ["75734f42-4432-a73e-7d0f-587d6b9f275f"],
         "children": [
-          "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2e",
-          "08b9cf84-30c5-7cfa-49d8-012f39d089e3"
+          "b52e424b-4131-08ab-373a-4b1263bc2123",
+          "b52e424b-4131-08ab-373a-4b1263bc212f"
         ],
         "data": {
           "tag": "div",
@@ -83,14 +81,14 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2e",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2123",
         "type": "Block",
         "tag": "div",
         "classes": ["afc4a7fa-8491-998e-b216-cb6e7dd65e21"],
         "children": [
-          "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2f",
-          "6109a73a-9c03-d9d7-9e6d-dfdbb4350f32",
-          "6109a73a-9c03-d9d7-9e6d-dfdbb4350f34"
+          "b52e424b-4131-08ab-373a-4b1263bc2124",
+          "b52e424b-4131-08ab-373a-4b1263bc2127",
+          "b52e424b-4131-08ab-373a-4b1263bc2129"
         ],
         "data": {
           "tag": "div",
@@ -102,14 +100,14 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f2f",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2124",
         "type": "Block",
         "tag": "div",
         "classes": [
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
           "d636392d-e17a-9f2e-fd46-fdee33931652"
         ],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f30"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc2125"],
         "data": {
           "tag": "div",
           "text": false,
@@ -120,11 +118,11 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f30",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2125",
         "type": "Heading",
         "tag": "h1",
         "classes": [],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f31"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc2126"],
         "data": {
           "tag": "h1",
           "attr": { "id": "" },
@@ -134,16 +132,16 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f31",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2126",
         "text": true,
         "v": "Don't Ever Play Yourself"
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f32",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2127",
         "type": "Paragraph",
         "tag": "p",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825ff"],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f33"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc2128"],
         "data": {
           "attr": { "id": "" },
           "xattr": [],
@@ -152,19 +150,19 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f33",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2128",
         "text": true,
         "v": "Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. They will try to close the door on you, just open it. Celebrate success right."
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f34",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2129",
         "type": "Block",
         "tag": "div",
         "classes": [
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82663",
           "97a5cb02-fa3d-ea6c-b474-d4810cef1746"
         ],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f35"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc212a"],
         "data": {
           "tag": "div",
           "text": false,
@@ -175,13 +173,13 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f35",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc212a",
         "type": "Block",
         "tag": "div",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82674"],
         "children": [
-          "6109a73a-9c03-d9d7-9e6d-dfdbb4350f36",
-          "6109a73a-9c03-d9d7-9e6d-dfdbb4350f38"
+          "b52e424b-4131-08ab-373a-4b1263bc212b",
+          "b52e424b-4131-08ab-373a-4b1263bc212d"
         ],
         "data": {
           "tag": "div",
@@ -193,11 +191,11 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f36",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc212b",
         "type": "Link",
         "tag": "a",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f37"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc212c"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -209,19 +207,19 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f37",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc212c",
         "text": true,
         "v": "Button"
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f38",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc212d",
         "type": "Link",
         "tag": "a",
         "classes": [
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82691"
         ],
-        "children": ["6109a73a-9c03-d9d7-9e6d-dfdbb4350f39"],
+        "children": ["b52e424b-4131-08ab-373a-4b1263bc212e"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -233,18 +231,18 @@
         }
       },
       {
-        "_id": "6109a73a-9c03-d9d7-9e6d-dfdbb4350f39",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc212e",
         "text": true,
         "v": "Button"
       },
       {
-        "_id": "08b9cf84-30c5-7cfa-49d8-012f39d089e3",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc212f",
         "type": "LightboxWrapper",
         "tag": "a",
         "classes": ["89d390e0-9335-c5fd-c92b-ac9a1c3d22ac"],
         "children": [
-          "08b9cf84-30c5-7cfa-49d8-012f39d089e4",
-          "3bc0a1fe-12a7-6b3c-791e-354b4f5770a7"
+          "b52e424b-4131-08ab-373a-4b1263bc2130",
+          "b52e424b-4131-08ab-373a-4b1263bc2131"
         ],
         "data": {
           "json": {
@@ -291,7 +289,7 @@
         }
       },
       {
-        "_id": "08b9cf84-30c5-7cfa-49d8-012f39d089e4",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2130",
         "type": "Image",
         "tag": "img",
         "classes": ["e48d19f7-3e43-47f2-cc84-9a0d4ad28cfc"],
@@ -311,10 +309,10 @@
         }
       },
       {
-        "_id": "3bc0a1fe-12a7-6b3c-791e-354b4f5770a7",
+        "_id": "b52e424b-4131-08ab-373a-4b1263bc2131",
         "type": "HtmlEmbed",
         "tag": "div",
-        "classes": ["47247e77-18a8-5122-2590-bdd0343abb1d"],
+        "classes": ["dde45b51-0b89-759f-ba49-e96e9ae6bf20"],
         "children": [],
         "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" pointer-events=\"none\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5l-6 4.5z\"></path></svg>",
         "data": {
@@ -526,19 +524,6 @@
         "selector": null
       },
       {
-        "_id": "47247e77-18a8-5122-2590-bdd0343abb1d",
-        "fake": false,
-        "type": "class",
-        "name": "icon-embed-xxsmall",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "position: absolute; z-index: 2; display: flex; width: 6rem; height: 6rem; flex-direction: column; justify-content: center; align-items: center; color: hsla(0, 0.00%, 0.00%, 1.00);",
-        "variants": {},
-        "children": [],
-        "createdBy": "6075409192d886a671499223",
-        "selector": null
-      },
-      {
         "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
         "fake": false,
         "type": "class",
@@ -548,6 +533,19 @@
         "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
         "variants": {},
         "children": [],
+        "selector": null
+      },
+      {
+        "_id": "dde45b51-0b89-759f-ba49-e96e9ae6bf20",
+        "fake": false,
+        "type": "class",
+        "name": "hero2_play-icon",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: absolute; z-index: 2; display: flex; width: 6rem; height: 6rem; flex-direction: column; justify-content: center; align-items: center; color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
       {
