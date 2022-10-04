@@ -1,4 +1,6 @@
 {
+  "by": "Web Bae - https://webbae.net",
+  "license": "CC BY-SA",
   "type": "@webflow/XscpData",
   "payload": {
     "nodes": [
