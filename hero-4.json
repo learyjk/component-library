@@ -1,6 +1,4 @@
 {
-  "by": "Web Bae - https://webbae.net",
-  "license": "CC BY-SA",
   "type": "@webflow/XscpData",
   "payload": {
     "nodes": [
@@ -136,7 +134,7 @@
       {
         "_id": "142c7d26-5281-29a4-7ce4-edd0d02069ea",
         "text": true,
-        "v": "Hero 4 Don't Play Yourself"
+        "v": "Hero 4 Component"
       },
       {
         "_id": "142c7d26-5281-29a4-7ce4-edd0d02069eb",
@@ -739,18 +737,6 @@
         "selector": null
       },
       {
-        "_id": "d636392d-e17a-9f2e-fd46-fdee33931652",
-        "fake": false,
-        "type": "class",
-        "name": "margin-small",
-        "namespace": "",
-        "comb": "&",
-        "styleLess": "",
-        "variants": {},
-        "children": [],
-        "selector": null
-      },
-      {
         "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
         "fake": false,
         "type": "class",
@@ -765,8 +751,21 @@
           "7eccb33a-59b5-c5e6-f6ad-6117c1c8268f",
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82690",
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82691",
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c82693"
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82693",
+          "771f0bba-e354-44a4-ad8a-e531042ed4ea"
         ],
+        "selector": null
+      },
+      {
+        "_id": "d636392d-e17a-9f2e-fd46-fdee33931652",
+        "fake": false,
+        "type": "class",
+        "name": "margin-small",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
         "selector": null
       }
     ],
