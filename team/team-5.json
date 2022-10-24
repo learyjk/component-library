@@ -1,0 +1,1455 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d8f",
+        "type": "Block",
+        "tag": "section",
+        "classes": [],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d90"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d90",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d91"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d91",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825de"],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d92"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d92",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": [
+          "9933578f-02f7-242a-d41e-fb43aed66d93",
+          "9933578f-02f7-242a-d41e-fb43aed66d95",
+          "9933578f-02f7-242a-d41e-fb43aed66d96"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d93",
+        "type": "Heading",
+        "tag": "h2",
+        "classes": [],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d94"],
+        "data": {
+          "tag": "h2",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d94",
+        "text": true,
+        "v": "Team 5 Component"
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d95",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
+          "c47f4e59-5e44-ea42-444a-fa4aac5b1636"
+        ],
+        "children": [],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d96",
+        "type": "Grid",
+        "tag": "div",
+        "classes": ["ef95aa95-4c1f-76bf-1c73-8f3b250aaf14"],
+        "children": [
+          "9933578f-02f7-242a-d41e-fb43aed66d97",
+          "38c1bfe6-5a13-3bb7-6f58-c4e8540af754",
+          "b00a15ad-7049-1cf4-dc95-0b43fa5f6777",
+          "3d47dc2d-41a9-6498-d221-15e1faa4bfe9",
+          "8663f21a-18a5-19a9-6f58-d34e49c505d1",
+          "5e3f951b-f38a-01a3-cc48-f6855fe113cc",
+          "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8d8",
+          "36e67d4c-46b7-a4b7-525a-c4ecae649f44"
+        ],
+        "data": {
+          "grid": "two-by-two",
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d97",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "9933578f-02f7-242a-d41e-fb43aed66d98",
+          "9933578f-02f7-242a-d41e-fb43aed66d9a",
+          "9933578f-02f7-242a-d41e-fb43aed66d9c"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d98",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d99"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d99",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d9a",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d9b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d9b",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d9c",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["9933578f-02f7-242a-d41e-fb43aed66d9d"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "9933578f-02f7-242a-d41e-fb43aed66d9d",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af754",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "38c1bfe6-5a13-3bb7-6f58-c4e8540af755",
+          "38c1bfe6-5a13-3bb7-6f58-c4e8540af757",
+          "38c1bfe6-5a13-3bb7-6f58-c4e8540af759"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af755",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["38c1bfe6-5a13-3bb7-6f58-c4e8540af756"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af756",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af757",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["38c1bfe6-5a13-3bb7-6f58-c4e8540af758"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af758",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af759",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["38c1bfe6-5a13-3bb7-6f58-c4e8540af75a"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "38c1bfe6-5a13-3bb7-6f58-c4e8540af75a",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f6777",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "b00a15ad-7049-1cf4-dc95-0b43fa5f6778",
+          "b00a15ad-7049-1cf4-dc95-0b43fa5f677a",
+          "b00a15ad-7049-1cf4-dc95-0b43fa5f677c"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f6778",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["b00a15ad-7049-1cf4-dc95-0b43fa5f6779"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f6779",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f677a",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["b00a15ad-7049-1cf4-dc95-0b43fa5f677b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f677b",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f677c",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["b00a15ad-7049-1cf4-dc95-0b43fa5f677d"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "b00a15ad-7049-1cf4-dc95-0b43fa5f677d",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfe9",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "3d47dc2d-41a9-6498-d221-15e1faa4bfea",
+          "3d47dc2d-41a9-6498-d221-15e1faa4bfec",
+          "3d47dc2d-41a9-6498-d221-15e1faa4bfee"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfea",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["3d47dc2d-41a9-6498-d221-15e1faa4bfeb"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfeb",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfec",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["3d47dc2d-41a9-6498-d221-15e1faa4bfed"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfed",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfee",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["3d47dc2d-41a9-6498-d221-15e1faa4bfef"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "3d47dc2d-41a9-6498-d221-15e1faa4bfef",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d1",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "8663f21a-18a5-19a9-6f58-d34e49c505d2",
+          "8663f21a-18a5-19a9-6f58-d34e49c505d4",
+          "8663f21a-18a5-19a9-6f58-d34e49c505d6"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d2",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["8663f21a-18a5-19a9-6f58-d34e49c505d3"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d3",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d4",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["8663f21a-18a5-19a9-6f58-d34e49c505d5"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d5",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d6",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["8663f21a-18a5-19a9-6f58-d34e49c505d7"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "8663f21a-18a5-19a9-6f58-d34e49c505d7",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113cc",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "5e3f951b-f38a-01a3-cc48-f6855fe113cd",
+          "5e3f951b-f38a-01a3-cc48-f6855fe113cf",
+          "5e3f951b-f38a-01a3-cc48-f6855fe113d1"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113cd",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["5e3f951b-f38a-01a3-cc48-f6855fe113ce"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113ce",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113cf",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["5e3f951b-f38a-01a3-cc48-f6855fe113d0"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113d0",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113d1",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["5e3f951b-f38a-01a3-cc48-f6855fe113d2"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "5e3f951b-f38a-01a3-cc48-f6855fe113d2",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8d8",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8d9",
+          "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8db",
+          "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8dd"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8d9",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["8b5e3c7b-afb7-1c9f-f852-42e06ea5e8da"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8da",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8db",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["8b5e3c7b-afb7-1c9f-f852-42e06ea5e8dc"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8dc",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8dd",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["8b5e3c7b-afb7-1c9f-f852-42e06ea5e8de"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "8b5e3c7b-afb7-1c9f-f852-42e06ea5e8de",
+        "text": true,
+        "v": "Disc Jockey"
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f44",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["01ffb8f4-98b7-11b8-8236-1ea924788ef1"],
+        "children": [
+          "36e67d4c-46b7-a4b7-525a-c4ecae649f45",
+          "36e67d4c-46b7-a4b7-525a-c4ecae649f47",
+          "36e67d4c-46b7-a4b7-525a-c4ecae649f49"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f45",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["53f93ff6-66c7-151a-04c3-cd7730ec3f85"],
+        "children": ["36e67d4c-46b7-a4b7-525a-c4ecae649f46"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f46",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["7f09f758-c2ba-11a5-1341-f2febad516d2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f47",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["36e67d4c-46b7-a4b7-525a-c4ecae649f48"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f48",
+        "text": true,
+        "v": "DJ Khaled"
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f49",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["36e67d4c-46b7-a4b7-525a-c4ecae649f4a"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "36e67d4c-46b7-a4b7-525a-c4ecae649f4a",
+        "text": true,
+        "v": "Disc Jockey"
+      }
+    ],
+    "styles": [
+      {
+        "_id": "7f09f758-c2ba-11a5-1341-f2febad516d2",
+        "fake": false,
+        "type": "class",
+        "name": "team5_image",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; border-top-left-radius: 100vw; border-top-right-radius: 100vw; border-bottom-left-radius: 100vw; border-bottom-right-radius: 100vw; object-fit: cover; object-position: 50% 50%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "01ffb8f4-98b7-11b8-8236-1ea924788ef1",
+        "fake": false,
+        "type": "class",
+        "name": "team5_card",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; flex-direction: column; justify-items: start; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: 1fr; grid-template-rows: auto auto; text-align: center;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "53f93ff6-66c7-151a-04c3-cd7730ec3f85",
+        "fake": false,
+        "type": "class",
+        "name": "team5_image-height",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: relative; width: 100%; padding-top: 100%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
+        "fake": false,
+        "type": "class",
+        "name": "padding-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          }
+        },
+        "children": [
+          "645d35f9-0e83-6fe3-4e34-5a8163495fbc",
+          "c47f4e59-5e44-ea42-444a-fa4aac5b1636",
+          "ad8fb2d7-fe1e-bd70-6cb3-c21b4b0f1ecb"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "ef95aa95-4c1f-76bf-1c73-8f3b250aaf14",
+        "fake": false,
+        "type": "class",
+        "name": "team5_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "grid-column-gap: 4rem; grid-row-gap: 4rem; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); grid-template-rows: auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825de",
+        "fake": false,
+        "type": "class",
+        "name": "container-small",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 48rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "c47f4e59-5e44-ea42-444a-fa4aac5b1636",
+        "fake": false,
+        "type": "class",
+        "name": "padding-medium",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "createdOn": "2022-10-04T18:52:38.633Z",
+        "origFileName": "placeholder-square.svg",
+        "fileHash": "6f8c275b399d2fbc2fb47a78481176cd",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "_id": "633c80f6b1dd333eec5319b4",
+        "updatedOn": "2022-10-04T18:52:38.633Z",
+        "fileSize": 1299
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
