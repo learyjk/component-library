@@ -33,7 +33,7 @@ const escapeHtml = (htmlString) => {
 
 const init = async () => {
   const slug = document.querySelector('[wb-data="slug"]').textContent;
-  const cateogry = document.querySelector('[wb-data="cateogry"]').textContent;
+  const category = document.querySelector('[wb-data="category"]').textContent;
   let url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.html`;
 
   try {
