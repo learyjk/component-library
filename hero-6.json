@@ -1,0 +1,506 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b8e",
+        "type": "Block",
+        "tag": "header",
+        "classes": ["31004041-d326-bdeb-aa32-6df7f38e194e"],
+        "children": ["bb0d25df-a4e3-375c-0212-857084ba2db5"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "header"
+        }
+      },
+      {
+        "_id": "bb0d25df-a4e3-375c-0212-857084ba2db5",
+        "type": "BackgroundVideoWrapper",
+        "tag": "div",
+        "classes": ["fbb0d5a1-5891-00a7-86ff-9a3b62d7043a"],
+        "children": [
+          "543b35cd-d51e-be0a-64c5-66ce3cc65b90",
+          "75922499-2aaa-a5b4-96c5-ec26b09aeef2"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": {
+            "data-poster-url": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+            "data-video-urls": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm,https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4",
+            "data-autoplay": true,
+            "data-loop": true,
+            "data-wf-ignore": true,
+            "id": ""
+          },
+          "visibility": { "conditions": [] },
+          "bgvideo": {
+            "type": "wrapper",
+            "original_filename": "",
+            "video_urls": [
+              "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm",
+              "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4"
+            ],
+            "poster_image_url": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg"
+          },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b90",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["543b35cd-d51e-be0a-64c5-66ce3cc65b91"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b91",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
+        "children": ["543b35cd-d51e-be0a-64c5-66ce3cc65b92"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b92",
+        "type": "Grid",
+        "tag": "div",
+        "classes": ["6243b8d8-2299-8e5f-b33a-a01a46f07479"],
+        "children": [
+          "543b35cd-d51e-be0a-64c5-66ce3cc65b93",
+          "543b35cd-d51e-be0a-64c5-66ce3cc65b95",
+          "543b35cd-d51e-be0a-64c5-66ce3cc65b97"
+        ],
+        "data": {
+          "grid": "two-by-two",
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b93",
+        "type": "Heading",
+        "tag": "h1",
+        "classes": [],
+        "children": ["543b35cd-d51e-be0a-64c5-66ce3cc65b94"],
+        "data": {
+          "tag": "h1",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b94",
+        "text": true,
+        "v": "Hero 6 Component"
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b95",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": ["f3d88c0f-6ebb-ace2-8fea-68b6112714bb"],
+        "children": ["543b35cd-d51e-be0a-64c5-66ce3cc65b96"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b96",
+        "text": true,
+        "v": "Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. They will try to close the door on you, just open it. Celebrate success right."
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b97",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82674"],
+        "children": [
+          "543b35cd-d51e-be0a-64c5-66ce3cc65b98",
+          "543b35cd-d51e-be0a-64c5-66ce3cc65b9a"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b98",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["543b35cd-d51e-be0a-64c5-66ce3cc65b99"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b99",
+        "text": true,
+        "v": "Button"
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b9a",
+        "type": "Link",
+        "tag": "a",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82691"
+        ],
+        "children": ["543b35cd-d51e-be0a-64c5-66ce3cc65b9b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "543b35cd-d51e-be0a-64c5-66ce3cc65b9b",
+        "text": true,
+        "v": "Button"
+      },
+      {
+        "_id": "75922499-2aaa-a5b4-96c5-ec26b09aeef2",
+        "type": "BackgroundVideoPlayPauseButton",
+        "tag": "div",
+        "classes": [],
+        "children": [
+          "75922499-2aaa-a5b4-96c5-ec26b09aeef3",
+          "75922499-2aaa-a5b4-96c5-ec26b09aeef5"
+        ],
+        "data": {
+          "attr": {
+            "id": "",
+            "type": "button",
+            "data-w-bg-video-control": true,
+            "aria-controls": ""
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "75922499-2aaa-a5b4-96c5-ec26b09aeef3",
+        "type": "BackgroundVideoPlayPauseButtonPlaying",
+        "tag": "div",
+        "classes": [],
+        "children": ["75922499-2aaa-a5b4-96c5-ec26b09aeef4"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "75922499-2aaa-a5b4-96c5-ec26b09aeef4",
+        "type": "Image",
+        "tag": "img",
+        "classes": [],
+        "children": [],
+        "data": {
+          "attr": {
+            "alt": "Pause video",
+            "src": "https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg",
+            "id": "",
+            "width": "auto",
+            "height": "auto",
+            "loading": "auto"
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "img": {},
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "75922499-2aaa-a5b4-96c5-ec26b09aeef5",
+        "type": "BackgroundVideoPlayPauseButtonPaused",
+        "tag": "div",
+        "classes": [],
+        "children": ["75922499-2aaa-a5b4-96c5-ec26b09aeef6"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "75922499-2aaa-a5b4-96c5-ec26b09aeef6",
+        "type": "Image",
+        "tag": "img",
+        "classes": [],
+        "children": [],
+        "data": {
+          "attr": {
+            "alt": "Play video",
+            "src": "https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg",
+            "id": "",
+            "width": "auto",
+            "height": "auto",
+            "loading": "auto"
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "img": {},
+          "displayName": ""
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82691",
+        "fake": false,
+        "type": "class",
+        "name": "is-secondary",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "border-top-style: solid; border-top-width: 2px; border-top-color: black; border-right-style: solid; border-right-width: 2px; border-right-color: black; border-bottom-style: solid; border-bottom-width: 0.125rem; border-bottom-color: black; border-left-style: solid; border-left-width: 2px; border-left-color: black; background-color: transparent; color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {},
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "fbb0d5a1-5891-00a7-86ff-9a3b62d7043a",
+        "fake": false,
+        "type": "class",
+        "name": "hero6_background-video",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; height: 100%; object-fit: cover;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82674",
+        "fake": false,
+        "type": "class",
+        "name": "button-group",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; align-items: center; grid-column-gap: 1rem; grid-row-gap: 1rem;",
+        "variants": {},
+        "children": ["9d004126-fc55-e79b-1834-e9fec67f49bb"],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "f3d88c0f-6ebb-ace2-8fea-68b6112714bb",
+        "fake": false,
+        "type": "class",
+        "name": "text-size-m-r",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "font-size: 1.25rem;",
+        "variants": { "small": { "styleLess": "font-size: 1rem;" } },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
+        "fake": false,
+        "type": "class",
+        "name": "container-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "31004041-d326-bdeb-aa32-6df7f38e194e",
+        "fake": false,
+        "type": "class",
+        "name": "section_hero6",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "6243b8d8-2299-8e5f-b33a-a01a46f07479",
+        "fake": false,
+        "type": "class",
+        "name": "hero6_component",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 12rem; padding-bottom: 12rem; grid-column-gap: 1rem; grid-row-gap: 0.5rem; grid-template-columns: minmax(auto, 35rem); color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {
+          "small": { "styleLess": "padding-top: 8rem; padding-bottom: 8rem;" }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
+        "fake": false,
+        "type": "class",
+        "name": "button",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 0.75rem; padding-right: 1.5rem; padding-bottom: 0.75rem; padding-left: 1.5rem; background-color: hsla(222, 0.00%, 0.00%, 1.00); color: hsla(0, 0.00%, 100.00%, 1.00); font-weight: 600; text-align: center;",
+        "variants": {},
+        "children": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82689",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268c",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268f",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82690",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82691",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82693",
+          "2aaab7de-2b14-5091-266f-bdc286c1cdc9",
+          "1e8706ea-f96e-971f-a34e-5f58313ee2d6",
+          "3d365896-0b87-8f50-05d4-efe94ccde578"
+        ],
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p.mov",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 0,
+        "isHD": false,
+        "height": 0,
+        "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p.mov",
+        "createdOn": "2022-10-05T18:44:34.899Z",
+        "origFileName": "wb-animation - HD 720p.mov",
+        "fileHash": "7cc48fcd7198d79267cdaa31dc39e78e",
+        "variants": [
+          {
+            "_id": "633dd095bbfd59275b8eeba4",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+            "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+            "origFileName": "wb-animation - HD 720p-poster-00001.jpg",
+            "format": "jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p-poster-00001.jpg"
+          },
+          {
+            "_id": "633dd095bbfd59d2008eeba5",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm",
+            "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm",
+            "origFileName": "wb-animation - HD 720p-transcode.webm",
+            "format": "webm",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p-transcode.webm"
+          },
+          {
+            "_id": "633dd095bbfd5930c58eeba6",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4",
+            "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4",
+            "origFileName": "wb-animation - HD 720p-transcode.mp4",
+            "format": "mp4",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p-transcode.mp4"
+          }
+        ],
+        "mimeType": "video/quicktime",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p.mov",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+        "_id": "633dd092a0a6e4419d1ed109",
+        "updatedOn": "2022-10-05T20:07:33.283Z",
+        "fileSize": 605687
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}

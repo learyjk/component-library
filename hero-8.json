@@ -3,11 +3,11 @@
   "payload": {
     "nodes": [
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e2",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88d9fa",
         "type": "Block",
         "tag": "header",
-        "classes": [],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069e3"],
+        "classes": ["81d493a1-a5ac-0750-62d5-e95fb9f109da"],
+        "children": ["e940fdb8-3edf-4856-ff12-e99ff6d13892"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -19,11 +19,45 @@
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e3",
+        "_id": "e940fdb8-3edf-4856-ff12-e99ff6d13892",
+        "type": "BackgroundVideoWrapper",
+        "tag": "div",
+        "classes": ["c06ed3e6-cb7f-905d-1719-160a5f3b37e9"],
+        "children": [
+          "d2d4be16-44c0-b86a-569c-d709fb88d9fc",
+          "e940fdb8-3edf-4856-ff12-e99ff6d13893"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": {
+            "data-poster-url": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+            "data-video-urls": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm,https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4",
+            "data-autoplay": true,
+            "data-loop": true,
+            "data-wf-ignore": true,
+            "id": ""
+          },
+          "visibility": { "conditions": [] },
+          "bgvideo": {
+            "type": "wrapper",
+            "original_filename": "",
+            "video_urls": [
+              "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm",
+              "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4"
+            ],
+            "poster_image_url": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg"
+          },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88d9fc",
         "type": "Block",
         "tag": "div",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069e4"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88d9fd"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -35,11 +69,11 @@
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e4",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88d9fd",
         "type": "Block",
         "tag": "div",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069e5"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88d9fe"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -51,29 +85,14 @@
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e5",
-        "type": "Block",
-        "tag": "div",
-        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069e6"],
-        "data": {
-          "search": { "exclude": false },
-          "xattr": [],
-          "text": false,
-          "displayName": "",
-          "attr": { "id": "" },
-          "visibility": { "conditions": [] },
-          "tag": "div"
-        }
-      },
-      {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e6",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88d9fe",
         "type": "Grid",
         "tag": "div",
-        "classes": ["cd06f75d-e394-e5a3-768d-a185ce6e7036"],
+        "classes": ["c53f8288-ad19-ebf6-c8da-15ed4fd5971d"],
         "children": [
-          "142c7d26-5281-29a4-7ce4-edd0d02069e7",
-          "142c7d26-5281-29a4-7ce4-edd0d02069f3"
+          "d2d4be16-44c0-b86a-569c-d709fb88d9ff",
+          "d2d4be16-44c0-b86a-569c-d709fb88da01",
+          "d2d4be16-44c0-b86a-569c-d709fb88da03"
         ],
         "data": {
           "grid": "two-by-two",
@@ -86,50 +105,11 @@
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e7",
-        "type": "Block",
-        "tag": "div",
-        "classes": ["67beb348-3b8c-66f2-fd69-aeabf2c4dfc3"],
-        "children": [
-          "142c7d26-5281-29a4-7ce4-edd0d02069e8",
-          "142c7d26-5281-29a4-7ce4-edd0d02069eb",
-          "142c7d26-5281-29a4-7ce4-edd0d02069ed"
-        ],
-        "data": {
-          "search": { "exclude": false },
-          "xattr": [],
-          "text": false,
-          "displayName": "",
-          "attr": { "id": "" },
-          "visibility": { "conditions": [] },
-          "tag": "div"
-        }
-      },
-      {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e8",
-        "type": "Block",
-        "tag": "div",
-        "classes": [
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
-          "d636392d-e17a-9f2e-fd46-fdee33931652"
-        ],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069e9"],
-        "data": {
-          "search": { "exclude": false },
-          "xattr": [],
-          "text": false,
-          "displayName": "",
-          "attr": { "id": "" },
-          "visibility": { "conditions": [] },
-          "tag": "div"
-        }
-      },
-      {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069e9",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88d9ff",
         "type": "Heading",
         "tag": "h1",
         "classes": [],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069ea"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da00"],
         "data": {
           "tag": "h1",
           "attr": { "id": "" },
@@ -140,54 +120,78 @@
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069ea",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da00",
         "text": true,
-        "v": "Hero 4 Component"
+        "v": "Hero 8 Component"
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069eb",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da01",
         "type": "Paragraph",
         "tag": "p",
         "classes": ["f3d88c0f-6ebb-ace2-8fea-68b6112714bb"],
-        "children": ["142c7d26-5281-29a4-7ce4-edd0d02069ec"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da02"],
         "data": {
           "attr": { "id": "" },
           "xattr": [],
           "search": { "exclude": false },
           "visibility": { "conditions": [] },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
           "displayName": ""
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069ec",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da02",
         "text": true,
         "v": "Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. They will try to close the door on you, just open it. Celebrate success right."
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069ed",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da03",
         "type": "Block",
         "tag": "div",
         "classes": [
           "7eccb33a-59b5-c5e6-f6ad-6117c1c82663",
-          "97a5cb02-fa3d-ea6c-b474-d4810cef1746"
+          "4b875c29-0db7-94ff-d59c-2aa5893d541f"
         ],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39a4"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da04"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
           "text": false,
           "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39a4",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da04",
         "type": "Block",
         "tag": "div",
         "classes": ["a3f625bc-9482-79f6-3698-a60c02744284"],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39a5"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da05"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -199,14 +203,14 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39a5",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da05",
         "type": "FormWrapper",
         "tag": "div",
-        "classes": ["c981e717-34c8-c924-3623-bb3278883004"],
+        "classes": ["e2da830d-f5fe-1212-068d-b9060017b8d0"],
         "children": [
-          "6e21bec7-534d-c8cc-958c-1de8a67c39a6",
-          "6e21bec7-534d-c8cc-958c-1de8a67c39ab",
-          "6e21bec7-534d-c8cc-958c-1de8a67c39ae"
+          "d2d4be16-44c0-b86a-569c-d709fb88da06",
+          "d2d4be16-44c0-b86a-569c-d709fb88da0b",
+          "d2d4be16-44c0-b86a-569c-d709fb88da0e"
         ],
         "data": {
           "form": { "type": "wrapper" },
@@ -218,14 +222,14 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39a6",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da06",
         "type": "FormForm",
         "tag": "form",
-        "classes": ["7570f5f8-16c0-d599-9da6-3ac9bc135212"],
+        "classes": ["ab79c4b6-985d-bd1a-19e2-32e835fd2d89"],
         "children": [
-          "6e21bec7-534d-c8cc-958c-1de8a67c39a7",
-          "6e21bec7-534d-c8cc-958c-1de8a67c39a9",
-          "6e21bec7-534d-c8cc-958c-1de8a67c39aa"
+          "d2d4be16-44c0-b86a-569c-d709fb88da07",
+          "d2d4be16-44c0-b86a-569c-d709fb88da09",
+          "d2d4be16-44c0-b86a-569c-d709fb88da0a"
         ],
         "data": {
           "form": { "type": "form", "name": "Email Form" },
@@ -246,11 +250,11 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39a7",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da07",
         "type": "FormBlockLabel",
         "tag": "label",
         "classes": ["5aef4a87-79da-ee20-fb22-f4c46907601d"],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39a8"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da08"],
         "data": {
           "form": { "type": "label" },
           "attr": { "for": "email-3", "id": "" },
@@ -261,12 +265,12 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39a8",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da08",
         "text": true,
         "v": "Email Address"
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39a9",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da09",
         "type": "FormTextInput",
         "tag": "input",
         "classes": [
@@ -290,23 +294,11 @@
           "xattr": [],
           "search": { "exclude": false },
           "visibility": { "conditions": [] },
-          "style": {
-            "base": {
-              "main": {
-                "noPseudo": {
-                  "gridRowStart": "span 1",
-                  "gridRowEnd": "span 1",
-                  "gridColumnStart": "span 1",
-                  "gridColumnEnd": "span 1"
-                }
-              }
-            }
-          },
           "displayName": ""
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39aa",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da0a",
         "type": "FormButton",
         "tag": "input",
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
@@ -326,11 +318,11 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39ab",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da0b",
         "type": "FormSuccessMessage",
         "tag": "div",
         "classes": [],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39ac"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da0c"],
         "data": {
           "form": { "type": "msg-done" },
           "attr": { "id": "" },
@@ -341,11 +333,11 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39ac",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da0c",
         "type": "Block",
         "tag": "div",
         "classes": [],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39ad"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da0d"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -357,16 +349,16 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39ad",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da0d",
         "text": true,
         "v": "Thank you! Your submission has been received!"
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39ae",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da0e",
         "type": "FormErrorMessage",
         "tag": "div",
         "classes": [],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39af"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da0f"],
         "data": {
           "form": { "type": "msg-fail" },
           "attr": { "id": "" },
@@ -377,11 +369,11 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39af",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da0f",
         "type": "Block",
         "tag": "div",
         "classes": [],
-        "children": ["6e21bec7-534d-c8cc-958c-1de8a67c39b0"],
+        "children": ["d2d4be16-44c0-b86a-569c-d709fb88da10"],
         "data": {
           "search": { "exclude": false },
           "xattr": [],
@@ -393,79 +385,26 @@
         }
       },
       {
-        "_id": "6e21bec7-534d-c8cc-958c-1de8a67c39b0",
+        "_id": "d2d4be16-44c0-b86a-569c-d709fb88da10",
         "text": true,
         "v": "Oops! Something went wrong while submitting the form."
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069f3",
-        "type": "LightboxWrapper",
-        "tag": "a",
-        "classes": ["89d390e0-9335-c5fd-c92b-ac9a1c3d22ac"],
+        "_id": "e940fdb8-3edf-4856-ff12-e99ff6d13893",
+        "type": "BackgroundVideoPlayPauseButton",
+        "tag": "div",
+        "classes": [],
         "children": [
-          "142c7d26-5281-29a4-7ce4-edd0d02069f4",
-          "142c7d26-5281-29a4-7ce4-edd0d02069f5"
+          "e940fdb8-3edf-4856-ff12-e99ff6d13894",
+          "e940fdb8-3edf-4856-ff12-e99ff6d13896"
         ],
         "data": {
-          "json": {
-            "items": [
-              {
-                "tag": "Video",
-                "val": {
-                  "embed": {
-                    "meta": {
-                      "height": 528,
-                      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FG95qKzbnSkk%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DG95qKzbnSkk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FG95qKzbnSkk%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-                      "thumb": {
-                        "url": "https://i.ytimg.com/vi/G95qKzbnSkk/hqdefault.jpg"
-                      },
-                      "url": "https://www.youtube.com/watch?v=G95qKzbnSkk",
-                      "width": 940
-                    },
-                    "url": "https://www.youtube.com/watch?v=G95qKzbnSkk",
-                    "type": "video"
-                  }
-                }
-              }
-            ],
-            "group": ""
-          },
-          "search": { "exclude": false },
-          "xattr": [],
-          "block": "inline",
-          "displayName": "",
-          "style": {
-            "base": {
-              "main": {
-                "noPseudo": {
-                  "gridColumnStart": "span 1",
-                  "gridColumnEnd": "span 1",
-                  "gridRowStart": "span 1",
-                  "gridRowEnd": "span 1"
-                }
-              }
-            }
-          },
-          "attr": { "href": "#", "id": "" },
-          "visibility": { "conditions": [] },
-          "lightbox": { "type": "wrapper" }
-        }
-      },
-      {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069f4",
-        "type": "Image",
-        "tag": "img",
-        "classes": ["03a9fd32-ed9f-5594-1507-3e5e6a70025a"],
-        "children": [],
-        "data": {
           "attr": {
-            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
-            "loading": "lazy",
-            "width": "auto",
-            "height": "auto",
-            "id": ""
+            "id": "",
+            "type": "button",
+            "data-w-bg-video-control": true,
+            "aria-controls": ""
           },
-          "img": { "id": "633c80f6b1dd333eec5319b4" },
           "xattr": [],
           "search": { "exclude": false },
           "visibility": { "conditions": [] },
@@ -473,52 +412,79 @@
         }
       },
       {
-        "_id": "142c7d26-5281-29a4-7ce4-edd0d02069f5",
-        "type": "HtmlEmbed",
+        "_id": "e940fdb8-3edf-4856-ff12-e99ff6d13894",
+        "type": "BackgroundVideoPlayPauseButtonPlaying",
         "tag": "div",
-        "classes": ["493ec5ed-1abc-83bf-da57-88b500b27078"],
-        "children": [],
-        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" pointer-events=\"none\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5l-6 4.5z\"></path></svg>",
+        "classes": [],
+        "children": ["e940fdb8-3edf-4856-ff12-e99ff6d13895"],
         "data": {
-          "embed": {
-            "type": "html",
-            "meta": {
-              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" pointer-events=\"none\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5l-6 4.5z\"></path></svg>",
-              "div": false,
-              "iframe": false,
-              "script": false,
-              "compilable": false
-            }
-          },
-          "insideRTE": false,
           "attr": { "id": "" },
           "xattr": [],
           "search": { "exclude": false },
           "visibility": { "conditions": [] },
           "displayName": ""
         }
+      },
+      {
+        "_id": "e940fdb8-3edf-4856-ff12-e99ff6d13895",
+        "type": "Image",
+        "tag": "img",
+        "classes": [],
+        "children": [],
+        "data": {
+          "attr": {
+            "alt": "Pause video",
+            "src": "https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg",
+            "id": "",
+            "width": "auto",
+            "height": "auto",
+            "loading": "auto"
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "img": {},
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "e940fdb8-3edf-4856-ff12-e99ff6d13896",
+        "type": "BackgroundVideoPlayPauseButtonPaused",
+        "tag": "div",
+        "classes": [],
+        "children": ["e940fdb8-3edf-4856-ff12-e99ff6d13897"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "e940fdb8-3edf-4856-ff12-e99ff6d13897",
+        "type": "Image",
+        "tag": "img",
+        "classes": [],
+        "children": [],
+        "data": {
+          "attr": {
+            "alt": "Play video",
+            "src": "https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg",
+            "id": "",
+            "width": "auto",
+            "height": "auto",
+            "loading": "auto"
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "img": {},
+          "displayName": ""
+        }
       }
     ],
     "styles": [
-      {
-        "_id": "cd06f75d-e394-e5a3-768d-a185ce6e7036",
-        "fake": false,
-        "type": "class",
-        "name": "hero4_component",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "display: grid; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 4rem; grid-row-gap: 4rem; grid-template-columns: 1fr 1fr; grid-template-rows: auto;",
-        "variants": {
-          "tiny": { "styleLess": "grid-template-columns: 1fr;" },
-          "medium": {
-            "styleLess": "min-height: auto; grid-auto-flow: row; grid-row-gap: 4rem; grid-template-columns: 1fr;"
-          },
-          "small": { "styleLess": "grid-row-gap: 3rem;" }
-        },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
       {
         "_id": "5aef4a87-79da-ee20-fb22-f4c46907601d",
         "fake": false,
@@ -533,14 +499,46 @@
         "selector": null
       },
       {
-        "_id": "03a9fd32-ed9f-5594-1507-3e5e6a70025a",
+        "_id": "ab79c4b6-985d-bd1a-19e2-32e835fd2d89",
         "fake": false,
         "type": "class",
-        "name": "hero4_lightbox-image",
+        "name": "hero8_form",
         "namespace": "",
         "comb": "",
-        "styleLess": "width: 100%; object-fit: cover;",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: 1fr max-content; grid-template-rows: auto;",
+        "variants": {
+          "tiny": {
+            "styleLess": "grid-template-columns: 1fr; grid-template-rows: auto auto;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "e2da830d-f5fe-1212-068d-b9060017b8d0",
+        "fake": false,
+        "type": "class",
+        "name": "hero8_form-block",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-bottom: 0px;",
         "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "c53f8288-ad19-ebf6-c8da-15ed4fd5971d",
+        "fake": false,
+        "type": "class",
+        "name": "hero8_component",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: relative; padding-top: 12rem; padding-bottom: 12rem; grid-column-gap: 1rem; grid-row-gap: 0.5rem; grid-template-columns: minmax(auto, 35rem); color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {
+          "small": { "styleLess": "padding-top: 8rem; padding-bottom: 8rem;" }
+        },
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
@@ -589,32 +587,6 @@
         "selector": null
       },
       {
-        "_id": "97a5cb02-fa3d-ea6c-b474-d4810cef1746",
-        "fake": false,
-        "type": "class",
-        "name": "margin-medium",
-        "namespace": "",
-        "comb": "&",
-        "styleLess": "",
-        "variants": {},
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
-        "_id": "89d390e0-9335-c5fd-c92b-ac9a1c3d22ac",
-        "fake": false,
-        "type": "class",
-        "name": "Lightbox Link",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "position: relative; display: flex; justify-content: center; align-items: center;",
-        "variants": {},
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
         "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82663",
         "fake": false,
         "type": "class",
@@ -640,35 +612,6 @@
         "selector": null
       },
       {
-        "_id": "67beb348-3b8c-66f2-fd69-aeabf2c4dfc3",
-        "fake": false,
-        "type": "class",
-        "name": "hero4_content",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "",
-        "variants": {},
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
-        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
-        "fake": false,
-        "type": "class",
-        "name": "padding-section-large",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
-        "variants": {
-          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
-          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
-        },
-        "children": [],
-        "createdBy": "54441c96b0981db6504faf03",
-        "selector": null
-      },
-      {
         "_id": "f3d88c0f-6ebb-ace2-8fea-68b6112714bb",
         "fake": false,
         "type": "class",
@@ -682,32 +625,16 @@
         "selector": null
       },
       {
-        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+        "_id": "4b875c29-0db7-94ff-d59c-2aa5893d541f",
         "fake": false,
         "type": "class",
-        "name": "margin-bottom",
+        "name": "margin-small",
         "namespace": "",
-        "comb": "",
-        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
-        "variants": {
-          "medium": {
-            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-          },
-          "small": {
-            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-          },
-          "tiny": {
-            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-          }
-        },
-        "children": [
-          "9d004126-fc55-e79b-1834-e9fec67f49bc",
-          "d636392d-e17a-9f2e-fd46-fdee33931652",
-          "27251a35-bc44-1dde-6e36-8f5109b1cced",
-          "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
-          "958a5e16-2841-2e79-63c2-294d56721f90",
-          "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
-        ],
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
       {
@@ -739,58 +666,29 @@
         "selector": null
       },
       {
-        "_id": "7570f5f8-16c0-d599-9da6-3ac9bc135212",
+        "_id": "c06ed3e6-cb7f-905d-1719-160a5f3b37e9",
         "fake": false,
         "type": "class",
-        "name": "hero4_form",
+        "name": "hero8_background-video",
         "namespace": "",
         "comb": "",
-        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: 1fr max-content; grid-template-rows: auto;",
-        "variants": {
-          "tiny": {
-            "styleLess": "grid-template-columns: 1fr; grid-template-rows: auto auto;"
-          }
-        },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
-        "_id": "493ec5ed-1abc-83bf-da57-88b500b27078",
-        "fake": false,
-        "type": "class",
-        "name": "hero4_play-icon",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "position: absolute; z-index: 2; display: flex; width: 6rem; height: 6rem; flex-direction: column; justify-content: center; align-items: center; color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "styleLess": "width: 100%; height: 100%; object-fit: cover;",
         "variants": {},
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
       {
-        "_id": "c981e717-34c8-c924-3623-bb3278883004",
+        "_id": "81d493a1-a5ac-0750-62d5-e95fb9f109da",
         "fake": false,
         "type": "class",
-        "name": "hero4_form-block",
+        "name": "hero8_section",
         "namespace": "",
         "comb": "",
-        "styleLess": "margin-bottom: 0px;",
-        "variants": {},
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
-        "_id": "d636392d-e17a-9f2e-fd46-fdee33931652",
-        "fake": false,
-        "type": "class",
-        "name": "margin-small",
-        "namespace": "",
-        "comb": "&",
         "styleLess": "",
         "variants": {},
         "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
       {
@@ -818,20 +716,47 @@
     ],
     "assets": [
       {
-        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p.mov",
         "siteId": "632c810da53ace0dadd9a59a",
+        "width": 0,
         "isHD": false,
-        "fileName": "633c80f6b1dd333eec5319b4_placeholder-square.svg",
-        "createdOn": "2022-10-04T18:52:38.633Z",
-        "origFileName": "placeholder-square.svg",
-        "fileHash": "6f8c275b399d2fbc2fb47a78481176cd",
-        "variants": [],
-        "mimeType": "image/svg+xml",
-        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
-        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
-        "_id": "633c80f6b1dd333eec5319b4",
-        "updatedOn": "2022-10-04T18:52:38.633Z",
-        "fileSize": 1299
+        "height": 0,
+        "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p.mov",
+        "createdOn": "2022-10-05T18:44:34.899Z",
+        "origFileName": "wb-animation - HD 720p.mov",
+        "fileHash": "7cc48fcd7198d79267cdaa31dc39e78e",
+        "variants": [
+          {
+            "_id": "633dd095bbfd59275b8eeba4",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+            "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+            "origFileName": "wb-animation - HD 720p-poster-00001.jpg",
+            "format": "jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p-poster-00001.jpg"
+          },
+          {
+            "_id": "633dd095bbfd59d2008eeba5",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm",
+            "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.webm",
+            "origFileName": "wb-animation - HD 720p-transcode.webm",
+            "format": "webm",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p-transcode.webm"
+          },
+          {
+            "_id": "633dd095bbfd5930c58eeba6",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4",
+            "fileName": "633dd092a0a6e4419d1ed109_wb-animation - HD 720p-transcode.mp4",
+            "origFileName": "wb-animation - HD 720p-transcode.mp4",
+            "format": "mp4",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p-transcode.mp4"
+          }
+        ],
+        "mimeType": "video/quicktime",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation%20-%20HD%20720p.mov",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633dd092a0a6e4419d1ed109_wb-animation - HD 720p-poster-00001.jpg",
+        "_id": "633dd092a0a6e4419d1ed109",
+        "updatedOn": "2022-10-05T20:07:33.283Z",
+        "fileSize": 605687
       }
     ],
     "ix1": [],

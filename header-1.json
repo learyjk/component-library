@@ -9,12 +9,13 @@
         "classes": [],
         "children": ["e4eb4181-c999-b4f7-a2e5-8a47a64cb43d"],
         "data": {
-          "tag": "header",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "text": false
+          "tag": "header"
         }
       },
       {
@@ -24,12 +25,13 @@
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
         "children": ["e4eb4181-c999-b4f7-a2e5-8a47a64cb43e"],
         "data": {
-          "tag": "div",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "text": false
+          "tag": "div"
         }
       },
       {
@@ -39,12 +41,13 @@
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825de"],
         "children": ["e4eb4181-c999-b4f7-a2e5-8a47a64cb43f"],
         "data": {
-          "tag": "div",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "text": false
+          "tag": "div"
         }
       },
       {
@@ -54,12 +57,13 @@
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82644"],
         "children": ["e4eb4181-c999-b4f7-a2e5-8a47a64cb440"],
         "data": {
-          "tag": "div",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "text": false
+          "tag": "div"
         }
       },
       {
@@ -69,12 +73,13 @@
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82675"],
         "children": ["2b15ea2b-5a6e-1aa6-7ef9-8e82ed30f2b6"],
         "data": {
-          "tag": "div",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "text": false
+          "tag": "div"
         }
       },
       {
@@ -87,12 +92,13 @@
           "2b15ea2b-5a6e-1aa6-7ef9-8e82ed30f2bb"
         ],
         "data": {
-          "tag": "div",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "text": false
+          "tag": "div"
         }
       },
       {
@@ -106,7 +112,8 @@
           "attr": { "id": "" },
           "xattr": [],
           "search": { "exclude": false },
-          "visibility": { "conditions": [] }
+          "visibility": { "conditions": [] },
+          "displayName": ""
         }
       },
       {
@@ -118,13 +125,14 @@
         "_id": "2b15ea2b-5a6e-1aa6-7ef9-8e82ed30f2bb",
         "type": "Paragraph",
         "tag": "p",
-        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825ff"],
+        "classes": ["f3d88c0f-6ebb-ace2-8fea-68b6112714bb"],
         "children": ["2b15ea2b-5a6e-1aa6-7ef9-8e82ed30f2bc"],
         "data": {
           "attr": { "id": "" },
           "xattr": [],
           "search": { "exclude": false },
-          "visibility": { "conditions": [] }
+          "visibility": { "conditions": [] },
+          "displayName": ""
         }
       },
       {
@@ -204,15 +212,16 @@
         "selector": null
       },
       {
-        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825ff",
+        "_id": "f3d88c0f-6ebb-ace2-8fea-68b6112714bb",
         "fake": false,
         "type": "class",
-        "name": "text-size-medium",
+        "name": "text-size-m-r",
         "namespace": "",
         "comb": "",
         "styleLess": "font-size: 1.25rem;",
-        "variants": {},
+        "variants": { "small": { "styleLess": "font-size: 1rem;" } },
         "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       }
     ],
