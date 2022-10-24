@@ -1,0 +1,1268 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c98",
+        "type": "Block",
+        "tag": "section",
+        "classes": [],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c99"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c99",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c9a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c9a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8262b"],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c9b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c9b",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": [
+          "e43a28d4-0ee4-af48-9eba-4c136f9c686b",
+          "a64ab04d-1007-d485-8814-641df1a55808"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e43a28d4-0ee4-af48-9eba-4c136f9c686b",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+          "27251a35-bc44-1dde-6e36-8f5109b1cced"
+        ],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c9e"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c9e",
+        "type": "Heading",
+        "tag": "h1",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82675"],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c9f"],
+        "data": {
+          "tag": "h1",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c9f",
+        "text": true,
+        "v": "Testimonial 3 Component"
+      },
+      {
+        "_id": "a64ab04d-1007-d485-8814-641df1a55808",
+        "type": "SliderWrapper",
+        "tag": "div",
+        "classes": ["ec7527fd-2554-013e-ee52-1e0e8e82888a"],
+        "children": [
+          "a64ab04d-1007-d485-8814-641df1a55809",
+          "a64ab04d-1007-d485-8814-641df1a5580c",
+          "a64ab04d-1007-d485-8814-641df1a5580e",
+          "a64ab04d-1007-d485-8814-641df1a55810"
+        ],
+        "data": {
+          "slider": {
+            "navSpacing": 3,
+            "navShadow": false,
+            "autoplay": false,
+            "delay": 4000,
+            "iconArrows": true,
+            "animation": "slide",
+            "navNumbers": false,
+            "easing": "ease",
+            "navRound": true,
+            "hideArrows": false,
+            "disableSwipe": false,
+            "duration": 500,
+            "infinite": true,
+            "autoMax": 0,
+            "navInvert": true,
+            "type": "wrapper"
+          },
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "a64ab04d-1007-d485-8814-641df1a55809",
+        "type": "SliderMask",
+        "tag": "div",
+        "classes": ["149f8ae5-13ff-94bf-0680-6325083b3919"],
+        "children": [
+          "a64ab04d-1007-d485-8814-641df1a5580a",
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c42",
+          "0d7f6383-5ae9-537d-5285-1ba143509f8f"
+        ],
+        "data": {
+          "slider": { "type": "slides" },
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "a64ab04d-1007-d485-8814-641df1a5580a",
+        "type": "SliderSlide",
+        "tag": "div",
+        "classes": [],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c9c"],
+        "data": {
+          "slider": { "type": "slide" },
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c9c",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825df",
+          "dfbe2bb0-4821-8917-5fb9-c49794b7c0bf"
+        ],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488c9d"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488c9d",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["b7d8b80d-9c2b-73e5-e927-ec5141ba7b09"],
+        "children": [
+          "46ec192b-ec49-04bb-385a-5bd7c7488ca0",
+          "46ec192b-ec49-04bb-385a-5bd7c7488ca2"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca0",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825e0",
+          "058faddd-19b6-ecd4-e05c-bfed80c108f7"
+        ],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488ca1"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca1",
+        "text": true,
+        "v": "\"The key to more success is to have a lot of pillows. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. Life is what you make it, so let’s make it.\""
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca2",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["74d5c91c-bd57-c802-7f1c-62e84559de52"],
+        "children": [
+          "46ec192b-ec49-04bb-385a-5bd7c7488ca3",
+          "46ec192b-ec49-04bb-385a-5bd7c7488ca4"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca3",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["cd495b0d-7087-4ddf-4b93-650cbcf2eee2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca4",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["699c9238-84db-cb4c-e308-0736875eb008"],
+        "children": [
+          "46ec192b-ec49-04bb-385a-5bd7c7488ca5",
+          "46ec192b-ec49-04bb-385a-5bd7c7488ca7"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca5",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["ee30b8e1-8351-0e24-b6ee-6ef0ad577aa4"],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488ca6"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca6",
+        "text": true,
+        "v": "Mo Khaled"
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca7",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825ef"],
+        "children": ["46ec192b-ec49-04bb-385a-5bd7c7488ca8"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "46ec192b-ec49-04bb-385a-5bd7c7488ca8",
+        "text": true,
+        "v": "Entrepreneur, Mogul Talk"
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c42",
+        "type": "SliderSlide",
+        "tag": "div",
+        "classes": [],
+        "children": ["9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c43"],
+        "data": {
+          "slider": { "type": "slide" },
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c43",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825df",
+          "dfbe2bb0-4821-8917-5fb9-c49794b7c0bf"
+        ],
+        "children": ["9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c44"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c44",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["b7d8b80d-9c2b-73e5-e927-ec5141ba7b09"],
+        "children": [
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c45",
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c47"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c45",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825e0",
+          "058faddd-19b6-ecd4-e05c-bfed80c108f7"
+        ],
+        "children": ["9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c46"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c46",
+        "text": true,
+        "v": "\"The key to more success is to have a lot of pillows. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. Life is what you make it, so let’s make it.\""
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c47",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["74d5c91c-bd57-c802-7f1c-62e84559de52"],
+        "children": [
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c48",
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c49"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c48",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["cd495b0d-7087-4ddf-4b93-650cbcf2eee2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c49",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["699c9238-84db-cb4c-e308-0736875eb008"],
+        "children": [
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4a",
+          "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4c"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["ee30b8e1-8351-0e24-b6ee-6ef0ad577aa4"],
+        "children": ["9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4b",
+        "text": true,
+        "v": "Mo Khaled"
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4c",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825ef"],
+        "children": ["9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4d"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9fcf6d7a-aee4-d4fe-2c3f-c27e5ab40c4d",
+        "text": true,
+        "v": "Entrepreneur, Mogul Talk"
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f8f",
+        "type": "SliderSlide",
+        "tag": "div",
+        "classes": [],
+        "children": ["0d7f6383-5ae9-537d-5285-1ba143509f90"],
+        "data": {
+          "slider": { "type": "slide" },
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f90",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825df",
+          "dfbe2bb0-4821-8917-5fb9-c49794b7c0bf"
+        ],
+        "children": ["0d7f6383-5ae9-537d-5285-1ba143509f91"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f91",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["b7d8b80d-9c2b-73e5-e927-ec5141ba7b09"],
+        "children": [
+          "0d7f6383-5ae9-537d-5285-1ba143509f92",
+          "0d7f6383-5ae9-537d-5285-1ba143509f94"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f92",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825e0",
+          "058faddd-19b6-ecd4-e05c-bfed80c108f7"
+        ],
+        "children": ["0d7f6383-5ae9-537d-5285-1ba143509f93"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f93",
+        "text": true,
+        "v": "\"The key to more success is to have a lot of pillows. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. Life is what you make it, so let’s make it.\""
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f94",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["74d5c91c-bd57-c802-7f1c-62e84559de52"],
+        "children": [
+          "0d7f6383-5ae9-537d-5285-1ba143509f95",
+          "0d7f6383-5ae9-537d-5285-1ba143509f96"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f95",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["cd495b0d-7087-4ddf-4b93-650cbcf2eee2"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f96",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["699c9238-84db-cb4c-e308-0736875eb008"],
+        "children": [
+          "0d7f6383-5ae9-537d-5285-1ba143509f97",
+          "0d7f6383-5ae9-537d-5285-1ba143509f99"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f97",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["ee30b8e1-8351-0e24-b6ee-6ef0ad577aa4"],
+        "children": ["0d7f6383-5ae9-537d-5285-1ba143509f98"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f98",
+        "text": true,
+        "v": "Mo Khaled"
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f99",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825ef"],
+        "children": ["0d7f6383-5ae9-537d-5285-1ba143509f9a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0d7f6383-5ae9-537d-5285-1ba143509f9a",
+        "text": true,
+        "v": "Entrepreneur, Mogul Talk"
+      },
+      {
+        "_id": "a64ab04d-1007-d485-8814-641df1a5580c",
+        "type": "SliderArrow",
+        "tag": "div",
+        "classes": [
+          "41bdf53f-16a1-392a-62bc-47fbf5a5fa1c",
+          "2af2b7c7-4eb7-2e79-df50-05bfe2ddf008"
+        ],
+        "children": ["1e14ae6f-442c-954a-f1a1-e30fcccc2511"],
+        "data": {
+          "slider": { "type": "arrow", "dir": "left" },
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "1e14ae6f-442c-954a-f1a1-e30fcccc2511",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["18c6aa6a-f68a-4b8b-6c4b-8300b39bb706"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/6344e74489833b113a34a0d6_IcBaselineArrowBack.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "img": { "id": "6344e74489833b113a34a0d6" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "a64ab04d-1007-d485-8814-641df1a5580e",
+        "type": "SliderArrow",
+        "tag": "div",
+        "classes": [
+          "ac20ba42-a8f5-e952-79a7-f6c8d98d97e6",
+          "7b2db0c4-7253-c09d-e443-8a3d739aab69"
+        ],
+        "children": ["b36ed158-0eb8-b21b-fb1e-6e706e08dce7"],
+        "data": {
+          "slider": { "type": "arrow", "dir": "right" },
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "b36ed158-0eb8-b21b-fb1e-6e706e08dce7",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8a864a74-bfc6-f053-141e-909926421ed4"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/6344e7a8d052036b7fe00876_IcBaselineArrowForward.svg",
+            "loading": "lazy",
+            "width": "auto",
+            "height": "auto",
+            "id": ""
+          },
+          "img": { "id": "6344e7a8d052036b7fe00876" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "a64ab04d-1007-d485-8814-641df1a55810",
+        "type": "SliderNav",
+        "tag": "div",
+        "classes": ["c13c7f6a-c320-405d-51e2-03238fbd911f"],
+        "children": [],
+        "data": {
+          "slider": { "type": "nav" },
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "8a864a74-bfc6-f053-141e-909926421ed4",
+        "fake": false,
+        "type": "class",
+        "name": "right-arrow_image",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 50%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82675",
+        "fake": false,
+        "type": "class",
+        "name": "text-align-center",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "text-align: center;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "ac20ba42-a8f5-e952-79a7-f6c8d98d97e6",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_right-arrow",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; width: 4rem; height: 4rem; justify-content: center; align-items: center; border-top-left-radius: 100vw; border-top-right-radius: 100vw; border-bottom-left-radius: 100vw; border-bottom-right-radius: 100vw; background-color: hsla(0, 0.00%, 100.00%, 1.00); color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {},
+        "children": ["7b2db0c4-7253-c09d-e443-8a3d739aab69"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8262b",
+        "fake": false,
+        "type": "class",
+        "name": "container-medium",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 64rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "ec7527fd-2554-013e-ee52-1e0e8e82888a",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_component",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "height: auto; background-color: transparent;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "dfbe2bb0-4821-8917-5fb9-c49794b7c0bf",
+        "fake": false,
+        "type": "class",
+        "name": "align-center",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "058faddd-19b6-ecd4-e05c-bfed80c108f7",
+        "fake": false,
+        "type": "class",
+        "name": "text-style-italic",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825ef",
+        "fake": false,
+        "type": "class",
+        "name": "text-size-small",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "font-size: 0.875rem;",
+        "variants": {},
+        "children": ["0e5759c8-a3fe-97f0-9bb3-de38a5aa8999"],
+        "selector": null
+      },
+      {
+        "_id": "27251a35-bc44-1dde-6e36-8f5109b1cced",
+        "fake": false,
+        "type": "class",
+        "name": "margin-large",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "b7d8b80d-9c2b-73e5-e927-ec5141ba7b09",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_slide-inner",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; justify-items: center; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: 1fr; grid-template-rows: auto; text-align: center;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "ee30b8e1-8351-0e24-b6ee-6ef0ad577aa4",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_name-text",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "font-size: 1.25rem; line-height: 1.2; font-weight: 600;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "74d5c91c-bd57-c802-7f1c-62e84559de52",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_person-block",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; justify-items: center; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: auto; grid-template-rows: auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "18c6aa6a-f68a-4b8b-6c4b-8300b39bb706",
+        "fake": false,
+        "type": "class",
+        "name": "left-arrow_image",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 50%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "2af2b7c7-4eb7-2e79-df50-05bfe2ddf008",
+        "fake": false,
+        "type": "class",
+        "name": "hide-tablet",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+        "fake": false,
+        "type": "class",
+        "name": "margin-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          }
+        },
+        "children": [
+          "9d004126-fc55-e79b-1834-e9fec67f49bc",
+          "d636392d-e17a-9f2e-fd46-fdee33931652",
+          "27251a35-bc44-1dde-6e36-8f5109b1cced",
+          "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
+          "958a5e16-2841-2e79-63c2-294d56721f90",
+          "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "699c9238-84db-cb4c-e308-0736875eb008",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_name-wrapper",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "c13c7f6a-c320-405d-51e2-03238fbd911f",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_slide-nav",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "left: 0%; top: auto; right: 0%; bottom: -1rem; transform: translate(0px, 100%);",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825df",
+        "fake": false,
+        "type": "class",
+        "name": "max-width-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 48rem;",
+        "variants": {},
+        "children": ["dfbe2bb0-4821-8917-5fb9-c49794b7c0bf"],
+        "selector": null
+      },
+      {
+        "_id": "cd495b0d-7087-4ddf-4b93-650cbcf2eee2",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_avatar",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 4rem; height: 4rem; border-top-left-radius: 100vw; border-top-right-radius: 100vw; border-bottom-left-radius: 100vw; border-bottom-right-radius: 100vw;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "149f8ae5-13ff-94bf-0680-6325083b3919",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_mask",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "41bdf53f-16a1-392a-62bc-47fbf5a5fa1c",
+        "fake": false,
+        "type": "class",
+        "name": "testimonial3_left-arrow",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; width: 4rem; height: 4rem; justify-content: center; align-items: center; border-top-left-radius: 100vw; border-top-right-radius: 100vw; border-bottom-left-radius: 100vw; border-bottom-right-radius: 100vw; background-color: hsla(0, 0.00%, 100.00%, 1.00); color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {},
+        "children": ["2af2b7c7-4eb7-2e79-df50-05bfe2ddf008"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7b2db0c4-7253-c09d-e443-8a3d739aab69",
+        "fake": false,
+        "type": "class",
+        "name": "hide-tablet",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825e0",
+        "fake": false,
+        "type": "class",
+        "name": "text-size-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "font-size: 1.5rem;",
+        "variants": { "small": { "styleLess": "font-size: 1.25rem;" } },
+        "children": ["058faddd-19b6-ecd4-e05c-bfed80c108f7"],
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "createdOn": "2022-10-04T18:52:38.633Z",
+        "origFileName": "placeholder-square.svg",
+        "fileHash": "6f8c275b399d2fbc2fb47a78481176cd",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "_id": "633c80f6b1dd333eec5319b4",
+        "updatedOn": "2022-10-04T18:52:38.633Z",
+        "fileSize": 1299
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/6344e74489833b113a34a0d6_IcBaselineArrowBack.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "6344e74489833b113a34a0d6_IcBaselineArrowBack.svg",
+        "createdOn": "2022-10-11T03:47:16.385Z",
+        "origFileName": "IcBaselineArrowBack.svg",
+        "fileHash": "c2679d4d4d73dd0090a27485a01171e1",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/6344e74489833b113a34a0d6_IcBaselineArrowBack.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/6344e74489833b113a34a0d6_IcBaselineArrowBack.svg",
+        "_id": "6344e74489833b113a34a0d6",
+        "updatedOn": "2022-10-11T03:47:16.385Z",
+        "fileSize": 328
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/6344e7a8d052036b7fe00876_IcBaselineArrowForward.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "6344e7a8d052036b7fe00876_IcBaselineArrowForward.svg",
+        "createdOn": "2022-10-11T03:48:56.593Z",
+        "origFileName": "IcBaselineArrowForward.svg",
+        "fileHash": "153ea68f24bede43df3353fb32a78d37",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/6344e7a8d052036b7fe00876_IcBaselineArrowForward.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/6344e7a8d052036b7fe00876_IcBaselineArrowForward.svg",
+        "_id": "6344e7a8d052036b7fe00876",
+        "updatedOn": "2022-10-11T03:48:56.593Z",
+        "fileSize": 325
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
