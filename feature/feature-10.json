@@ -1,0 +1,1165 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fb",
+        "type": "Block",
+        "tag": "section",
+        "classes": [],
+        "children": ["b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fc"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fc",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fd"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fd",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
+        "children": ["b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fe"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa0fe",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": [
+          "b732a7c5-97b1-f70d-a0e3-e4a4a14aa100",
+          "358b5b73-5d1b-026a-c103-dad124d81306",
+          "b732a7c5-97b1-f70d-a0e3-e4a4a14aa102"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa100",
+        "type": "Heading",
+        "tag": "h2",
+        "classes": [],
+        "children": ["b732a7c5-97b1-f70d-a0e3-e4a4a14aa101"],
+        "data": {
+          "tag": "h2",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa101",
+        "text": true,
+        "v": "Feature 10 Component"
+      },
+      {
+        "_id": "358b5b73-5d1b-026a-c103-dad124d81306",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
+          "c47f4e59-5e44-ea42-444a-fa4aac5b1636"
+        ],
+        "children": [],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa102",
+        "type": "Grid",
+        "tag": "div",
+        "classes": ["3e8fbb49-8df1-aa42-7503-9188ed8a12dd"],
+        "children": [
+          "b732a7c5-97b1-f70d-a0e3-e4a4a14aa103",
+          "848adcc3-426e-c1a8-d898-59c82920223d",
+          "ae379af3-109e-1b5a-66c6-4ae64cd46c05",
+          "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce646",
+          "245cc52c-32e7-444f-0856-d3169d6ad389",
+          "96e57bd5-7b80-979f-8638-e074eb943f2a"
+        ],
+        "data": {
+          "grid": "two-by-two",
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa103",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["885fc692-bc03-6c78-2921-1cff9acbed37"],
+        "children": [
+          "32f81d2d-665c-a369-f98c-f7b9725ed672",
+          "b732a7c5-97b1-f70d-a0e3-e4a4a14aa105",
+          "b732a7c5-97b1-f70d-a0e3-e4a4a14aa107"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "32f81d2d-665c-a369-f98c-f7b9725ed672",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["8cfc4754-f84e-f46f-7bbd-f36c3caf6d41"],
+        "children": ["af351bfe-1bfc-5d45-dfc8-48d19165c5b6"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "af351bfe-1bfc-5d45-dfc8-48d19165c5b6",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8908ad88-76ce-5b52-018c-4ced9c74c163"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa105",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["b732a7c5-97b1-f70d-a0e3-e4a4a14aa106"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa106",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa107",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["b732a7c5-97b1-f70d-a0e3-e4a4a14aa108"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "b732a7c5-97b1-f70d-a0e3-e4a4a14aa108",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c82920223d",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["885fc692-bc03-6c78-2921-1cff9acbed37"],
+        "children": [
+          "848adcc3-426e-c1a8-d898-59c82920223e",
+          "848adcc3-426e-c1a8-d898-59c829202240",
+          "848adcc3-426e-c1a8-d898-59c829202242"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c82920223e",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["8cfc4754-f84e-f46f-7bbd-f36c3caf6d41"],
+        "children": ["848adcc3-426e-c1a8-d898-59c82920223f"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c82920223f",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8908ad88-76ce-5b52-018c-4ced9c74c163"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c829202240",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["848adcc3-426e-c1a8-d898-59c829202241"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c829202241",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c829202242",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["848adcc3-426e-c1a8-d898-59c829202243"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "848adcc3-426e-c1a8-d898-59c829202243",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c05",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["885fc692-bc03-6c78-2921-1cff9acbed37"],
+        "children": [
+          "ae379af3-109e-1b5a-66c6-4ae64cd46c06",
+          "ae379af3-109e-1b5a-66c6-4ae64cd46c08",
+          "ae379af3-109e-1b5a-66c6-4ae64cd46c0a"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c06",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["8cfc4754-f84e-f46f-7bbd-f36c3caf6d41"],
+        "children": ["ae379af3-109e-1b5a-66c6-4ae64cd46c07"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c07",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8908ad88-76ce-5b52-018c-4ced9c74c163"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c08",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["ae379af3-109e-1b5a-66c6-4ae64cd46c09"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c09",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c0a",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["ae379af3-109e-1b5a-66c6-4ae64cd46c0b"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "ae379af3-109e-1b5a-66c6-4ae64cd46c0b",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce646",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["885fc692-bc03-6c78-2921-1cff9acbed37"],
+        "children": [
+          "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce647",
+          "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce649",
+          "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce64b"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce647",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["8cfc4754-f84e-f46f-7bbd-f36c3caf6d41"],
+        "children": ["624dbc2d-b0a6-58f9-eb4d-d47fbc5ce648"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce648",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8908ad88-76ce-5b52-018c-4ced9c74c163"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce649",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["624dbc2d-b0a6-58f9-eb4d-d47fbc5ce64a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce64a",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce64b",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["624dbc2d-b0a6-58f9-eb4d-d47fbc5ce64c"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "624dbc2d-b0a6-58f9-eb4d-d47fbc5ce64c",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad389",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["885fc692-bc03-6c78-2921-1cff9acbed37"],
+        "children": [
+          "245cc52c-32e7-444f-0856-d3169d6ad38a",
+          "245cc52c-32e7-444f-0856-d3169d6ad38c",
+          "245cc52c-32e7-444f-0856-d3169d6ad38e"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad38a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["8cfc4754-f84e-f46f-7bbd-f36c3caf6d41"],
+        "children": ["245cc52c-32e7-444f-0856-d3169d6ad38b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad38b",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8908ad88-76ce-5b52-018c-4ced9c74c163"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad38c",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["245cc52c-32e7-444f-0856-d3169d6ad38d"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad38d",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad38e",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["245cc52c-32e7-444f-0856-d3169d6ad38f"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "245cc52c-32e7-444f-0856-d3169d6ad38f",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f2a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["885fc692-bc03-6c78-2921-1cff9acbed37"],
+        "children": [
+          "96e57bd5-7b80-979f-8638-e074eb943f2b",
+          "96e57bd5-7b80-979f-8638-e074eb943f2d",
+          "96e57bd5-7b80-979f-8638-e074eb943f2f"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f2b",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["8cfc4754-f84e-f46f-7bbd-f36c3caf6d41"],
+        "children": ["96e57bd5-7b80-979f-8638-e074eb943f2c"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f2c",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["8908ad88-76ce-5b52-018c-4ced9c74c163"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f2d",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["96e57bd5-7b80-979f-8638-e074eb943f2e"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f2e",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f2f",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["96e57bd5-7b80-979f-8638-e074eb943f30"],
+        "data": {
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "96e57bd5-7b80-979f-8638-e074eb943f30",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      }
+    ],
+    "styles": [
+      {
+        "_id": "885fc692-bc03-6c78-2921-1cff9acbed37",
+        "fake": false,
+        "type": "class",
+        "name": "feature10_card",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; padding-top: 1.5rem; padding-right: 1.5rem; padding-bottom: 2rem; padding-left: 1.5rem; flex-direction: column; justify-items: start; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: 1fr; grid-template-rows: auto auto; background-color: hsla(0, 0.00%, 100.00%, 1.00); text-align: left;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
+        "fake": false,
+        "type": "class",
+        "name": "padding-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          }
+        },
+        "children": [
+          "645d35f9-0e83-6fe3-4e34-5a8163495fbc",
+          "c47f4e59-5e44-ea42-444a-fa4aac5b1636",
+          "ad8fb2d7-fe1e-bd70-6cb3-c21b4b0f1ecb"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "8908ad88-76ce-5b52-018c-4ced9c74c163",
+        "fake": false,
+        "type": "class",
+        "name": "feature10_img",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "c47f4e59-5e44-ea42-444a-fa4aac5b1636",
+        "fake": false,
+        "type": "class",
+        "name": "padding-medium",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
+        "fake": false,
+        "type": "class",
+        "name": "container-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "8cfc4754-f84e-f46f-7bbd-f36c3caf6d41",
+        "fake": false,
+        "type": "class",
+        "name": "feature10_image-height",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: relative; width: 100%; padding-top: 56.25%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "3e8fbb49-8df1-aa42-7503-9188ed8a12dd",
+        "fake": false,
+        "type": "class",
+        "name": "feature10_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "createdOn": "2022-10-04T18:52:38.633Z",
+        "origFileName": "placeholder-square.svg",
+        "fileHash": "6f8c275b399d2fbc2fb47a78481176cd",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "_id": "633c80f6b1dd333eec5319b4",
+        "updatedOn": "2022-10-04T18:52:38.633Z",
+        "fileSize": 1299
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}

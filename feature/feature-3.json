@@ -1,0 +1,763 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1ba",
+        "type": "Block",
+        "tag": "section",
+        "classes": [],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bb"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bb",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bc"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bc",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bd"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bd",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1be"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1be",
+        "type": "Grid",
+        "tag": "div",
+        "classes": ["ade94000-8540-d086-7d14-074dfb593ef4"],
+        "children": [
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bf",
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1d9"
+        ],
+        "data": {
+          "grid": "two-by-two",
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1bf",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["d97ec831-2204-cfc5-8e7e-48b98efeebb4"],
+        "children": [
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c0",
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c3",
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c5"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c0",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+          "d636392d-e17a-9f2e-fd46-fdee33931652"
+        ],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c1"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c1",
+        "type": "Heading",
+        "tag": "h2",
+        "classes": [],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c2"],
+        "data": {
+          "tag": "h2",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c2",
+        "text": true,
+        "v": "Feature 3 Component"
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c3",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": ["f3d88c0f-6ebb-ace2-8fea-68b6112714bb"],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c4"],
+        "data": {
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c4",
+        "text": true,
+        "v": "Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. They will try to close the door on you, just open it. Celebrate success right."
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c5",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82663",
+          "97a5cb02-fa3d-ea6c-b474-d4810cef1746"
+        ],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c6"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c6",
+        "type": "Grid",
+        "tag": "div",
+        "classes": ["b4999e18-d4bb-5520-3ce8-a1ab55112c1b"],
+        "children": [
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c7",
+          "3883c55a-6809-0a91-66b5-d6015a678239"
+        ],
+        "data": {
+          "grid": "two-by-two",
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1c7",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["d3b8d397-103e-a432-dea4-59e0efc30ba1"],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1ca"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1ca",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["35826706-e021-2946-6534-fc5565783892"],
+        "children": [
+          "75aa3302-e1e1-384c-0b39-f23b41701e8a",
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1cb",
+          "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1ce"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "75aa3302-e1e1-384c-0b39-f23b41701e8a",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["335afd81-cbdf-dc30-ff75-9b9f124f6400"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633b6b2e44b344e3904992cc_webbae-favicon.png",
+            "loading": "lazy",
+            "width": "auto",
+            "height": "auto",
+            "id": ""
+          },
+          "img": {
+            "id": "633b6b2e44b344e3904992cc",
+            "sizes": [
+              { "max": 32, "size": "100vw" },
+              { "max": 10000, "size": "32px" }
+            ]
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1cb",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825ff",
+          "34e4fd3a-9926-1642-56b9-5d4e5aa9f4d8"
+        ],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1cc"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1cc",
+        "text": true,
+        "v": "Primary Major Key"
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1ce",
+        "type": "Block",
+        "tag": "div",
+        "classes": [],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1cf"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1cf",
+        "text": true,
+        "v": "It’s the ones closest to you that want to see you fail. Fan luv. Wraith talk."
+      },
+      {
+        "_id": "3883c55a-6809-0a91-66b5-d6015a678239",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["d3b8d397-103e-a432-dea4-59e0efc30ba1"],
+        "children": ["3883c55a-6809-0a91-66b5-d6015a67823a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "3883c55a-6809-0a91-66b5-d6015a67823a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["35826706-e021-2946-6534-fc5565783892"],
+        "children": [
+          "51980130-b9be-1138-d779-4a71f05e7bd6",
+          "3883c55a-6809-0a91-66b5-d6015a67823b",
+          "3883c55a-6809-0a91-66b5-d6015a67823d"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "51980130-b9be-1138-d779-4a71f05e7bd6",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["335afd81-cbdf-dc30-ff75-9b9f124f6400"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633b6b2e44b344e3904992cc_webbae-favicon.png",
+            "loading": "lazy",
+            "width": "auto",
+            "height": "auto",
+            "id": ""
+          },
+          "img": {
+            "id": "633b6b2e44b344e3904992cc",
+            "sizes": [
+              { "max": 32, "size": "100vw" },
+              { "max": 10000, "size": "32px" }
+            ]
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "3883c55a-6809-0a91-66b5-d6015a67823b",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825ff",
+          "34e4fd3a-9926-1642-56b9-5d4e5aa9f4d8"
+        ],
+        "children": ["3883c55a-6809-0a91-66b5-d6015a67823c"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "3883c55a-6809-0a91-66b5-d6015a67823c",
+        "text": true,
+        "v": "Secondary Major Key"
+      },
+      {
+        "_id": "3883c55a-6809-0a91-66b5-d6015a67823d",
+        "type": "Block",
+        "tag": "div",
+        "classes": [],
+        "children": ["3883c55a-6809-0a91-66b5-d6015a67823e"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "3883c55a-6809-0a91-66b5-d6015a67823e",
+        "text": true,
+        "v": "It’s the ones closest to you that want to see you fail. Fan luv. Wraith talk."
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1d9",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["3c9d4748-ed0d-6295-8dd0-195060534830"],
+        "children": ["dc35f6f2-38a5-be5a-0ce7-9b7900d8c1da"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "dc35f6f2-38a5-be5a-0ce7-9b7900d8c1da",
+        "type": "Image",
+        "tag": "img",
+        "classes": [],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+            "loading": "lazy",
+            "width": "auto",
+            "height": "auto",
+            "id": ""
+          },
+          "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "97a5cb02-fa3d-ea6c-b474-d4810cef1746",
+        "fake": false,
+        "type": "class",
+        "name": "margin-medium",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82663",
+        "fake": false,
+        "type": "class",
+        "name": "margin-top",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-right: 0rem; margin-bottom: 0rem; margin-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "margin-right: 0rem; margin-bottom: 0rem; margin-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "margin-right: 0rem; margin-bottom: 0rem; margin-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "margin-right: 0rem; margin-bottom: 0rem; margin-left: 0rem;"
+          }
+        },
+        "children": [
+          "97a5cb02-fa3d-ea6c-b474-d4810cef1746",
+          "4b875c29-0db7-94ff-d59c-2aa5893d541f"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "ade94000-8540-d086-7d14-074dfb593ef4",
+        "fake": false,
+        "type": "class",
+        "name": "feature3_component",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 4rem; grid-row-gap: 4rem; grid-template-columns: 1fr 1fr; grid-template-rows: auto;",
+        "variants": {
+          "tiny": { "styleLess": "grid-template-columns: 1fr;" },
+          "medium": {
+            "styleLess": "min-height: auto; grid-auto-flow: row; grid-row-gap: 4rem; grid-template-columns: 1fr;"
+          },
+          "small": { "styleLess": "grid-row-gap: 3rem;" }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825ff",
+        "fake": false,
+        "type": "class",
+        "name": "text-size-medium",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "font-size: 1.25rem;",
+        "variants": {},
+        "children": ["34e4fd3a-9926-1642-56b9-5d4e5aa9f4d8"],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "f3d88c0f-6ebb-ace2-8fea-68b6112714bb",
+        "fake": false,
+        "type": "class",
+        "name": "text-size-m-r",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "font-size: 1.25rem;",
+        "variants": { "small": { "styleLess": "font-size: 1rem;" } },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+        "fake": false,
+        "type": "class",
+        "name": "margin-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          }
+        },
+        "children": [
+          "9d004126-fc55-e79b-1834-e9fec67f49bc",
+          "d636392d-e17a-9f2e-fd46-fdee33931652",
+          "27251a35-bc44-1dde-6e36-8f5109b1cced",
+          "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
+          "958a5e16-2841-2e79-63c2-294d56721f90",
+          "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
+        "fake": false,
+        "type": "class",
+        "name": "container-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "3c9d4748-ed0d-6295-8dd0-195060534830",
+        "fake": false,
+        "type": "class",
+        "name": "feature3_image-wrapper",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "34e4fd3a-9926-1642-56b9-5d4e5aa9f4d8",
+        "fake": false,
+        "type": "class",
+        "name": "text-weight-semibold",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "b4999e18-d4bb-5520-3ce8-a1ab55112c1b",
+        "fake": false,
+        "type": "class",
+        "name": "feature3_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: 1fr 1fr; grid-template-rows: auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "35826706-e021-2946-6534-fc5565783892",
+        "fake": false,
+        "type": "class",
+        "name": "feature3_text-wrapper",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; max-width: 22.5rem; flex-direction: column; grid-auto-columns: 1fr; grid-column-gap: 0.25rem; grid-row-gap: 0.25rem; grid-template-columns: 1fr; grid-template-rows: auto auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "d3b8d397-103e-a432-dea4-59e0efc30ba1",
+        "fake": false,
+        "type": "class",
+        "name": "feature3_feature",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; align-items: flex-start;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "335afd81-cbdf-dc30-ff75-9b9f124f6400",
+        "fake": false,
+        "type": "class",
+        "name": "icon_1x1-medium",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 2rem; height: 2rem;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "d636392d-e17a-9f2e-fd46-fdee33931652",
+        "fake": false,
+        "type": "class",
+        "name": "margin-small",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "d97ec831-2204-cfc5-8e7e-48b98efeebb4",
+        "fake": false,
+        "type": "class",
+        "name": "feature3_content",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633b6b2e44b344e3904992cc_webbae-favicon.png",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 32,
+        "isHD": false,
+        "height": 32,
+        "fileName": "633b6b2e44b344e3904992cc_webbae-favicon.png",
+        "createdOn": "2022-10-03T23:07:26.256Z",
+        "origFileName": "webbae-favicon.png",
+        "fileHash": "43a3e210324c012cc6ee63326f012641",
+        "variants": [],
+        "mimeType": "image/png",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633b6b2e44b344e3904992cc_webbae-favicon.png",
+        "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/632c810da53ace0dadd9a59a/633b6b2e44b344e3904992cc_webbae-favicon.png",
+        "_id": "633b6b2e44b344e3904992cc",
+        "updatedOn": "2022-10-12T22:42:16.787Z",
+        "fileSize": 213
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "createdOn": "2022-10-04T18:52:38.633Z",
+        "origFileName": "placeholder-square.svg",
+        "fileHash": "6f8c275b399d2fbc2fb47a78481176cd",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "_id": "633c80f6b1dd333eec5319b4",
+        "updatedOn": "2022-10-04T18:52:38.633Z",
+        "fileSize": 1299
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
