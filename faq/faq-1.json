@@ -1,0 +1,1083 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d52",
+        "type": "Block",
+        "tag": "section",
+        "classes": [],
+        "children": ["fdd4146e-1866-0ff8-4452-f9431e839d53"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
+        }
+      },
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d53",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["fdd4146e-1866-0ff8-4452-f9431e839d54"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d54",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825de"],
+        "children": ["fdd4146e-1866-0ff8-4452-f9431e839d55"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d55",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": [
+          "fdd4146e-1866-0ff8-4452-f9431e839d56",
+          "fdd4146e-1866-0ff8-4452-f9431e839d58",
+          "8117e352-49b7-830f-be08-b2b49fe054d3"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d56",
+        "type": "Heading",
+        "tag": "h2",
+        "classes": [],
+        "children": ["fdd4146e-1866-0ff8-4452-f9431e839d57"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h2"
+        }
+      },
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d57",
+        "text": true,
+        "v": "FAQ 1 Component"
+      },
+      {
+        "_id": "fdd4146e-1866-0ff8-4452-f9431e839d58",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
+          "ad8fb2d7-fe1e-bd70-6cb3-c21b4b0f1ecb"
+        ],
+        "children": [],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8117e352-49b7-830f-be08-b2b49fe054d3",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["16f3429c-f60c-816d-853c-b9c1a1ebc698"],
+        "children": [
+          "b3afd0e9-83a7-e0fe-a9af-821c248cc4ab",
+          "7d95f184-9113-99fb-1eed-52affddfffbb",
+          "1517d683-abd7-3d9e-30c6-787454e8282f"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "b3afd0e9-83a7-e0fe-a9af-821c248cc4ab",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["340e54ab-2696-c81c-1684-da07152ff910"],
+        "children": [
+          "0c4bebe6-956c-4faf-b237-3977b1395c52",
+          "cc38ffcc-4d23-91ef-463f-5aa97ac1a59e"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "0c4bebe6-956c-4faf-b237-3977b1395c52",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["682f2d94-2dd9-46de-3a61-ccc89a279401"],
+        "children": [
+          "d171ee97-7d0b-b512-630f-b394b42762c7",
+          "0c4bebe6-956c-4faf-b237-3977b1395c55"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "d171ee97-7d0b-b512-630f-b394b42762c7",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["d171ee97-7d0b-b512-630f-b394b42762c8"],
+        "data": {
+          "tag": "h3",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "d171ee97-7d0b-b512-630f-b394b42762c8",
+        "text": true,
+        "v": "What's the key to success?"
+      },
+      {
+        "_id": "0c4bebe6-956c-4faf-b237-3977b1395c55",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["2acd879a-8355-8d75-12f7-b36a9eec7a1a"],
+        "children": [],
+        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z\"></path></svg>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z\"></path></svg>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+        "children": [
+          "693c4c21-149f-398a-24f5-6b92557f5b09",
+          "cc38ffcc-4d23-91ef-463f-5aa97ac1a59f"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "693c4c21-149f-398a-24f5-6b92557f5b09",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "2ea8e7d3-fb8a-cc94-92cc-2bd142feb352"
+        ],
+        "children": [],
+        "data": {
+          "tag": "div",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "text": false
+        }
+      },
+      {
+        "_id": "cc38ffcc-4d23-91ef-463f-5aa97ac1a59f",
+        "type": "Block",
+        "tag": "div",
+        "classes": [],
+        "children": ["cc38ffcc-4d23-91ef-463f-5aa97ac1a5a0"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "cc38ffcc-4d23-91ef-463f-5aa97ac1a5a0",
+        "text": true,
+        "v": "Lorem Khaled Ipsum is a major key to success. Give thanks to the most high. Celebrate success right, the only way, apple. You smart, you loyal, you a genius. The key to more success is to get a massage once a week, very important, major key, cloth talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it."
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffbb",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["340e54ab-2696-c81c-1684-da07152ff910"],
+        "children": [
+          "7d95f184-9113-99fb-1eed-52affddfffbc",
+          "7d95f184-9113-99fb-1eed-52affddfffc0"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffbc",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["682f2d94-2dd9-46de-3a61-ccc89a279401"],
+        "children": [
+          "7d95f184-9113-99fb-1eed-52affddfffbd",
+          "7d95f184-9113-99fb-1eed-52affddfffbf"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffbd",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["7d95f184-9113-99fb-1eed-52affddfffbe"],
+        "data": {
+          "tag": "h3",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffbe",
+        "text": true,
+        "v": "Who is the best?"
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffbf",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["2acd879a-8355-8d75-12f7-b36a9eec7a1a"],
+        "children": [],
+        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z\"></path></svg>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z\"></path></svg>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffc0",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+        "children": [
+          "7d95f184-9113-99fb-1eed-52affddfffc1",
+          "7d95f184-9113-99fb-1eed-52affddfffc2"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffc1",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "2ea8e7d3-fb8a-cc94-92cc-2bd142feb352"
+        ],
+        "children": [],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffc2",
+        "type": "Block",
+        "tag": "div",
+        "classes": [],
+        "children": ["7d95f184-9113-99fb-1eed-52affddfffc3"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "7d95f184-9113-99fb-1eed-52affddfffc3",
+        "text": true,
+        "v": "Lorem Khaled Ipsum is a major key to success. Give thanks to the most high. Celebrate success right, the only way, apple. You smart, you loyal, you a genius. The key to more success is to get a massage once a week, very important, major key, cloth talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it."
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e8282f",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["340e54ab-2696-c81c-1684-da07152ff910"],
+        "children": [
+          "1517d683-abd7-3d9e-30c6-787454e82830",
+          "1517d683-abd7-3d9e-30c6-787454e82834"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82830",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["682f2d94-2dd9-46de-3a61-ccc89a279401"],
+        "children": [
+          "1517d683-abd7-3d9e-30c6-787454e82831",
+          "1517d683-abd7-3d9e-30c6-787454e82833"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82831",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["1517d683-abd7-3d9e-30c6-787454e82832"],
+        "data": {
+          "tag": "h3",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82832",
+        "text": true,
+        "v": "What is cloth talk?"
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82833",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["2acd879a-8355-8d75-12f7-b36a9eec7a1a"],
+        "children": [],
+        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z\"></path></svg>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z\"></path></svg>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82834",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+        "children": [
+          "1517d683-abd7-3d9e-30c6-787454e82835",
+          "1517d683-abd7-3d9e-30c6-787454e82836"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82835",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "2ea8e7d3-fb8a-cc94-92cc-2bd142feb352"
+        ],
+        "children": [],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82836",
+        "type": "Block",
+        "tag": "div",
+        "classes": [],
+        "children": ["1517d683-abd7-3d9e-30c6-787454e82837"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": true,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "1517d683-abd7-3d9e-30c6-787454e82837",
+        "text": true,
+        "v": "Lorem Khaled Ipsum is a major key to success. Give thanks to the most high. Celebrate success right, the only way, apple. You smart, you loyal, you a genius. The key to more success is to get a massage once a week, very important, major key, cloth talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it."
+      }
+    ],
+    "styles": [
+      {
+        "_id": "682f2d94-2dd9-46de-3a61-ccc89a279401",
+        "fake": false,
+        "type": "class",
+        "name": "faq1_question",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; justify-content: space-between; align-items: center; cursor: pointer;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
+        "fake": false,
+        "type": "class",
+        "name": "padding-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "padding-top: 0rem; padding-right: 0rem; padding-left: 0rem;"
+          }
+        },
+        "children": [
+          "645d35f9-0e83-6fe3-4e34-5a8163495fbc",
+          "c47f4e59-5e44-ea42-444a-fa4aac5b1636",
+          "ad8fb2d7-fe1e-bd70-6cb3-c21b4b0f1ecb"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "2ea8e7d3-fb8a-cc94-92cc-2bd142feb352",
+        "fake": false,
+        "type": "class",
+        "name": "padding-small",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825de",
+        "fake": false,
+        "type": "class",
+        "name": "container-small",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 48rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "340e54ab-2696-c81c-1684-da07152ff910",
+        "fake": false,
+        "type": "class",
+        "name": "faq1_item",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-bottom: 1rem;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "2acd879a-8355-8d75-12f7-b36a9eec7a1a",
+        "fake": false,
+        "type": "class",
+        "name": "HTML Embed",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 2rem; height: 2rem;",
+        "variants": {
+          "tiny": {
+            "styleLess": "flex-grow: 0; flex-shrink: 0; flex-basis: auto;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "ad8fb2d7-fe1e-bd70-6cb3-c21b4b0f1ecb",
+        "fake": false,
+        "type": "class",
+        "name": "padding-small",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "a4bcd5d2-2a01-8d52-83df-2abf103a0323",
+        "fake": false,
+        "type": "class",
+        "name": "faq1_answer",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "overflow: hidden;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "16f3429c-f60c-816d-853c-b9c1a1ebc698",
+        "fake": false,
+        "type": "class",
+        "name": "faq1_component",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+        "fake": false,
+        "type": "class",
+        "name": "padding-top",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"
+          }
+        },
+        "children": [
+          "bb5d2793-6f41-34d3-1bbe-42768e0c25ea",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9",
+          "fb023594-0416-3964-97c7-91dc890c4ab4",
+          "8af2357b-cd8d-bb36-3801-838dd2e93671",
+          "2ea8e7d3-fb8a-cc94-92cc-2bd142feb352"
+        ],
+        "selector": null
+      }
+    ],
+    "assets": [],
+    "ix1": [],
+    "ix2": {
+      "interactions": [
+        {
+          "id": "i-16",
+          "interactionTypeId": "MOUSE_CLICK_INTERACTION",
+          "eventIds": ["e-38", "e-39"],
+          "target": "633b6c259c99723ad04b62f5|0c4bebe6-956c-4faf-b237-3977b1395c52",
+          "createdOn": 1666632355824
+        }
+      ],
+      "events": [
+        {
+          "id": "e-38",
+          "name": "",
+          "animationType": "custom",
+          "eventTypeId": "MOUSE_CLICK",
+          "action": {
+            "id": "",
+            "actionTypeId": "GENERAL_START_ACTION",
+            "config": {
+              "delay": 0,
+              "easing": "",
+              "duration": 0,
+              "actionListId": "a-22",
+              "affectedElements": {},
+              "playInReverse": false,
+              "autoStopEventId": "e-39"
+            },
+            "instant": true
+          },
+          "mediaQueries": ["main", "medium", "small", "tiny"],
+          "target": {
+            "appliesTo": "CLASS",
+            "styleBlockIds": ["682f2d94-2dd9-46de-3a61-ccc89a279401"],
+            "id": "633b6c259c99723ad04b62f5|0c4bebe6-956c-4faf-b237-3977b1395c52"
+          },
+          "targets": [],
+          "config": {
+            "loop": false,
+            "playInReverse": false,
+            "scrollOffsetValue": null,
+            "scrollOffsetUnit": null,
+            "delay": null,
+            "direction": null,
+            "effectIn": null
+          },
+          "createdOn": 1666632355825
+        },
+        {
+          "id": "e-39",
+          "name": "",
+          "animationType": "custom",
+          "eventTypeId": "MOUSE_SECOND_CLICK",
+          "action": {
+            "id": "",
+            "actionTypeId": "GENERAL_START_ACTION",
+            "config": {
+              "delay": 0,
+              "easing": "",
+              "duration": 0,
+              "actionListId": "a-23",
+              "affectedElements": {},
+              "playInReverse": false,
+              "autoStopEventId": "e-38"
+            },
+            "instant": true
+          },
+          "mediaQueries": ["main", "medium", "small", "tiny"],
+          "target": {
+            "appliesTo": "CLASS",
+            "styleBlockIds": ["682f2d94-2dd9-46de-3a61-ccc89a279401"],
+            "id": "633b6c259c99723ad04b62f5|0c4bebe6-956c-4faf-b237-3977b1395c52"
+          },
+          "targets": [],
+          "config": {
+            "loop": false,
+            "playInReverse": false,
+            "scrollOffsetValue": null,
+            "scrollOffsetUnit": null,
+            "delay": null,
+            "direction": null,
+            "effectIn": null
+          },
+          "createdOn": 1666632355825
+        }
+      ],
+      "actionLists": [
+        {
+          "id": "a-22",
+          "title": "faq1_open",
+          "actionItemGroups": [
+            {
+              "actionItems": [
+                {
+                  "id": "a-22-n",
+                  "actionTypeId": "GENERAL_DISPLAY",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "value": "none",
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+                      "useEventTarget": "SIBLINGS",
+                      "boundaryMode": false
+                    }
+                  },
+                  "instant": true
+                },
+                {
+                  "id": "a-22-n-5",
+                  "actionTypeId": "TRANSFORM_ROTATE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 500,
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|0c4bebe6-956c-4faf-b237-3977b1395c55",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["2acd879a-8355-8d75-12f7-b36a9eec7a1a"],
+                      "useEventTarget": "CHILDREN",
+                      "boundaryMode": false
+                    },
+                    "zValue": 0,
+                    "xUnit": "DEG",
+                    "yUnit": "DEG",
+                    "zUnit": "deg"
+                  },
+                  "instant": false
+                },
+                {
+                  "id": "a-22-n-2",
+                  "actionTypeId": "STYLE_SIZE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 500,
+                    "locked": false,
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+                      "useEventTarget": "SIBLINGS",
+                      "boundaryMode": false
+                    },
+                    "heightValue": 0,
+                    "widthUnit": "PX",
+                    "heightUnit": "px"
+                  },
+                  "instant": false
+                }
+              ]
+            },
+            {
+              "actionItems": [
+                {
+                  "id": "a-22-n-3",
+                  "actionTypeId": "GENERAL_DISPLAY",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "value": "block",
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+                      "useEventTarget": "SIBLINGS",
+                      "boundaryMode": false
+                    }
+                  },
+                  "instant": true
+                }
+              ]
+            },
+            {
+              "actionItems": [
+                {
+                  "id": "a-22-n-4",
+                  "actionTypeId": "STYLE_SIZE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "outExpo",
+                    "duration": 400,
+                    "locked": false,
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+                      "useEventTarget": "SIBLINGS",
+                      "boundaryMode": false
+                    },
+                    "widthUnit": "PX",
+                    "heightUnit": "AUTO"
+                  },
+                  "instant": false
+                },
+                {
+                  "id": "a-22-n-6",
+                  "actionTypeId": "TRANSFORM_ROTATE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "outExpo",
+                    "duration": 400,
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|0c4bebe6-956c-4faf-b237-3977b1395c55",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["2acd879a-8355-8d75-12f7-b36a9eec7a1a"],
+                      "useEventTarget": "CHILDREN",
+                      "boundaryMode": false
+                    },
+                    "zValue": 180,
+                    "xUnit": "DEG",
+                    "yUnit": "DEG",
+                    "zUnit": "deg"
+                  },
+                  "instant": false
+                }
+              ]
+            }
+          ],
+          "createdOn": 1666632316703,
+          "useFirstGroupAsInitialState": true
+        },
+        {
+          "id": "a-23",
+          "title": "faq1_close",
+          "actionItemGroups": [
+            {
+              "actionItems": [
+                {
+                  "id": "a-23-n-2",
+                  "actionTypeId": "TRANSFORM_ROTATE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "outExpo",
+                    "duration": 300,
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|0c4bebe6-956c-4faf-b237-3977b1395c55",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["2acd879a-8355-8d75-12f7-b36a9eec7a1a"],
+                      "useEventTarget": "CHILDREN",
+                      "boundaryMode": false
+                    },
+                    "zValue": 0,
+                    "xUnit": "DEG",
+                    "yUnit": "DEG",
+                    "zUnit": "deg"
+                  },
+                  "instant": false
+                },
+                {
+                  "id": "a-23-n-3",
+                  "actionTypeId": "STYLE_SIZE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "outExpo",
+                    "duration": 300,
+                    "locked": false,
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+                      "useEventTarget": "SIBLINGS",
+                      "boundaryMode": false
+                    },
+                    "heightValue": 0,
+                    "widthUnit": "PX",
+                    "heightUnit": "px"
+                  },
+                  "instant": false
+                }
+              ]
+            },
+            {
+              "actionItems": [
+                {
+                  "id": "a-23-n-4",
+                  "actionTypeId": "GENERAL_DISPLAY",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 0,
+                    "value": "block",
+                    "target": {
+                      "nodeId": "633b6c259c99723ad04b62f5|cc38ffcc-4d23-91ef-463f-5aa97ac1a59e",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["a4bcd5d2-2a01-8d52-83df-2abf103a0323"],
+                      "useEventTarget": "SIBLINGS",
+                      "boundaryMode": false
+                    }
+                  },
+                  "instant": true
+                }
+              ]
+            }
+          ],
+          "createdOn": 1666632316703,
+          "useFirstGroupAsInitialState": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
