@@ -6,7 +6,7 @@
         "_id": "7201614a-a437-eeb0-3f5f-6ec1f4db634e",
         "type": "NavbarWrapper",
         "tag": "div",
-        "classes": ["1a28eb26-8ce4-b589-35b8-6cd456d4f4ec"],
+        "classes": ["799505e9-fc45-851e-9af5-e7128aaee8b8"],
         "children": [
           "7201614a-a437-eeb0-3f5f-6ec1f4db634f",
           "7201614a-a437-eeb0-3f5f-6ec1f4db6350"
@@ -507,24 +507,24 @@
         "tag": "div",
         "classes": ["ae5dc833-60be-ef1e-1915-4390f23b5e55"],
         "children": [],
-        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"currentWidth\" height=\"currentHeight\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>",
+        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>",
         "data": {
+          "insideRTE": false,
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
           "embed": {
             "type": "html",
             "meta": {
-              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"currentWidth\" height=\"currentHeight\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>",
+              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\"></path></svg>",
               "div": false,
               "iframe": false,
               "script": false,
               "compilable": false
             }
-          },
-          "insideRTE": false,
-          "attr": { "id": "" },
-          "xattr": [],
-          "search": { "exclude": false },
-          "visibility": { "conditions": [] },
-          "displayName": ""
+          }
         }
       },
       {
@@ -533,41 +533,28 @@
         "tag": "div",
         "classes": ["1ea34deb-72a5-cfae-7e74-2c099dfc49ea"],
         "children": [],
-        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"currentWidth\" height=\"currentHeight\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\"></path></svg>",
+        "v": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\"></path></svg>",
         "data": {
+          "insideRTE": false,
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
           "embed": {
             "type": "html",
             "meta": {
-              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"currentWidth\" height=\"currentHeight\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\"></path></svg>",
+              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--ic\" width=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z\"></path></svg>",
               "div": false,
               "iframe": false,
               "script": false,
               "compilable": false
             }
-          },
-          "insideRTE": false,
-          "attr": { "id": "" },
-          "xattr": [],
-          "search": { "exclude": false },
-          "visibility": { "conditions": [] },
-          "displayName": ""
+          }
         }
       }
     ],
     "styles": [
-      {
-        "_id": "1a28eb26-8ce4-b589-35b8-6cd456d4f4ec",
-        "fake": false,
-        "type": "class",
-        "name": "navbar",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "background-color: hsla(0, 0.00%, 100.00%, 1.00);",
-        "variants": { "medium": { "styleLess": "position: relative;" } },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
       {
         "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265c",
         "fake": false,
@@ -735,6 +722,19 @@
         "selector": null
       },
       {
+        "_id": "799505e9-fc45-851e-9af5-e7128aaee8b8",
+        "fake": false,
+        "type": "class",
+        "name": "nav3",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "background-color: hsla(0, 0.00%, 100.00%, 1.00);",
+        "variants": {},
+        "children": ["d796f2a8-df99-37fa-9a38-880fb6a17be2"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
         "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
         "fake": false,
         "type": "class",
@@ -790,6 +790,29 @@
         },
         "children": ["8137c950-80ab-2cef-0307-fff9d6557cb8"],
         "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
+        "fake": false,
+        "type": "class",
+        "name": "button",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 0.75rem; padding-right: 1.5rem; padding-bottom: 0.75rem; padding-left: 1.5rem; background-color: hsla(222, 0.00%, 0.00%, 1.00); color: hsla(0, 0.00%, 100.00%, 1.00); font-weight: 600; text-align: center;",
+        "variants": {},
+        "children": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82689",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268c",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268f",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82690",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82691",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82693",
+          "2aaab7de-2b14-5091-266f-bdc286c1cdc9",
+          "1e8706ea-f96e-971f-a34e-5f58313ee2d6",
+          "3d365896-0b87-8f50-05d4-efe94ccde578",
+          "eafbf473-1f74-aecc-545a-67ba541b5fa9"
+        ],
         "selector": null
       },
       {
@@ -906,28 +929,6 @@
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
-      },
-      {
-        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
-        "fake": false,
-        "type": "class",
-        "name": "button",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "padding-top: 0.75rem; padding-right: 1.5rem; padding-bottom: 0.75rem; padding-left: 1.5rem; background-color: hsla(222, 0.00%, 0.00%, 1.00); color: hsla(0, 0.00%, 100.00%, 1.00); font-weight: 600; text-align: center;",
-        "variants": {},
-        "children": [
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c82689",
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268c",
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268f",
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c82690",
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c82691",
-          "7eccb33a-59b5-c5e6-f6ad-6117c1c82693",
-          "2aaab7de-2b14-5091-266f-bdc286c1cdc9",
-          "1e8706ea-f96e-971f-a34e-5f58313ee2d6",
-          "3d365896-0b87-8f50-05d4-efe94ccde578"
-        ],
-        "selector": null
       }
     ],
     "assets": [
@@ -982,7 +983,7 @@
               "delay": 0,
               "easing": "",
               "duration": 0,
-              "actionListId": "a-13",
+              "actionListId": "a-34",
               "affectedElements": {},
               "playInReverse": false,
               "autoStopEventId": "e-33"
@@ -991,8 +992,8 @@
           "mediaQueries": ["medium", "small", "tiny"],
           "target": {
             "id": "633b6c259c99723ad04b62f5|7201614a-a437-eeb0-3f5f-6ec1f4db634e",
-            "appliesTo": "ELEMENT",
-            "styleBlockIds": []
+            "appliesTo": "CLASS",
+            "styleBlockIds": ["799505e9-fc45-851e-9af5-e7128aaee8b8"]
           },
           "targets": [
             {
@@ -1025,7 +1026,7 @@
               "delay": 0,
               "easing": "",
               "duration": 0,
-              "actionListId": "a-14",
+              "actionListId": "a-35",
               "affectedElements": {},
               "playInReverse": false,
               "autoStopEventId": "e-32"
@@ -1034,8 +1035,8 @@
           "mediaQueries": ["medium", "small", "tiny"],
           "target": {
             "id": "633b6c259c99723ad04b62f5|7201614a-a437-eeb0-3f5f-6ec1f4db634e",
-            "appliesTo": "ELEMENT",
-            "styleBlockIds": []
+            "appliesTo": "CLASS",
+            "styleBlockIds": ["799505e9-fc45-851e-9af5-e7128aaee8b8"]
           },
           "targets": [
             {
@@ -1144,13 +1145,13 @@
       ],
       "actionLists": [
         {
-          "id": "a-13",
-          "title": "nav1_open",
+          "id": "a-34",
+          "title": "nav3_open",
           "actionItemGroups": [
             {
               "actionItems": [
                 {
-                  "id": "a-13-n",
+                  "id": "a-34-n",
                   "actionTypeId": "GENERAL_DISPLAY",
                   "config": {
                     "delay": 0,
@@ -1168,7 +1169,7 @@
                   "instant": true
                 },
                 {
-                  "id": "a-13-n-2",
+                  "id": "a-34-n-2",
                   "actionTypeId": "GENERAL_DISPLAY",
                   "config": {
                     "delay": 0,
@@ -1192,13 +1193,13 @@
           "createdOn": 1665159661627
         },
         {
-          "id": "a-14",
-          "title": "nav1_close",
+          "id": "a-35",
+          "title": "nav3_close",
           "actionItemGroups": [
             {
               "actionItems": [
                 {
-                  "id": "a-14-n",
+                  "id": "a-35-n",
                   "actionTypeId": "GENERAL_DISPLAY",
                   "config": {
                     "delay": 0,
@@ -1216,7 +1217,7 @@
                   "instant": true
                 },
                 {
-                  "id": "a-14-n-2",
+                  "id": "a-35-n-2",
                   "actionTypeId": "GENERAL_DISPLAY",
                   "config": {
                     "delay": 0,

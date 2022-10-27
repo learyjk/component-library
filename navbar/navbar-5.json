@@ -577,19 +577,6 @@
         "selector": null
       },
       {
-        "_id": "e5a1063f-54c9-158a-5d76-456047766a62",
-        "fake": false,
-        "type": "class",
-        "name": "nav5_link-wrap",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "display: flex;",
-        "variants": { "medium": { "styleLess": "flex-direction: column;" } },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
         "_id": "e5a1063f-54c9-158a-5d76-456047766a63",
         "fake": false,
         "type": "class",
@@ -618,6 +605,19 @@
         "comb": "",
         "styleLess": "width: 2rem; height: 2rem;",
         "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "e5a1063f-54c9-158a-5d76-456047766a62",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_link-wrap",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex;",
+        "variants": { "medium": { "styleLess": "flex-direction: column;" } },
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
@@ -857,8 +857,8 @@
           "mediaQueries": ["medium", "small", "tiny"],
           "target": {
             "id": "633b6c259c99723ad04b62f5|f588f5f1-5508-6e18-ec26-160e0626f988",
-            "appliesTo": "ELEMENT",
-            "styleBlockIds": []
+            "appliesTo": "CLASS",
+            "styleBlockIds": ["e5a1063f-54c9-158a-5d76-456047766a5b"]
           },
           "targets": [
             {
@@ -900,8 +900,8 @@
           "mediaQueries": ["medium", "small", "tiny"],
           "target": {
             "id": "633b6c259c99723ad04b62f5|f588f5f1-5508-6e18-ec26-160e0626f988",
-            "appliesTo": "ELEMENT",
-            "styleBlockIds": []
+            "appliesTo": "CLASS",
+            "styleBlockIds": ["e5a1063f-54c9-158a-5d76-456047766a5b"]
           },
           "targets": [
             {
