@@ -1,0 +1,1041 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466185c",
+        "type": "NavbarWrapper",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93de"],
+        "children": [
+          "8dc1a44a-2168-0b9d-37da-096a1466185d",
+          "8dc1a44a-2168-0b9d-37da-096a1466185e"
+        ],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "displayName": "",
+          "navbar": {
+            "animation": "default",
+            "collapse": "medium",
+            "docHeight": false,
+            "duration": 400,
+            "easing": "ease",
+            "easing2": "ease",
+            "noScroll": false,
+            "type": "wrapper"
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466185d",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93e2"],
+        "children": [],
+        "v": "<!--\nREADME\nWeb Bae NavBars\n1. Navbar may not display correctly in designer view due to default Webflow styles\n2. View in preview mode or published to see behavior\n-->",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<!--\nREADME\nWeb Bae NavBars\n1. Navbar may not display correctly in designer view due to default Webflow styles\n2. View in preview mode or published to see behavior\n-->",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466185e",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["07815991-952a-8d98-0e00-e4c25af2710d"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a1466185f"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466185f",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["07815991-952a-8d98-0e00-e4c25af27147"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661860"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661860",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "a1815a70-6730-2b00-0a8a-c20b4badbf11",
+          "57ab8b84-fbf0-9942-2320-327f3cec93e7"
+        ],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661861"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661861",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93e1"],
+        "children": [
+          "8dc1a44a-2168-0b9d-37da-096a14661862",
+          "8dc1a44a-2168-0b9d-37da-096a14661864",
+          "8dc1a44a-2168-0b9d-37da-096a14661872"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661862",
+        "type": "NavbarBrand",
+        "tag": "a",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93df"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661863"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "navbar": { "type": "brand" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661863",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93d7"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/635aaf6c24c1b81e42bf300e/635ac540d938525cc5e11ef4_logo.png",
+            "loading": "lazy",
+            "height": "auto",
+            "id": "",
+            "width": "auto"
+          },
+          "img": {
+            "id": "635ac540d938525cc5e11ef4",
+            "sizes": [
+              { "max": 479, "size": "28vw" },
+              { "max": 10000, "size": "68.734375px" }
+            ]
+          },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] },
+          "displayName": ""
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661864",
+        "type": "NavbarMenu",
+        "tag": "nav",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93e4"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661865"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "navbar": { "type": "menu" },
+          "attr": { "role": "navigation", "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "nav"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661865",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93dd"],
+        "children": [
+          "8dc1a44a-2168-0b9d-37da-096a14661866",
+          "8dc1a44a-2168-0b9d-37da-096a1466186d"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661866",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93dc"],
+        "children": [
+          "8dc1a44a-2168-0b9d-37da-096a14661867",
+          "8dc1a44a-2168-0b9d-37da-096a14661869",
+          "8dc1a44a-2168-0b9d-37da-096a1466186b"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1",
+                  "justifySelf": "center"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661867",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93d8"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661868"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "url": "#", "mode": "external" }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661868",
+        "text": true,
+        "v": "No-Code Tools"
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661869",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93d8"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a1466186a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "url": "#", "mode": "external" }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466186a",
+        "text": true,
+        "v": "Components"
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466186b",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93d8"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a1466186c"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "url": "#", "mode": "external" }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466186c",
+        "text": true,
+        "v": "Blog"
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466186d",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93d9"],
+        "children": [
+          "8dc1a44a-2168-0b9d-37da-096a1466186e",
+          "8dc1a44a-2168-0b9d-37da-096a14661870"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "style": {
+            "base": { "main": { "noPseudo": { "justifySelf": "end" } } }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466186e",
+        "type": "Link",
+        "tag": "a",
+        "classes": [
+          "57ab8b84-fbf0-9942-2320-327f3cec93e3",
+          "57ab8b84-fbf0-9942-2320-327f3cec93e5"
+        ],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a1466186f"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "block": "inline",
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": false,
+          "link": {
+            "mode": "external",
+            "url": "https://twitter.com/WebIsBae",
+            "target": "_blank"
+          }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a1466186f",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93db"],
+        "children": [],
+        "v": "<svg aria-hidden=\"true\" width=\"100%\" role=\"img\" fill=currentColor xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><title>Twitter icon</title><path d=\"M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z\"/></svg>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<svg aria-hidden=\"true\" width=\"100%\" role=\"img\" fill=currentColor xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><title>Twitter icon</title><path d=\"M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z\"/></svg>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661870",
+        "type": "Link",
+        "tag": "a",
+        "classes": [
+          "57ab8b84-fbf0-9942-2320-327f3cec93e3",
+          "57ab8b84-fbf0-9942-2320-327f3cec93e6"
+        ],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661871"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "block": "inline",
+          "displayName": "",
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": false,
+          "link": {
+            "mode": "external",
+            "url": "https://www.youtube.com/channel/UCVDwDZRtTC1qtM6A_0X7fbA",
+            "target": "_blank"
+          }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661871",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93db"],
+        "children": [],
+        "v": "<svg aria-hidden=\"true\" width=\"100%\" role=\"img\" fill=currentColor xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><title>YouTube icon</title><path d=\"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z\"/></svg>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<svg aria-hidden=\"true\" width=\"100%\" role=\"img\" fill=currentColor xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><title>YouTube icon</title><path d=\"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z\"/></svg>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661872",
+        "type": "NavbarButton",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93da"],
+        "children": ["8dc1a44a-2168-0b9d-37da-096a14661873"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "navbar": { "type": "button" },
+          "style": {
+            "base": { "medium": { "noPseudo": { "justifySelf": "end" } } }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "8dc1a44a-2168-0b9d-37da-096a14661873",
+        "type": "Animation",
+        "tag": "div",
+        "classes": ["57ab8b84-fbf0-9942-2320-327f3cec93e0"],
+        "children": [],
+        "data": {
+          "tag": "div",
+          "animation": {
+            "tag": "lottie",
+            "val": {
+              "renderMode": "svg",
+              "path": {
+                "src": "https://uploads-ssl.webflow.com/635aaf6c24c1b81e42bf300e/635ac9177fca160349818786_8161-hamburger-menu-animation.json",
+                "origFileName": "8161-hamburger-menu-animation.json",
+                "totalDuration": null
+              },
+              "loop": false,
+              "playInReverse": false
+            }
+          },
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e5",
+        "fake": false,
+        "type": "class",
+        "name": "is-twitter",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {
+          "main_hover": {
+            "styleLess": "color: hsla(239.3877551020408, 55.06%, 34.90%, 1.00);"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93dd",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_menu-inner",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 0px; grid-row-gap: 16px; grid-template-columns: 1fr 1fr; grid-template-rows: auto;",
+        "variants": {
+          "medium": {
+            "styleLess": "display: flex; flex-direction: column; align-items: stretch;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e7",
+        "fake": false,
+        "type": "class",
+        "name": "padding-xsmall",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93de",
+        "fake": false,
+        "type": "class",
+        "name": "nav5",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "background-color: hsla(0, 0.00%, 100.00%, 1.00);",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e2",
+        "fake": false,
+        "type": "class",
+        "name": "README",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: none;",
+        "variants": { "medium": { "styleLess": "display: none;" } },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "07815991-952a-8d98-0e00-e4c25af27147",
+        "fake": false,
+        "type": "class",
+        "name": "container-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e6",
+        "fake": false,
+        "type": "class",
+        "name": "is-yt",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {
+          "main_hover": {
+            "styleLess": "color: hsla(351.57894736842104, 84.24%, 60.20%, 1.00);"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93dc",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_link-wrap",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; flex-wrap: nowrap;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93d7",
+        "fake": false,
+        "type": "class",
+        "name": "nav2_logo-image",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "max-height: 2rem;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "a1815a70-6730-2b00-0a8a-c20b4badbf11",
+        "fake": false,
+        "type": "class",
+        "name": "padding-vertical",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 0rem; padding-left: 0rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-right: 0rem; padding-left: 0rem;" },
+          "small": { "styleLess": "padding-right: 0rem; padding-left: 0rem;" },
+          "tiny": { "styleLess": "padding-right: 0rem; padding-left: 0rem;" }
+        },
+        "children": ["57ab8b84-fbf0-9942-2320-327f3cec93e7"],
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93d9",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_social-wrapper",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: auto auto; grid-template-rows: auto;",
+        "variants": {
+          "medium": {
+            "styleLess": "grid-template-columns: min-content min-content;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e3",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_link-block",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "transition-property: color; transition-duration: 300ms; transition-timing-function: ease; color: hsla(0, 0.00%, 10.20%, 1.00);",
+        "variants": {},
+        "children": [
+          "57ab8b84-fbf0-9942-2320-327f3cec93e5",
+          "57ab8b84-fbf0-9942-2320-327f3cec93e6"
+        ],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e0",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_lottie",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": { "medium": { "styleLess": "width: 2rem; height: 2rem;" } },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93d8",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_link",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 1rem; padding-right: 1rem; padding-bottom: 1rem; padding-left: 1rem; white-space: nowrap;",
+        "variants": {
+          "medium": {
+            "styleLess": "margin-right: 0px; margin-left: 0px; padding-left: 0rem;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93da",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_menu-button",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {
+          "medium_open": {
+            "styleLess": "background-color: hsla(0, 0.00%, 78.67%, 1.00);"
+          },
+          "medium": {
+            "styleLess": "padding-top: 1rem; padding-right: 1rem; padding-bottom: 1rem; padding-left: 1rem; cursor: pointer;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e1",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_component",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; justify-content: space-between; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 0rem; grid-row-gap: 1rem; grid-template-columns: 1fr 2fr; grid-template-rows: auto;",
+        "variants": { "medium": { "styleLess": "position: relative;" } },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "07815991-952a-8d98-0e00-e4c25af2710d",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93df",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_logo-link",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": { "small": { "styleLess": "padding-left: 0px;" } },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93db",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_icon",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 2rem; height: 2rem;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "57ab8b84-fbf0-9942-2320-327f3cec93e4",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_menu",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {
+          "medium": {
+            "styleLess": "left: auto; top: 0%; right: 0%; bottom: auto; display: flex; margin-right: 2.5rem; padding-top: 0rem; padding-right: 1rem; padding-bottom: 1rem; padding-left: 1rem; flex-direction: column; background-color: hsla(0, 0.00%, 78.67%, 1.00);"
+          },
+          "small": {
+            "styleLess": "margin-right: 1.25rem; padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/635aaf6c24c1b81e42bf300e/635ac540d938525cc5e11ef4_logo.png",
+        "siteId": "635aaf6c24c1b81e42bf300e",
+        "width": 174,
+        "isHD": false,
+        "height": 81,
+        "fileName": "635ac540d938525cc5e11ef4_logo.png",
+        "createdOn": "2022-10-27T17:52:00.389Z",
+        "origFileName": "logo.png",
+        "fileHash": "e45f35ab4348e6fc430c9f4cde0ccdeb",
+        "variants": [
+          {
+            "_id": "635ac540d938520f44e11ef5",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/635aaf6c24c1b81e42bf300e/635ac540d938525cc5e11ef4_logo-p-130x130q80.png",
+            "fileName": "635ac540d938525cc5e11ef4_logo-p-130x130q80.png",
+            "origFileName": "logo-p-130x130q80.png",
+            "format": "png",
+            "cdnUrl": "https://uploads-ssl.webflow.com/635aaf6c24c1b81e42bf300e/635ac540d938525cc5e11ef4_logo-p-130x130q80.png"
+          }
+        ],
+        "mimeType": "image/png",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/635aaf6c24c1b81e42bf300e/635ac540d938525cc5e11ef4_logo.png",
+        "thumbUrl": "https://uploads-ssl.webflow.com/635aaf6c24c1b81e42bf300e/635ac540d938525cc5e11ef4_logo-p-130x130q80.png",
+        "_id": "635ac540d938525cc5e11ef4",
+        "updatedOn": "2022-10-27T17:52:00.574Z",
+        "fileSize": 1751
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/635aaf6c24c1b81e42bf300e/635ac9177fca160349818786_8161-hamburger-menu-animation.json",
+        "siteId": "635aaf6c24c1b81e42bf300e",
+        "width": 0,
+        "isHD": false,
+        "height": 0,
+        "fileName": "635ac9177fca160349818786_8161-hamburger-menu-animation.json",
+        "createdOn": "2022-10-27T18:08:23.503Z",
+        "origFileName": "8161-hamburger-menu-animation.json",
+        "fileHash": "9f3ae5577327fa973b30c2a74a4e2f3b",
+        "variants": [],
+        "mimeType": "application/json",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/635aaf6c24c1b81e42bf300e/635ac9177fca160349818786_8161-hamburger-menu-animation.json",
+        "_id": "635ac9177fca160349818786",
+        "type": "LOTTIE",
+        "updatedOn": "2022-10-27T18:08:23.503Z",
+        "fileSize": 9251
+      }
+    ],
+    "ix1": [],
+    "ix2": {
+      "interactions": [
+        {
+          "id": "i-4",
+          "interactionTypeId": "NAVBAR_INTERACTION",
+          "eventIds": ["e-7", "e-8"],
+          "target": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a1466185c",
+          "createdOn": 1665164479752
+        }
+      ],
+      "events": [
+        {
+          "id": "e-7",
+          "name": "",
+          "animationType": "preset",
+          "eventTypeId": "NAVBAR_OPEN",
+          "action": {
+            "id": "",
+            "actionTypeId": "GENERAL_START_ACTION",
+            "instant": true,
+            "config": {
+              "delay": 0,
+              "easing": "",
+              "duration": 0,
+              "actionListId": "a-7",
+              "affectedElements": {},
+              "playInReverse": false,
+              "autoStopEventId": "e-8"
+            }
+          },
+          "mediaQueries": ["medium", "small", "tiny"],
+          "target": {
+            "id": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a1466185c",
+            "appliesTo": "ELEMENT",
+            "styleBlockIds": []
+          },
+          "targets": [
+            {
+              "id": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a1466185c",
+              "appliesTo": "ELEMENT",
+              "styleBlockIds": []
+            }
+          ],
+          "config": {
+            "loop": false,
+            "playInReverse": false,
+            "scrollOffsetValue": null,
+            "scrollOffsetUnit": null,
+            "delay": null,
+            "direction": null,
+            "effectIn": null
+          },
+          "createdOn": 1665164479752
+        },
+        {
+          "id": "e-8",
+          "name": "",
+          "animationType": "preset",
+          "eventTypeId": "NAVBAR_CLOSE",
+          "action": {
+            "id": "",
+            "actionTypeId": "GENERAL_START_ACTION",
+            "instant": true,
+            "config": {
+              "delay": 0,
+              "easing": "",
+              "duration": 0,
+              "actionListId": "a-8",
+              "affectedElements": {},
+              "playInReverse": false,
+              "autoStopEventId": "e-7"
+            }
+          },
+          "mediaQueries": ["medium", "small", "tiny"],
+          "target": {
+            "id": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a1466185c",
+            "appliesTo": "ELEMENT",
+            "styleBlockIds": []
+          },
+          "targets": [
+            {
+              "id": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a1466185c",
+              "appliesTo": "ELEMENT",
+              "styleBlockIds": []
+            }
+          ],
+          "config": {
+            "loop": false,
+            "playInReverse": false,
+            "scrollOffsetValue": null,
+            "scrollOffsetUnit": null,
+            "delay": null,
+            "direction": null,
+            "effectIn": null
+          },
+          "createdOn": 1665164479752
+        }
+      ],
+      "actionLists": [
+        {
+          "id": "a-7",
+          "title": "nav5_open",
+          "actionItemGroups": [
+            {
+              "actionItems": [
+                {
+                  "id": "a-7-n",
+                  "actionTypeId": "PLUGIN_LOTTIE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 500,
+                    "target": {
+                      "nodeId": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a14661873",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["57ab8b84-fbf0-9942-2320-327f3cec93e0"],
+                      "useEventTarget": "CHILDREN",
+                      "boundaryMode": false
+                    },
+                    "value": 0
+                  },
+                  "instant": false
+                }
+              ]
+            },
+            {
+              "actionItems": [
+                {
+                  "id": "a-7-n-2",
+                  "actionTypeId": "PLUGIN_LOTTIE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 400,
+                    "target": {
+                      "nodeId": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a14661873",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["57ab8b84-fbf0-9942-2320-327f3cec93e0"],
+                      "useEventTarget": "CHILDREN",
+                      "boundaryMode": false
+                    },
+                    "value": 99
+                  },
+                  "instant": false
+                }
+              ]
+            }
+          ],
+          "useFirstGroupAsInitialState": true,
+          "createdOn": 1666894218947
+        },
+        {
+          "id": "a-8",
+          "title": "nav5_close",
+          "actionItemGroups": [
+            {
+              "actionItems": [
+                {
+                  "id": "a-8-n",
+                  "actionTypeId": "PLUGIN_LOTTIE",
+                  "config": {
+                    "delay": 0,
+                    "easing": "",
+                    "duration": 400,
+                    "target": {
+                      "nodeId": "635aaf6c24c1b83e25bf3012|8dc1a44a-2168-0b9d-37da-096a14661873",
+                      "appliesTo": "ELEMENT_CLASS",
+                      "styleBlockIds": ["57ab8b84-fbf0-9942-2320-327f3cec93e0"],
+                      "useEventTarget": "CHILDREN",
+                      "boundaryMode": false
+                    },
+                    "value": 0
+                  },
+                  "instant": false
+                }
+              ]
+            }
+          ],
+          "useFirstGroupAsInitialState": false,
+          "createdOn": 1666894248654
+        }
+      ]
+    }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
