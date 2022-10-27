@@ -657,23 +657,6 @@
         "selector": null
       },
       {
-        "_id": "e5a1063f-54c9-158a-5d76-456047766a65",
-        "fake": false,
-        "type": "class",
-        "name": "nav5_menu-inner",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "display: grid; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 16px; grid-row-gap: 16px; grid-template-columns: 1fr 1fr; grid-template-rows: auto;",
-        "variants": {
-          "medium": {
-            "styleLess": "display: flex; flex-direction: column; align-items: stretch;"
-          }
-        },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
         "_id": "e5a1063f-54c9-158a-5d76-456047766a5b",
         "fake": false,
         "type": "class",
@@ -738,6 +721,23 @@
         "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
         "variants": {},
         "children": [],
+        "selector": null
+      },
+      {
+        "_id": "e5a1063f-54c9-158a-5d76-456047766a65",
+        "fake": false,
+        "type": "class",
+        "name": "nav5_menu-inner",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; align-items: center; grid-auto-columns: 1fr; grid-column-gap: 0rem; grid-row-gap: 0rem; grid-template-columns: 1fr 1fr; grid-template-rows: auto;",
+        "variants": {
+          "medium": {
+            "styleLess": "display: flex; flex-direction: column; align-items: stretch;"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
       {
