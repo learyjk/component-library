@@ -600,7 +600,7 @@
         "name": "nav5_social-wrapper",
         "namespace": "",
         "comb": "",
-        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: min-content min-content; grid-template-rows: auto;",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 1rem; grid-row-gap: 1rem; grid-template-columns: auto auto; grid-template-rows: auto;",
         "variants": {
           "medium": {
             "styleLess": "grid-template-columns: min-content min-content;"
