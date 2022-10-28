@@ -138,6 +138,9 @@
           "xattr": [],
           "displayName": "",
           "navbar": { "type": "brand" },
+          "style": {
+            "base": { "main": { "noPseudo": { "justifySelf": "start" } } }
+          },
           "attr": { "href": "#", "id": "" },
           "visibility": { "conditions": [] },
           "link": { "mode": "external" }
