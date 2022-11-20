@@ -76,7 +76,7 @@ const escapeHtml = (htmlString) => {
   }
 };
 
-const init = async () => {
+const start = async () => {
   const slug = document.querySelector('[wb-data="slug"]').textContent
   const category = document.querySelector('[wb-data="category"]').textContent;
   let url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.html`;
@@ -147,7 +147,7 @@ const init = async () => {
   }
 };
 
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", start);
 
 addGlobalEventListener("click", '[wb-data="copy-button"]', async (e) => {
   const copyButton = e.target.closest('[wb-data="copy-button"]');
