@@ -29,7 +29,7 @@
                                 });
                             };
 
-                            const init = () => {
+                            const buildSplide = () => {
                                 removeStylingElements();
                                 console.log('loaded')
                                 const splide = new Splide("#gallery-1", {
@@ -55,7 +55,7 @@
                                 splide.mount();
                                 console.log('mount complete')
                             };
-                            init();
+                            buildSplide();
                         </script>
 
                         <style>

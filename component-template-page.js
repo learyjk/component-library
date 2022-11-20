@@ -27,12 +27,27 @@ const setInnerHTML = (elm, html) => {
     });
 }
 
+const addHeadScript = (src) => {
+  console.log('addHeadScript')
+  var head = document.getElementsByTagName("head")[0];
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = src;
+  head.appendChild(script);
+}
+
 const evaluateCode = (elm) => {
-  console.log(elm.querySelectorAll('script'))
-  Array.from(elm.querySelectorAll("script"))
-    .forEach(scriptEl => {
-      eval(scriptEl.innerHTML)
-    });
+  elm.querySelectorAll('script').forEach((scriptTag, index) => {
+    //console.log(scriptTag.innerHTML)
+    console.log(`starting run ${index}`)
+    if (scriptTag.src !== "") {
+      addHeadScript(scriptTag.src)
+    } else {
+      eval(scriptTag.innerHTML)
+    }
+
+    console.log(`finished run ${index}`)
+  })
 }
 
 const escapeHtml = (htmlString) => {
@@ -71,17 +86,52 @@ const init = async () => {
     const response = await fetch(url);
     console.log({ response })
     const data = await response.text();
-    const parser = new DOMParser();
-    const parsedHTML = parser.parseFromString(data, 'text/html');
-    console.log({ parsedHTML })
+    // const parser = new DOMParser();
+    // const parsedHTML = parser.parseFromString(data, 'text/html');
+    // console.log({ parsedHTML })
+
+    var frag = parsePartialHtml(data);
+    fixScriptsSoTheyAreExecuted(frag);
+    document.body.appendChild(frag);
+
+
+    function fixScriptsSoTheyAreExecuted(el) {
+      var scripts = el.querySelectorAll('script'),
+        script, fixedScript, i, len;
+
+      for (i = 0, len = scripts.length; i < len; i++) {
+        script = scripts[i];
+
+        fixedScript = document.createElement('script');
+        fixedScript.type = script.type;
+        if (script.innerHTML) fixedScript.innerHTML = script.innerHTML;
+        else fixedScript.src = script.src;
+        fixedScript.async = false;
+
+        script.parentNode.replaceChild(fixedScript, script);
+      }
+    }
+
+    function parsePartialHtml(html) {
+      var doc = new DOMParser().parseFromString(html, 'text/html'),
+        frag = document.createDocumentFragment(),
+        childNodes = doc.body.childNodes;
+
+      while (childNodes.length) frag.appendChild(childNodes[0]);
+
+      return frag;
+    }
 
     // Add preview to page
-    if (category !== 'navbar') {
-      //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
-      evaluateCode(parsedHTML.querySelector('body').firstChild)
-      document.querySelector('[wb-data="preview-wrapper"]').append(parsedHTML.querySelector('body').firstChild);
-      console.log('done appending')
-    }
+    // if (category !== 'navbar') {
+    //   //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
+
+    //   document.querySelector('[wb-data="preview-wrapper"]').append(parsedHTML.querySelector('body').firstChild);
+    //   evaluateCode(document.querySelector('[wb-data="preview-wrapper"]'))
+    //   console.log('done appending')
+    // }
+
+
 
     // escape html and show it below.
     // const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
