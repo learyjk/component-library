@@ -119,6 +119,18 @@
                     "1e642b71-46b7-58c2-30a8-31060d21fa4d"
                 ],
                 "data": {
+                    "search": {
+                        "exclude": false
+                    },
+                    "xattr": [],
+                    "text": false,
+                    "displayName": "",
+                    "attr": {
+                        "id": ""
+                    },
+                    "visibility": {
+                        "conditions": []
+                    },
                     "tag": "div"
                 }
             },
@@ -171,7 +183,7 @@
                     "text": false,
                     "displayName": "",
                     "attr": {
-                        "id": "splide-01"
+                        "id": "gallery-1"
                     },
                     "visibility": {
                         "conditions": []
@@ -187,7 +199,7 @@
                     "4121a76c-c702-7de9-dd01-d115028b069f"
                 ],
                 "children": [],
-                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script defer>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst init = () => {\n    removeStylingElements();\n    const splide = new Splide(\"#splide-01\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", init);\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script defer>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst init = () => {\n    removeStylingElements();\n    console.log('loaded')\n    const splide = new Splide(\"#gallery-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n    console.log('mount complete')\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", init);\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                 "data": {
                     "insideRTE": false,
                     "search": {
@@ -204,11 +216,10 @@
                     "embed": {
                         "type": "html",
                         "meta": {
-                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script defer>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst init = () => {\n    removeStylingElements();\n    const splide = new Splide(\"#splide-01\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", init);\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script defer>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst init = () => {\n    removeStylingElements();\n    console.log('loaded')\n    const splide = new Splide(\"#gallery-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n    console.log('mount complete')\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", init);\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                             "div": false,
                             "iframe": false,
-                            "script": true,
-                            "compilable": false
+                            "script": true
                         }
                     }
                 }

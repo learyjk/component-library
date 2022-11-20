@@ -5,8 +5,8 @@
                 <div class="margin-bottom margin-medium">
                     <h2>Splide 1</h2>
                 </div>
-                <div id="splide-01"
-                    class="splide is-overflow is-initialized splide--slide splide--ltr splide--draggable is-active"
+                <div id="gallery-1"
+                    class="splide splide--slide splide--ltr splide--draggable is-active is-overflow is-initialized"
                     role="region" aria-roledescription="carousel">
                     <div class="splide-code w-embed w-script">
                         <!-- Load Splide min css code -->
@@ -30,7 +30,8 @@
 
                             const init = () => {
                                 removeStylingElements();
-                                const splide = new Splide("#splide-01", {
+                                console.log('loaded')
+                                const splide = new Splide("#gallery-1", {
                                     // EDIT OPTIONS BELOW
                                     // https://splidejs.com/guides/options/
                                     type: "slide",
@@ -51,6 +52,7 @@
                                 });
 
                                 splide.mount();
+                                console.log('mount complete')
                             };
 
                             document.addEventListener("DOMContentLoaded", init);
@@ -59,23 +61,23 @@
                         <style>
                             /* You can use the combo classes below to style specific slides or to help with debugging*/
                             /*
-                            .splide__slide.is-visible {
-                                padding: 1rem;
-                            background-color: green;
-                            }
-                            .splide__slide.is-next {
-                                padding: 1rem;
-                            background-color: blue;
-                            }
-                            .splide__slide.is-prev {
-                                padding: 1rem;
-                            background-color: yellow;
-                            }
-                            .splide__slide.is-active {
-                                padding: 1rem;
-                            background-color: red;
-                            }
-                            */
+    .splide__slide.is-visible {
+        padding: 1rem;
+      background-color: green;
+    }
+    .splide__slide.is-next {
+        padding: 1rem;
+      background-color: blue;
+    }
+    .splide__slide.is-prev {
+        padding: 1rem;
+      background-color: yellow;
+    }
+    .splide__slide.is-active {
+        padding: 1rem;
+      background-color: red;
+    }
+    */
 
                             .splide__arrow:disabled {
                                 opacity: 0.5;
@@ -83,11 +85,11 @@
                         </style>
                     </div>
                     <div class="splide__track splide__track--slide splide__track--ltr splide__track--draggable"
-                        id="splide-01-track" style="padding-left: 0px; padding-right: 0px;" aria-live="polite"
-                        aria-atomic="true">
-                        <div class="splide__list" id="splide-01-list" role="presentation"
+                        id="gallery-1-track" style="padding-left: 0px; padding-right: 0px;" aria-live="polite"
+                        aria-atomic="true" aria-busy="false">
+                        <div class="splide__list" id="gallery-1-list" role="presentation"
                             style="transform: translateX(0px);">
-                            <div class="splide__slide is-active is-visible" id="splide-01-slide01" role="tabpanel"
+                            <div class="splide__slide is-active is-visible" id="gallery-1-slide01" role="tabpanel"
                                 aria-roledescription="slide" aria-label="1 of 5"
                                 style="margin-right: 3rem; width: calc(((100% + 3rem) / 3) - 3rem);">
                                 <div class="image-height"><img
@@ -97,7 +99,7 @@
                                         sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, 18vw" alt=""
                                         class="img"></div>
                             </div>
-                            <div class="splide__slide is-visible is-next" id="splide-01-slide02" role="tabpanel"
+                            <div class="splide__slide is-visible is-next" id="gallery-1-slide02" role="tabpanel"
                                 aria-roledescription="slide" aria-label="2 of 5"
                                 style="margin-right: 3rem; width: calc(((100% + 3rem) / 3) - 3rem);">
                                 <div class="image-height"><img
@@ -107,7 +109,7 @@
                                         sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, 18vw" alt=""
                                         class="img"></div>
                             </div>
-                            <div class="splide__slide is-visible" id="splide-01-slide03" role="tabpanel"
+                            <div class="splide__slide is-visible" id="gallery-1-slide03" role="tabpanel"
                                 aria-roledescription="slide" aria-label="3 of 5"
                                 style="margin-right: 3rem; width: calc(((100% + 3rem) / 3) - 3rem);">
                                 <div class="image-height"><img
@@ -117,7 +119,7 @@
                                         sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, 18vw" alt=""
                                         class="img"></div>
                             </div>
-                            <div class="splide__slide" id="splide-01-slide04" role="tabpanel"
+                            <div class="splide__slide" id="gallery-1-slide04" role="tabpanel"
                                 aria-roledescription="slide" aria-label="4 of 5"
                                 style="margin-right: 3rem; width: calc(((100% + 3rem) / 3) - 3rem);" aria-hidden="true">
                                 <div class="image-height"><img
@@ -127,7 +129,7 @@
                                         sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, 18vw" alt=""
                                         class="img"></div>
                             </div>
-                            <div class="splide__slide" id="splide-01-slide05" role="tabpanel"
+                            <div class="splide__slide" id="gallery-1-slide05" role="tabpanel"
                                 aria-roledescription="slide" aria-label="5 of 5"
                                 style="margin-right: 3rem; width: calc(((100% + 3rem) / 3) - 3rem);" aria-hidden="true">
                                 <div class="image-height"><img
@@ -142,20 +144,20 @@
                     <ul role="tablist" class="splide__pagination splide__pagination--ltr"
                         aria-label="Select a slide to show">
                         <li role="presentation"><button class="splide__pagination__page is-active" type="button"
-                                role="tab" aria-controls="splide-01-slide01" aria-label="Go to slide 1"
+                                role="tab" aria-controls="gallery-1-slide01" aria-label="Go to slide 1"
                                 aria-selected="true"></button></li>
                         <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
-                                aria-controls="splide-01-slide02" aria-label="Go to slide 2" tabindex="-1"></button>
+                                aria-controls="gallery-1-slide02" aria-label="Go to slide 2" tabindex="-1"></button>
                         </li>
                         <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
-                                aria-controls="splide-01-slide03" aria-label="Go to slide 3" tabindex="-1"></button>
+                                aria-controls="gallery-1-slide03" aria-label="Go to slide 3" tabindex="-1"></button>
                         </li>
                     </ul>
                     <div class="splide__arrows wb-arrows splide__arrows--ltr">
                         <div class="wb-custom-arrow is-prev w-embed">
                             <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
-                            <button class="splide__arrow splide__arrow--prev wb-custom-arrow" disabled=""
-                                aria-label="Previous slide" aria-controls="splide-01-track">
+                            <button class="splide__arrow splide__arrow--prev wb-custom-arrow"
+                                aria-label="Previous slide" aria-controls="gallery-1-track" disabled="">
 
                                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 32 32" width="100%" height="100%">
@@ -166,7 +168,7 @@
                         <div class="wb-custom-arrow is-next w-embed">
                             <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
                             <button class="splide__arrow splide__arrow--next wb-custom-arrow" aria-label="Next slide"
-                                aria-controls="splide-01-track">
+                                aria-controls="gallery-1-track">
                                 <!--?xml version="1.0" encoding="UTF-8"?-->
                                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 32 32" width="100%" height="100%">
