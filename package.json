@@ -1,0 +1,23 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "component-template-page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learyjk/component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learyjk/component-library/issues"
+  },
+  "homepage": "https://github.com/learyjk/component-library#readme",
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}

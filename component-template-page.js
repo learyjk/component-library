@@ -1,9 +1,32 @@
 const htmlToElement = (htmlString) => {
   var template = document.createElement("template");
   htmlString = htmlString.trim(); // Never return a text node of whitespace as the result
-  template.innerHTML = htmlString;
+  //template.innerHTML = htmlString;
+  setInnerHTML(template, htmlString)
   return template.content.firstChild;
 };
+
+const setInnerHTML = (elm, html) => {
+  console.log({ html })
+  elm.innerHTML = html;
+  console.log('set inner HTML')
+  console.log(elm.innerHTML)
+  Array.from(elm.querySelectorAll("script"))
+    .forEach(oldScriptEl => {
+      console.log('script')
+      const newScriptEl = document.createElement("script");
+
+      Array.from(oldScriptEl.attributes).forEach(attr => {
+        newScriptEl.setAttribute(attr.name, attr.value)
+      });
+
+      const scriptText = document.createTextNode(oldScriptEl.innerHTML);
+      newScriptEl.appendChild(scriptText);
+
+
+      oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+    });
+}
 
 const escapeHtml = (htmlString) => {
   const rAmp = /&/g;
@@ -32,7 +55,7 @@ const escapeHtml = (htmlString) => {
 };
 
 const init = async () => {
-  const slug = document.querySelector('[wb-data="slug"]').textContent;
+  const slug = document.querySelector('[wb-data="slug"]').textContent
   const category = document.querySelector('[wb-data="category"]').textContent;
   let url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.html`;
 
@@ -41,20 +64,71 @@ const init = async () => {
     const data = await response.text();
 
     // Add preview to page
-    let preview = htmlToElement(data);
-    document.querySelector(".main-wrapper").prepend(preview);
-    // restart IX2
-    Webflow.destroy();
-    Webflow.ready();
-    Webflow.require("ix2").init();
+    if (category !== 'navbar') {
+      let preview = htmlToElement(data);
+      console.log('init')
+      document.querySelector('[wb-data="preview-wrapper"]').append(preview);
+    }
 
     // escape html and show it below.
     const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
     const escapedEl = htmlToElement(escapedHtml);
-    document.querySelector(".padding-section-small").append(escapedEl);
+    document.querySelector('[wb-data="html-display"]').append(escapedEl);
+    hljs.highlightAll();
   } catch (e) {
     console.log("error getting html");
+  } finally {
+    Webflow.destroy();
+    Webflow.ready();
+    Webflow.require('ix2').init();
   }
 };
 
 document.addEventListener("DOMContentLoaded", init);
+
+addGlobalEventListener("click", '[wb-data="copy-button"]', async (e) => {
+  const copyButton = e.target.closest('[wb-data="copy-button"]');
+  const buttonText = copyButton.querySelector('[wb-data="text"]');
+  const spinner = copyButton.querySelector('[wb-data="spinner"]');
+  const category = copyButton
+    .querySelector('[wb-data="category"]')
+    .textContent.toLowerCase();
+  const slug = copyButton
+    .querySelector('[wb-data="slug"]')
+    .textContent.toLowerCase();
+
+  let wfJson = {};
+  buttonText.textContent = "Copying...";
+  spinner.style.display = "block";
+  // url
+  const url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.json`;
+
+  const copyButtonClicked = (event) => {
+    event.clipboardData.setData("application/json", JSON.stringify(wfJson));
+    event.preventDefault();
+  };
+
+  try {
+    const response = await fetch(url);
+    const data = await response.text();
+    wfJson = JSON.parse(data);
+    document.addEventListener("copy", copyButtonClicked);
+    document.execCommand("copy");
+  } catch (e) {
+    console.error("error copying component");
+  } finally {
+    document.removeEventListener("copy", copyButtonClicked);
+    setTimeout(() => {
+      buttonText.textContent = "Copy to Webflow";
+      spinner.style.display = "none";
+    }, 1000);
+  }
+});
+
+function addGlobalEventListener(type, selector, callback) {
+  document.addEventListener(type, (e) => {
+    if (e.target.closest(selector)) {
+      callback(e);
+    }
+  });
+}
