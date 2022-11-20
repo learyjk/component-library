@@ -76,7 +76,7 @@ const escapeHtml = (htmlString) => {
   }
 };
 
-const start = async () => {
+const init = async () => {
   const slug = document.querySelector('[wb-data="slug"]').textContent
   const category = document.querySelector('[wb-data="category"]').textContent;
   let url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.html`;
@@ -86,52 +86,18 @@ const start = async () => {
     const response = await fetch(url);
     console.log({ response })
     const data = await response.text();
-    // const parser = new DOMParser();
-    // const parsedHTML = parser.parseFromString(data, 'text/html');
-    // console.log({ parsedHTML })
-
-    var frag = parsePartialHtml(data);
-    fixScriptsSoTheyAreExecuted(frag);
-    document.body.appendChild(frag);
-
-
-    function fixScriptsSoTheyAreExecuted(el) {
-      var scripts = el.querySelectorAll('script'),
-        script, fixedScript, i, len;
-
-      for (i = 0, len = scripts.length; i < len; i++) {
-        script = scripts[i];
-
-        fixedScript = document.createElement('script');
-        fixedScript.type = script.type;
-        if (script.innerHTML) fixedScript.innerHTML = script.innerHTML;
-        else fixedScript.src = script.src;
-        fixedScript.async = false;
-
-        script.parentNode.replaceChild(fixedScript, script);
-      }
-    }
-
-    function parsePartialHtml(html) {
-      var doc = new DOMParser().parseFromString(html, 'text/html'),
-        frag = document.createDocumentFragment(),
-        childNodes = doc.body.childNodes;
-
-      while (childNodes.length) frag.appendChild(childNodes[0]);
-
-      return frag;
-    }
+    const parser = new DOMParser();
+    const parsedHTML = parser.parseFromString(data, 'text/html');
+    console.log({ parsedHTML })
 
     // Add preview to page
-    // if (category !== 'navbar') {
-    //   //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
+    if (category !== 'navbar') {
+      //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
 
-    //   document.querySelector('[wb-data="preview-wrapper"]').append(parsedHTML.querySelector('body').firstChild);
-    //   evaluateCode(document.querySelector('[wb-data="preview-wrapper"]'))
-    //   console.log('done appending')
-    // }
-
-
+      document.querySelector('[wb-data="preview-wrapper"]').append(parsedHTML.querySelector('body').firstChild);
+      evaluateCode(document.querySelector('[wb-data="preview-wrapper"]'))
+      console.log('done appending')
+    }
 
     // escape html and show it below.
     // const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
@@ -147,7 +113,7 @@ const start = async () => {
   }
 };
 
-document.addEventListener("DOMContentLoaded", start);
+document.addEventListener("DOMContentLoaded", init);
 
 addGlobalEventListener("click", '[wb-data="copy-button"]', async (e) => {
   const copyButton = e.target.closest('[wb-data="copy-button"]');
