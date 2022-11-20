@@ -1,16 +1,15 @@
-const htmlToElement = (htmlString) => {
-  var template = document.createElement("template");
-  htmlString = htmlString.trim(); // Never return a text node of whitespace as the result
+const htmlToElement = (el) => {
+  const template = document.createElement("template");
+  //htmlString = htmlString.trim(); // Never return a text node of whitespace as the result
   //template.innerHTML = htmlString;
-  setInnerHTML(template, htmlString)
+  setInnerHTML(template, html)
   return template.content.firstChild;
 };
 
 const setInnerHTML = (elm, html) => {
   console.log({ html })
   elm.innerHTML = html;
-  console.log('set inner HTML')
-  console.log(elm.innerHTML)
+  console.log({ elm })
   Array.from(elm.querySelectorAll("script"))
     .forEach(oldScriptEl => {
       console.log('script')
@@ -25,6 +24,14 @@ const setInnerHTML = (elm, html) => {
 
 
       oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+    });
+}
+
+const evaluateCode = (elm) => {
+  console.log(elm.querySelectorAll('script'))
+  Array.from(elm.querySelectorAll("script"))
+    .forEach(scriptEl => {
+      eval(scriptEl.innerHTML)
     });
 }
 
@@ -60,21 +67,27 @@ const init = async () => {
   let url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.html`;
 
   try {
+
     const response = await fetch(url);
+    console.log({ response })
     const data = await response.text();
+    const parser = new DOMParser();
+    const parsedHTML = parser.parseFromString(data, 'text/html');
+    console.log({ parsedHTML })
 
     // Add preview to page
     if (category !== 'navbar') {
-      let preview = htmlToElement(data);
-      console.log('init')
-      document.querySelector('[wb-data="preview-wrapper"]').append(preview);
+      //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
+      evaluateCode(parsedHTML.querySelector('body').firstChild)
+      document.querySelector('[wb-data="preview-wrapper"]').append(parsedHTML.querySelector('body').firstChild);
+      console.log('done appending')
     }
 
     // escape html and show it below.
-    const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
-    const escapedEl = htmlToElement(escapedHtml);
-    document.querySelector('[wb-data="html-display"]').append(escapedEl);
-    hljs.highlightAll();
+    // const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
+    // const escapedEl = htmlToElement(escapedHtml);
+    // document.querySelector('[wb-data="html-display"]').append(escapedEl);
+    // hljs.highlightAll();
   } catch (e) {
     console.log("error getting html");
   } finally {
