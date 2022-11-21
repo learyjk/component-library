@@ -1,55 +1,55 @@
 declare var Webflow: any;
 
-const htmlToElement = (el) => {
-  const template = document.createElement("template");
-  //htmlString = htmlString.trim(); // Never return a text node of whitespace as the result
-  //template.innerHTML = htmlString;
-  setInnerHTML(template, html);
-  return template.content.firstChild;
-};
+// const htmlToElement = (el) => {
+//   const template = document.createElement("template");
+//   //htmlString = htmlString.trim(); // Never return a text node of whitespace as the result
+//   //template.innerHTML = htmlString;
+//   setInnerHTML(template, html);
+//   return template.content.firstChild;
+// };
 
-const setInnerHTML = (elm, html) => {
-  console.log({ html });
-  elm.innerHTML = html;
-  console.log({ elm });
-  Array.from(elm.querySelectorAll("script")).forEach((oldScriptEl) => {
-    console.log("script");
-    const newScriptEl = document.createElement("script");
+// const setInnerHTML = (elm, html) => {
+//   console.log({ html });
+//   elm.innerHTML = html;
+//   console.log({ elm });
+//   Array.from(elm.querySelectorAll("script")).forEach((oldScriptEl) => {
+//     console.log("script");
+//     const newScriptEl = document.createElement("script");
 
-    Array.from(oldScriptEl.attributes).forEach((attr) => {
-      newScriptEl.setAttribute(attr.name, attr.value);
-    });
+//     Array.from(oldScriptEl.attributes).forEach((attr) => {
+//       newScriptEl.setAttribute(attr.name, attr.value);
+//     });
 
-    const scriptText = document.createTextNode(oldScriptEl.innerHTML);
-    newScriptEl.appendChild(scriptText);
+//     const scriptText = document.createTextNode(oldScriptEl.innerHTML);
+//     newScriptEl.appendChild(scriptText);
 
-    oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
-  });
-};
+//     oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+//   });
+// };
 
-const addHeadScript = (src) => {
-  console.log("addHeadScript");
-  var head = document.getElementsByTagName("head")[0];
-  var script = document.createElement("script");
-  script.type = "text/javascript";
-  script.src = src;
-  head.appendChild(script);
-};
+// const addHeadScript = (src) => {
+//   console.log("addHeadScript");
+//   var head = document.getElementsByTagName("head")[0];
+//   var script = document.createElement("script");
+//   script.type = "text/javascript";
+//   script.src = src;
+//   head.appendChild(script);
+// };
 
-const evaluateCode = (elm) => {
-  elm.querySelectorAll("script").forEach((scriptTag, index) => {
-    //console.log(scriptTag.innerHTML)
-    console.log(`starting run ${index}`);
-    if (scriptTag.src !== "") {
-      console.log("scriptTab with src: ", scriptTag);
-      addHeadScript(scriptTag.src);
-    } else {
-      eval(scriptTag.innerHTML);
-    }
+// const evaluateCode = (elm) => {
+//   elm.querySelectorAll("script").forEach((scriptTag, index) => {
+//     //console.log(scriptTag.innerHTML)
+//     console.log(`starting run ${index}`);
+//     if (scriptTag.src !== "") {
+//       console.log("scriptTab with src: ", scriptTag);
+//       addHeadScript(scriptTag.src);
+//     } else {
+//       eval(scriptTag.innerHTML);
+//     }
 
-    console.log(`finished run ${index}`);
-  });
-};
+//     console.log(`finished run ${index}`);
+//   });
+// };
 
 const escapeHtml = (htmlString) => {
   const rAmp = /&/g;
