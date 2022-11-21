@@ -98,28 +98,37 @@ const init = async () => {
     document.querySelector('[wb-data="preview-wrapper"]')?.append(elToAdd)
     const scriptTags = elToAdd.querySelectorAll('script')
     console.log(scriptTags)
-    scriptTags.forEach(async (scriptTag) => {
+    let scriptsExternal: Array<HTMLScriptElement> = [];
+    let scriptsInline: Array<HTMLScriptElement> = [];
+    scriptTags.forEach((scriptTag) => {
       if (scriptTag.src !== "") {
-        // external script
-        (function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) { return; }
-          js = d.createElement(s); js.id = id;
-          js.onload = function () {
-            // remote script has loaded
-          };
-          js.src = scriptTag.src;
-          fjs.parentNode?.insertBefore(js, fjs);
-        }(document, 'script', 'gallery'));
-        // scriptTag.async = true
-        // document.body.appendChild(scriptTag)
-        // console.log(scriptTag.src)
-        // console.log('appended a script to the head')
-
+        scriptsExternal.push(scriptTag)
       } else {
-        // inline script
-        eval(scriptTag.innerHTML)
+        scriptsInline.push(scriptTag);
       }
+    })
+    console.log({ scriptsExternal })
+    console.log({ scriptsInline })
+    scriptsExternal.forEach((scriptExt) => {
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.onload = function () {
+          // remote script has loaded
+          console.log('remote script has loaded')
+        };
+        js.async = true;
+        js.src = scriptExt.src;
+        fjs.parentNode?.insertBefore(js, fjs);
+      }(document, 'script', 'wb'));
+    })
+    window.addEventListener('load', () => {
+      console.log('window load event')
+      scriptsInline.forEach((scriptIn) => {
+
+        eval(scriptIn.innerHTML)
+      })
     })
 
     // Add preview to page
@@ -148,6 +157,9 @@ const init = async () => {
 };
 
 document.addEventListener("DOMContentLoaded", init);
+window.addEventListener("load", (event) => {
+  console.log("page is fully loaded");
+});
 
 addGlobalEventListener("click", '[wb-data="copy-button"]', async (e) => {
   const copyButton = e.target.closest('[wb-data="copy-button"]');
