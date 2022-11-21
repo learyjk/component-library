@@ -18,8 +18,7 @@
 
                         <!-- Create Splide Element -->
                         <script>
-                            console.log('script run')
-                            alert('running gallery-1')
+                            console.log('running inline script splide-1')
                             // Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots
                             const removeStylingElements = () => {
                                 const paginationStyles = document.querySelectorAll(
@@ -30,9 +29,8 @@
                                 });
                             };
 
-                            const buildSplide = () => {
+                            const init = () => {
                                 removeStylingElements();
-                                console.log('loaded')
                                 const splide = new Splide("#gallery-1", {
                                     // EDIT OPTIONS BELOW
                                     // https://splidejs.com/guides/options/
@@ -52,11 +50,9 @@
                                     focus: 0,
                                     omitEnd: true,
                                 });
-
                                 splide.mount();
-                                console.log('mount complete')
                             };
-                            buildSplide();
+                            document.addEventListener('DOMContentLoaded', init)
                         </script>
 
                         <style>

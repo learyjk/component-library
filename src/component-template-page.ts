@@ -77,6 +77,9 @@ const escapeHtml = (htmlString) => {
   }
 };
 
+let scriptsExternal: Array<HTMLScriptElement> = [];
+let scriptsInline: Array<HTMLScriptElement> = [];
+
 const init = async () => {
   const slug = document.querySelector('[wb-data="slug"]')?.textContent;
   const category = document.querySelector('[wb-data="category"]')?.textContent;
@@ -94,12 +97,8 @@ const init = async () => {
 
     const elToAdd = parsedHTML.querySelector("body")?.firstChild as HTMLDivElement;
     if (!elToAdd) return
-    console.log({ elToAdd });
     document.querySelector('[wb-data="preview-wrapper"]')?.append(elToAdd)
     const scriptTags = elToAdd.querySelectorAll('script')
-    console.log(scriptTags)
-    let scriptsExternal: Array<HTMLScriptElement> = [];
-    let scriptsInline: Array<HTMLScriptElement> = [];
     scriptTags.forEach((scriptTag) => {
       if (scriptTag.src !== "") {
         scriptsExternal.push(scriptTag)
@@ -107,28 +106,28 @@ const init = async () => {
         scriptsInline.push(scriptTag);
       }
     })
-    console.log({ scriptsExternal })
-    console.log({ scriptsInline })
-    scriptsExternal.forEach((scriptExt) => {
+    // console.log({ scriptsExternal })
+    // console.log({ scriptsInline })
+    scriptsExternal.forEach((scriptExt, index) => {
       (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) { return; }
         js = d.createElement(s); js.id = id;
         js.onload = function () {
           // remote script has loaded
-          console.log('remote script has loaded')
+          // console.log('remote script has loaded')
+          if (index === scriptsExternal.length - 1) {
+            scriptsInline.forEach((scriptIn) => {
+
+              eval(scriptIn.innerHTML)
+            })
+          }
         };
         js.async = true;
         js.src = scriptExt.src;
         fjs.parentNode?.insertBefore(js, fjs);
       }(document, 'script', 'wb'));
-    })
-    window.addEventListener('load', () => {
-      console.log('window load event')
-      scriptsInline.forEach((scriptIn) => {
 
-        eval(scriptIn.innerHTML)
-      })
     })
 
     // Add preview to page
