@@ -119,6 +119,18 @@
                     "2c0b8fe2-cdfa-1d51-505b-0134c06c092c"
                 ],
                 "data": {
+                    "search": {
+                        "exclude": false
+                    },
+                    "xattr": [],
+                    "text": false,
+                    "displayName": "",
+                    "attr": {
+                        "id": ""
+                    },
+                    "visibility": {
+                        "conditions": []
+                    },
                     "tag": "div"
                 }
             },
@@ -148,7 +160,7 @@
             {
                 "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092d",
                 "text": true,
-                "v": "Splide 01"
+                "v": "Gallery 1"
             },
             {
                 "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092e",
@@ -207,7 +219,8 @@
                             "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildSplide = () => {\n    removeStylingElements();\n    const splide = new Splide(\"#splide-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildSplide()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildSplide)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                             "div": false,
                             "iframe": false,
-                            "script": true
+                            "script": true,
+                            "compilable": false
                         }
                     }
                 }
@@ -1172,7 +1185,7 @@
                 "name": "splide__pagination__page",
                 "namespace": "",
                 "comb": "",
-                "styleLess": "width: 2rem; height: 0.5rem; background-color: hsla(0, 0.00%, 92.55%, 1.00); list-style-type: none;",
+                "styleLess": "width: 1rem; height: 1rem; background-color: hsla(0, 0.00%, 92.55%, 1.00); list-style-type: none;",
                 "variants": {},
                 "children": [
                     "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
