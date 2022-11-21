@@ -88,7 +88,6 @@ const init = async () => {
 
   try {
     const response = await fetch(url);
-    console.log({ response });
     const data = await response.text();
     const parser = new DOMParser();
     const parsedHTML = parser.parseFromString(data, "text/html");
@@ -117,8 +116,9 @@ const init = async () => {
           // remote script has loaded
           // console.log('remote script has loaded')
           if (index === scriptsExternal.length - 1) {
+            console.log('index: ', index)
             scriptsInline.forEach((scriptIn) => {
-
+              console.log('inside')
               eval(scriptIn.innerHTML)
             })
           }

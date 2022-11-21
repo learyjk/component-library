@@ -29,7 +29,7 @@
                                 });
                             };
 
-                            const init = () => {
+                            const buildSplide = () => {
                                 removeStylingElements();
                                 const splide = new Splide("#gallery-1", {
                                     // EDIT OPTIONS BELOW
@@ -52,7 +52,7 @@
                                 });
                                 splide.mount();
                             };
-                            document.addEventListener('DOMContentLoaded', init)
+                            buildSplide();
                         </script>
 
                         <style>
