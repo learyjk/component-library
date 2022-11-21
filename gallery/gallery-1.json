@@ -3,14 +3,14 @@
     "payload": {
         "nodes": [
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa49",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0928",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa4a"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0929"
                 ],
                 "data": {
                     "search": {
@@ -29,14 +29,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa4a",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0929",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa4b"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092a"
                 ],
                 "data": {
                     "search": {
@@ -55,14 +55,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa4b",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092a",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "7eccb33a-59b5-c5e6-f6ad-6117c1c82605"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa4c"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092b"
                 ],
                 "data": {
                     "search": {
@@ -81,15 +81,15 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa4c",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092b",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"
                 ],
                 "children": [
-                    "252a943c-f30a-810b-2e56-b9ddd3a45f7f",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa4f"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092c",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092e"
                 ],
                 "data": {
                     "search": {
@@ -108,42 +108,15 @@
                 }
             },
             {
-                "_id": "252a943c-f30a-810b-2e56-b9ddd3a45f7f",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
-                    "958a5e16-2841-2e79-63c2-294d56721f90"
-                ],
-                "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa4d"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa4d",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092c",
                 "type": "Heading",
-                "tag": "h2",
+                "tag": "h1",
                 "classes": [],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa4e"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092d"
                 ],
                 "data": {
-                    "tag": "h2",
+                    "tag": "h1",
                     "displayName": "",
                     "attr": {
                         "id": ""
@@ -158,22 +131,22 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa4e",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092d",
                 "text": true,
-                "v": "Splide 1"
+                "v": "Splide 01"
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa4f",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092e",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0699"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa50",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa51",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa62",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa65"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092f",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0930",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0941",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0944"
                 ],
                 "data": {
                     "search": {
@@ -183,7 +156,7 @@
                     "text": false,
                     "displayName": "",
                     "attr": {
-                        "id": "gallery-1"
+                        "id": "splide-1"
                     },
                     "visibility": {
                         "conditions": []
@@ -192,14 +165,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa50",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092f",
                 "type": "HtmlEmbed",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069f"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8139"
                 ],
                 "children": [],
-                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script defer>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst init = () => {\n    removeStylingElements();\n    console.log('loaded')\n    const splide = new Splide(\"#gallery-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n    console.log('mount complete')\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", init);\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildSplide = () => {\n    removeStylingElements();\n    const splide = new Splide(\"#splide-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildSplide()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildSplide)\n}\n\n\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                 "data": {
                     "insideRTE": false,
                     "search": {
@@ -216,23 +189,24 @@
                     "embed": {
                         "type": "html",
                         "meta": {
-                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script defer>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst init = () => {\n    removeStylingElements();\n    console.log('loaded')\n    const splide = new Splide(\"#gallery-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n    console.log('mount complete')\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", init);\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeStylingElements = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildSplide = () => {\n    removeStylingElements();\n    const splide = new Splide(\"#splide-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildSplide()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildSplide)\n}\n\n\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                             "div": false,
                             "iframe": false,
-                            "script": true
+                            "script": true,
+                            "compilable": false
                         }
                     }
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa51",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0930",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0696"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa52"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0931"
                 ],
                 "data": {
                     "search": {
@@ -251,18 +225,18 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa52",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0931",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069b"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa53",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa56",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa59",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa5c",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa5f"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0932",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0935",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0938",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093b",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093e"
                 ],
                 "data": {
                     "search": {
@@ -281,14 +255,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa53",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0932",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069e"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa54"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0933"
                 ],
                 "data": {
                     "search": {
@@ -307,14 +281,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa54",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0933",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069d"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa55"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0934"
                 ],
                 "data": {
                     "search": {
@@ -333,11 +307,11 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa55",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0934",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0697"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
                 ],
                 "children": [],
                 "data": {
@@ -376,14 +350,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa56",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0935",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069e"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa57"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0936"
                 ],
                 "data": {
                     "search": {
@@ -402,14 +376,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa57",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0936",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069d"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa58"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0937"
                 ],
                 "data": {
                     "search": {
@@ -428,11 +402,11 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa58",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0937",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0697"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
                 ],
                 "children": [],
                 "data": {
@@ -471,14 +445,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa59",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0938",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069e"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa5a"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0939"
                 ],
                 "data": {
                     "search": {
@@ -497,14 +471,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa5a",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0939",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069d"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa5b"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093a"
                 ],
                 "data": {
                     "search": {
@@ -523,11 +497,11 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa5b",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093a",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0697"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
                 ],
                 "children": [],
                 "data": {
@@ -566,14 +540,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa5c",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093b",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069e"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa5d"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093c"
                 ],
                 "data": {
                     "search": {
@@ -592,14 +566,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa5d",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093c",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069d"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa5e"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093d"
                 ],
                 "data": {
                     "search": {
@@ -618,11 +592,11 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa5e",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093d",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0697"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
                 ],
                 "children": [],
                 "data": {
@@ -661,14 +635,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa5f",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093e",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069e"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa60"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093f"
                 ],
                 "data": {
                     "search": {
@@ -687,14 +661,14 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa60",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093f",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069d"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa61"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0940"
                 ],
                 "data": {
                     "search": {
@@ -713,11 +687,11 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa61",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0940",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0697"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
                 ],
                 "children": [],
                 "data": {
@@ -756,16 +730,16 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa62",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0941",
                 "type": "List",
                 "tag": "ul",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069a",
-                    "4121a76c-c702-7de9-dd01-d115028b06a2"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa63",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa64"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0942",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0943"
                 ],
                 "data": {
                     "search": {
@@ -787,12 +761,12 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa63",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0942",
                 "type": "ListItem",
                 "tag": "li",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b06a0",
-                    "4121a76c-c702-7de9-dd01-d115028b06a3"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
                 ],
                 "children": [],
                 "data": {
@@ -813,11 +787,11 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa64",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0943",
                 "type": "ListItem",
                 "tag": "li",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b06a0"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a"
                 ],
                 "children": [],
                 "data": {
@@ -838,16 +812,16 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa65",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0944",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b0698",
-                    "4121a76c-c702-7de9-dd01-d115028b06a1"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b"
                 ],
                 "children": [
-                    "1e642b71-46b7-58c2-30a8-31060d21fa66",
-                    "1e642b71-46b7-58c2-30a8-31060d21fa67"
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0945",
+                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0946"
                 ],
                 "data": {
                     "search": {
@@ -866,12 +840,12 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa66",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0945",
                 "type": "HtmlEmbed",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069c",
-                    "4121a76c-c702-7de9-dd01-d115028b06a5"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f"
                 ],
                 "children": [],
                 "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"100%\" height=\"100%\">\n  \t<path d=\"M16,32L0,16,16,0l2.1,2.1L5.7,14.5h26.3v3H5.7l12.4,12.4-2.1,2.1Z\"/>\n\t</svg>\n</button>",
@@ -901,12 +875,12 @@
                 }
             },
             {
-                "_id": "1e642b71-46b7-58c2-30a8-31060d21fa67",
+                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0946",
                 "type": "HtmlEmbed",
                 "tag": "div",
                 "classes": [
-                    "4121a76c-c702-7de9-dd01-d115028b069c",
-                    "4121a76c-c702-7de9-dd01-d115028b06a4"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e"
                 ],
                 "children": [],
                 "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n  <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"100%\" height=\"100%\">\n    <path d=\"M16,32l-2.1-2.15,12.35-12.35H0v-3H26.25L13.9,2.15l2.1-2.15,16,16-16,16Z\"/>\n  </svg>\n </button>",
@@ -938,90 +912,7 @@
         ],
         "styles": [
             {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b069c",
-                "fake": false,
-                "type": "class",
-                "name": "wb-custom-arrow",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "display: flex; width: 3rem; height: 3rem; padding-top: 0.5rem; padding-right: 0.5rem; padding-bottom: 0.5rem; padding-left: 0.5rem; flex-direction: column; justify-content: center; align-items: center; background-color: hsla(0, 0.00%, 92.55%, 1.00); transition-property: opacity; transition-duration: 200ms; transition-timing-function: ease;",
-                "variants": {},
-                "children": [
-                    "4121a76c-c702-7de9-dd01-d115028b06a4",
-                    "4121a76c-c702-7de9-dd01-d115028b06a5"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b06a0",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination__page",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "width: 1rem; height: 1rem; background-color: hsla(0, 0.00%, 85.88%, 1.00); list-style-type: none;",
-                "variants": {},
-                "children": [
-                    "4121a76c-c702-7de9-dd01-d115028b06a3"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "958a5e16-2841-2e79-63c2-294d56721f90",
-                "fake": false,
-                "type": "class",
-                "name": "margin-medium",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b06a3",
-                "fake": false,
-                "type": "class",
-                "name": "is-active",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "background-color: hsla(0, 0.00%, 0.00%, 1.00);",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b069d",
-                "fake": false,
-                "type": "class",
-                "name": "image-height",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "position: relative; width: 100%; padding-top: 100%;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b069f",
-                "fake": false,
-                "type": "class",
-                "name": "splide-code",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b06a4",
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
                 "fake": false,
                 "type": "class",
                 "name": "is-next",
@@ -1034,33 +925,88 @@
                 "selector": null
             },
             {
-                "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
                 "fake": false,
                 "type": "class",
-                "name": "margin-bottom",
+                "name": "wb-custom-arrow",
                 "namespace": "",
                 "comb": "",
-                "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
-                "variants": {
-                    "medium": {
-                        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-                    },
-                    "small": {
-                        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-                    },
-                    "tiny": {
-                        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-                    }
-                },
+                "styleLess": "display: flex; width: 3rem; height: 3rem; padding-top: 0.5rem; padding-right: 0.5rem; padding-bottom: 0.5rem; padding-left: 0.5rem; flex-direction: column; justify-content: center; align-items: center; background-color: hsla(0, 0.00%, 92.55%, 1.00); transition-property: opacity; transition-duration: 200ms; transition-timing-function: ease;",
+                "variants": {},
                 "children": [
-                    "9d004126-fc55-e79b-1834-e9fec67f49bc",
-                    "d636392d-e17a-9f2e-fd46-fdee33931652",
-                    "27251a35-bc44-1dde-6e36-8f5109b1cced",
-                    "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
-                    "958a5e16-2841-2e79-63c2-294d56721f90",
-                    "ddc4e436-52f2-f75a-47eb-f1cd12f84663",
-                    "86614cc6-8772-8380-1d05-d08b9fecbdf8"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f"
                 ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
+                "fake": false,
+                "type": "class",
+                "name": "splide__arrows",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "",
+                "variants": {},
+                "children": [
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b"
+                ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
+                "fake": false,
+                "type": "class",
+                "name": "splide__pagination",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "",
+                "variants": {},
+                "children": [
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c"
+                ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
+                "fake": false,
+                "type": "class",
+                "name": "splide",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "width: 100%; margin-right: auto; margin-left: auto;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131",
+                "fake": false,
+                "type": "class",
+                "name": "img",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8139",
+                "fake": false,
+                "type": "class",
+                "name": "splide-code",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
             {
@@ -1081,32 +1027,6 @@
                 },
                 "children": [],
                 "createdBy": "54441c96b0981db6504faf03",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b06a2",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination--ltr",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "display: flex; padding-top: 1rem; padding-right: 0px; padding-bottom: 1rem; padding-left: 0px; justify-content: center; grid-column-gap: 0.5rem;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b0697",
-                "fake": false,
-                "type": "class",
-                "name": "img",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
             {
@@ -1138,76 +1058,20 @@
                 "selector": null
             },
             {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b0699",
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c",
                 "fake": false,
                 "type": "class",
-                "name": "splide",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "width: 100%; margin-right: auto; margin-left: auto;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b069a",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [
-                    "4121a76c-c702-7de9-dd01-d115028b06a2"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b0698",
-                "fake": false,
-                "type": "class",
-                "name": "splide__arrows",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [
-                    "4121a76c-c702-7de9-dd01-d115028b06a1"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b06a5",
-                "fake": false,
-                "type": "class",
-                "name": "is-prev",
+                "name": "splide__pagination--ltr",
                 "namespace": "",
                 "comb": "&",
-                "styleLess": "position: absolute; left: 0%; top: 0%; right: auto; bottom: auto;",
+                "styleLess": "display: flex; padding-top: 1rem; padding-right: 0px; padding-bottom: 1rem; padding-left: 0px; justify-content: center; grid-column-gap: 0.5rem;",
                 "variants": {},
                 "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
             {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b06a1",
-                "fake": false,
-                "type": "class",
-                "name": "wb-arrows",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "position: relative; display: flex; margin-top: 1rem; justify-content: center; grid-column-gap: 1rem;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b069b",
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135",
                 "fake": false,
                 "type": "class",
                 "name": "splide__list",
@@ -1220,7 +1084,7 @@
                 "selector": null
             },
             {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b0696",
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130",
                 "fake": false,
                 "type": "class",
                 "name": "splide__track",
@@ -1233,13 +1097,54 @@
                 "selector": null
             },
             {
-                "_id": "4121a76c-c702-7de9-dd01-d115028b069e",
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b",
                 "fake": false,
                 "type": "class",
-                "name": "splide__slide",
+                "name": "wb-arrows",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "position: relative; display: flex; margin-top: 1rem; justify-content: center; grid-column-gap: 1rem;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
+                "fake": false,
+                "type": "class",
+                "name": "splide__pagination__page",
                 "namespace": "",
                 "comb": "",
-                "styleLess": "width: 100%;",
+                "styleLess": "width: 2rem; height: 0.5rem; background-color: hsla(0, 0.00%, 92.55%, 1.00); list-style-type: none;",
+                "variants": {},
+                "children": [
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
+                ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
+                "fake": false,
+                "type": "class",
+                "name": "is-prev",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "position: absolute; left: 0%; top: 0%; right: auto; bottom: auto;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d",
+                "fake": false,
+                "type": "class",
+                "name": "is-active",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "background-color: hsla(0, 0.00%, 0.00%, 1.00);",
                 "variants": {},
                 "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
@@ -1253,6 +1158,32 @@
                 "namespace": "",
                 "comb": "",
                 "styleLess": "",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+                "fake": false,
+                "type": "class",
+                "name": "splide__slide",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "width: 100%;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137",
+                "fake": false,
+                "type": "class",
+                "name": "image-height",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "position: relative; width: 100%; padding-top: 100%;",
                 "variants": {},
                 "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
