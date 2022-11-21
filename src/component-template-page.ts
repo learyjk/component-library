@@ -1,54 +1,55 @@
+declare var Webflow: any;
+
 const htmlToElement = (el) => {
   const template = document.createElement("template");
   //htmlString = htmlString.trim(); // Never return a text node of whitespace as the result
   //template.innerHTML = htmlString;
-  setInnerHTML(template, html)
+  setInnerHTML(template, html);
   return template.content.firstChild;
 };
 
 const setInnerHTML = (elm, html) => {
-  console.log({ html })
+  console.log({ html });
   elm.innerHTML = html;
-  console.log({ elm })
-  Array.from(elm.querySelectorAll("script"))
-    .forEach(oldScriptEl => {
-      console.log('script')
-      const newScriptEl = document.createElement("script");
+  console.log({ elm });
+  Array.from(elm.querySelectorAll("script")).forEach((oldScriptEl) => {
+    console.log("script");
+    const newScriptEl = document.createElement("script");
 
-      Array.from(oldScriptEl.attributes).forEach(attr => {
-        newScriptEl.setAttribute(attr.name, attr.value)
-      });
-
-      const scriptText = document.createTextNode(oldScriptEl.innerHTML);
-      newScriptEl.appendChild(scriptText);
-
-
-      oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+    Array.from(oldScriptEl.attributes).forEach((attr) => {
+      newScriptEl.setAttribute(attr.name, attr.value);
     });
-}
+
+    const scriptText = document.createTextNode(oldScriptEl.innerHTML);
+    newScriptEl.appendChild(scriptText);
+
+    oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+  });
+};
 
 const addHeadScript = (src) => {
-  console.log('addHeadScript')
+  console.log("addHeadScript");
   var head = document.getElementsByTagName("head")[0];
   var script = document.createElement("script");
   script.type = "text/javascript";
   script.src = src;
   head.appendChild(script);
-}
+};
 
 const evaluateCode = (elm) => {
-  elm.querySelectorAll('script').forEach((scriptTag, index) => {
+  elm.querySelectorAll("script").forEach((scriptTag, index) => {
     //console.log(scriptTag.innerHTML)
-    console.log(`starting run ${index}`)
+    console.log(`starting run ${index}`);
     if (scriptTag.src !== "") {
-      addHeadScript(scriptTag.src)
+      console.log("scriptTab with src: ", scriptTag);
+      addHeadScript(scriptTag.src);
     } else {
-      eval(scriptTag.innerHTML)
+      eval(scriptTag.innerHTML);
     }
 
-    console.log(`finished run ${index}`)
-  })
-}
+    console.log(`finished run ${index}`);
+  });
+};
 
 const escapeHtml = (htmlString) => {
   const rAmp = /&/g;
@@ -77,27 +78,60 @@ const escapeHtml = (htmlString) => {
 };
 
 const init = async () => {
-  const slug = document.querySelector('[wb-data="slug"]').textContent
-  const category = document.querySelector('[wb-data="category"]').textContent;
+  const slug = document.querySelector('[wb-data="slug"]')?.textContent;
+  const category = document.querySelector('[wb-data="category"]')?.textContent;
+  if (slug === "" || category == "") return;
   let url = `https://raw.githubusercontent.com/learyjk/component-library/main/${category}/${slug}.html`;
 
   try {
-
     const response = await fetch(url);
-    console.log({ response })
+    console.log({ response });
     const data = await response.text();
     const parser = new DOMParser();
-    const parsedHTML = parser.parseFromString(data, 'text/html');
-    console.log({ parsedHTML })
+    const parsedHTML = parser.parseFromString(data, "text/html");
+    if (!parsedHTML) return;
+    //console.log({ parsedHTML });
+
+    const elToAdd = parsedHTML.querySelector("body")?.firstChild as HTMLDivElement;
+    if (!elToAdd) return
+    console.log({ elToAdd });
+    document.querySelector('[wb-data="preview-wrapper"]')?.append(elToAdd)
+    const scriptTags = elToAdd.querySelectorAll('script')
+    console.log(scriptTags)
+    scriptTags.forEach(async (scriptTag) => {
+      if (scriptTag.src !== "") {
+        // external script
+        (function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) { return; }
+          js = d.createElement(s); js.id = id;
+          js.onload = function () {
+            // remote script has loaded
+          };
+          js.src = scriptTag.src;
+          fjs.parentNode?.insertBefore(js, fjs);
+        }(document, 'script', 'gallery'));
+        // scriptTag.async = true
+        // document.body.appendChild(scriptTag)
+        // console.log(scriptTag.src)
+        // console.log('appended a script to the head')
+
+      } else {
+        // inline script
+        eval(scriptTag.innerHTML)
+      }
+    })
 
     // Add preview to page
-    if (category !== 'navbar') {
-      //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
+    // if (category !== "navbar") {
+    //   //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
 
-      document.querySelector('[wb-data="preview-wrapper"]').append(parsedHTML.querySelector('body').firstChild);
-      evaluateCode(document.querySelector('[wb-data="preview-wrapper"]'))
-      console.log('done appending')
-    }
+    //   document
+    //     .querySelector('[wb-data="preview-wrapper"]')
+    //     .append(parsedHTML.querySelector("body").firstChild);
+    //   evaluateCode(document.querySelector('[wb-data="preview-wrapper"]'));
+    //   console.log("done appending");
+    // }
 
     // escape html and show it below.
     // const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
@@ -109,7 +143,7 @@ const init = async () => {
   } finally {
     Webflow.destroy();
     Webflow.ready();
-    Webflow.require('ix2').init();
+    Webflow.require("ix2").init();
   }
 };
 

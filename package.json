@@ -5,7 +5,9 @@
   "main": "component-template-page.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "serve"
+    "serve": "serve",
+    "format": "prettier ./src/*.ts -w",
+    "build": "esbuild ./src/* --bundle --sourcemap --minify --outdir=dist --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,9 @@
   },
   "homepage": "https://github.com/learyjk/component-library#readme",
   "devDependencies": {
-    "serve": "^14.1.2"
+    "esbuild": "^0.15.14",
+    "prettier": "^2.7.1",
+    "serve": "^14.1.2",
+    "typescript": "^4.9.3"
   }
 }
