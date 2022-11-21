@@ -87,7 +87,7 @@
                     </div>
                     <div class="splide__track splide__track--slide splide__track--ltr splide__track--draggable"
                         id="splide-1-track" style="padding-left: 0px; padding-right: 0px;" aria-live="polite"
-                        aria-atomic="true">
+                        aria-atomic="true" aria-busy="false">
                         <div class="splide__list" id="splide-1-list" role="presentation"
                             style="transform: translateX(0px);">
                             <div class="splide__slide is-active is-visible" id="splide-1-slide01" role="tabpanel"
@@ -144,6 +144,9 @@
                     </div>
                     <ul role="tablist" class="splide__pagination splide__pagination--ltr"
                         aria-label="Select a slide to show">
+                        <li role="presentation"></li>
+                        <li role="presentation"></li>
+                        <li role="presentation"></li>
                         <li role="presentation"><button class="splide__pagination__page is-active" type="button"
                                 role="tab" aria-controls="splide-1-slide01" aria-label="Go to slide 1"
                                 aria-selected="true"></button></li>
@@ -155,8 +158,8 @@
                     <div class="splide__arrows wb-arrows splide__arrows--ltr">
                         <div class="wb-custom-arrow is-prev w-embed">
                             <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
-                            <button class="splide__arrow splide__arrow--prev wb-custom-arrow" disabled=""
-                                aria-label="Previous slide" aria-controls="splide-1-track">
+                            <button class="splide__arrow splide__arrow--prev wb-custom-arrow"
+                                aria-label="Previous slide" aria-controls="splide-1-track" disabled="">
 
                                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 32 32" width="100%" height="100%">

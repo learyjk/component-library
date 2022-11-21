@@ -122,10 +122,9 @@ const init = async () => {
         }(document, 'script', 'wb'));
       }))
     }))
-    console.log(externalScriptsPromises)
 
     Promise.all(externalScriptsPromises).then((values) => {
-      console.log('all scripts loaded, ', values)
+      //console.log('all scripts loaded, ', values)
       scriptsInline.forEach(scriptInline => {
         eval(scriptInline.innerHTML)
       })
@@ -145,10 +144,8 @@ const init = async () => {
   }
 };
 
-document.addEventListener("DOMContentLoaded", init);
-window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
-});
+//document.addEventListener("DOMContentLoaded", init);
+window.addEventListener("load", init)
 
 addGlobalEventListener("click", '[wb-data="copy-button"]', async (e) => {
   const copyButton = e.target.closest('[wb-data="copy-button"]');
