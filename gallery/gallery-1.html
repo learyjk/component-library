@@ -1,9 +1,9 @@
-<div class="section">
+<section class="section">
     <div class="padding-global">
         <div class="container-large">
             <div class="padding-section-large">
                 <div class="margin-bottom margin-medium">
-                    <h1>Gallery 1</h1>
+                    <h1>Gallery 1 - Splide Horizontal</h1>
                 </div>
                 <div id="splide-1"
                     class="splide splide--slide splide--ltr splide--draggable is-active is-overflow is-initialized"
@@ -19,7 +19,7 @@
                         <!-- Create Splide Element -->
                         <script>
                             // Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots
-                            const removeStylingElements = () => {
+                            const removeDotsGallery1 = () => {
                                 const paginationStyles = document.querySelectorAll(
                                     ".splide__pagination__page"
                                 );
@@ -28,8 +28,8 @@
                                 });
                             };
 
-                            const buildSplide = () => {
-                                removeStylingElements();
+                            const buildGallery1 = () => {
+                                removeDotsGallery1();
                                 const splide = new Splide("#splide-1", {
                                     // EDIT OPTIONS BELOW
                                     // https://splidejs.com/guides/options/
@@ -54,9 +54,9 @@
                             };
 
                             if (document.readyState === "complete" || document.readyState === "loaded") {
-                                buildSplide()
+                                buildGallery1()
                             } else {
-                                document.addEventListener("DOMContentLoaded", buildSplide)
+                                document.addEventListener("DOMContentLoaded", buildGallery1)
                             }
                         </script>
 
@@ -145,13 +145,9 @@
                     </div>
                     <ul role="tablist" class="splide__pagination splide__pagination--ltr"
                         aria-label="Select a slide to show">
-                        <li role="presentation"><button class="splide__pagination__page is-active" type="button"
-                                role="tab" aria-controls="splide-1-slide01" aria-label="Go to slide 1"
-                                aria-selected="true"></button></li>
-                        <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
-                                aria-controls="splide-1-slide02" aria-label="Go to slide 2" tabindex="-1"></button></li>
-                        <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
-                                aria-controls="splide-1-slide03" aria-label="Go to slide 3" tabindex="-1"></button></li>
+                        <li role="presentation"></li>
+                        <li role="presentation"></li>
+                        <li role="presentation"></li>
                     </ul>
                     <div class="splide__arrows wb-arrows splide__arrows--ltr">
                         <div class="wb-custom-arrow is-prev w-embed">
@@ -182,4 +178,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

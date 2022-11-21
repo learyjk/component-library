@@ -3,14 +3,14 @@
     "payload": {
         "nodes": [
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0928",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d7",
                 "type": "Block",
-                "tag": "div",
+                "tag": "section",
                 "classes": [
                     "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0929"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769d8"
                 ],
                 "data": {
                     "search": {
@@ -25,18 +25,18 @@
                     "visibility": {
                         "conditions": []
                     },
-                    "tag": "div"
+                    "tag": "section"
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0929",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d8",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092a"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769d9"
                 ],
                 "data": {
                     "search": {
@@ -55,14 +55,14 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092a",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d9",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "7eccb33a-59b5-c5e6-f6ad-6117c1c82605"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092b"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769da"
                 ],
                 "data": {
                     "search": {
@@ -81,15 +81,16 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092b",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769da",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"
                 ],
                 "children": [
-                    "2811b858-6123-7c70-7e34-c297105f9cd3",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092e"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769db",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769df",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769de"
                 ],
                 "data": {
                     "search": {
@@ -108,7 +109,7 @@
                 }
             },
             {
-                "_id": "2811b858-6123-7c70-7e34-c297105f9cd3",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769db",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
@@ -116,7 +117,7 @@
                     "958a5e16-2841-2e79-63c2-294d56721f90"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092c"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769dc"
                 ],
                 "data": {
                     "search": {
@@ -135,12 +136,12 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092c",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769dc",
                 "type": "Heading",
                 "tag": "h1",
                 "classes": [],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092d"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769dd"
                 ],
                 "data": {
                     "tag": "h1",
@@ -158,48 +159,19 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092d",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769dd",
                 "text": true,
-                "v": "Gallery 1 - Splide Horizontal"
+                "v": "Gallery 2 - Splide Vertical 16:9"
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092e",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133"
-                ],
-                "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c092f",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0930",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0941",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0944"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": "splide-1"
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c092f",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769df",
                 "type": "HtmlEmbed",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8139"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d83"
                 ],
                 "children": [],
-                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery1 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery1 = () => {\n    removeDotsGallery1();\n    const splide = new Splide(\"#splide-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery1()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery1)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery2 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery2 = () => {\n    removeDotsGallery2();\n    const splide = new Splide(\"#splide-2\", {\n        type: \"slide\",\n        // perMove: 1,\n        // perPage: 1,\n        lazyLoad: false,\n        direction: 'ttb',\n        paginationDirection: 'ttb',\n        heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625\n        //gap: \"3rem\",\n        //omitEnd: true,\n        arrows: true,\n        pagination: true,\n        drag: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery2()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery2)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                 "data": {
                     "insideRTE": false,
                     "search": {
@@ -216,7 +188,7 @@
                     "embed": {
                         "type": "html",
                         "meta": {
-                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery1 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery1 = () => {\n    removeDotsGallery1();\n    const splide = new Splide(\"#splide-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery1()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery1)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery2 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery2 = () => {\n    removeDotsGallery2();\n    const splide = new Splide(\"#splide-2\", {\n        type: \"slide\",\n        // perMove: 1,\n        // perPage: 1,\n        lazyLoad: false,\n        direction: 'ttb',\n        paginationDirection: 'ttb',\n        heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625\n        //gap: \"3rem\",\n        //omitEnd: true,\n        arrows: true,\n        pagination: true,\n        drag: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery2()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery2)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
                             "div": false,
                             "iframe": false,
                             "script": true
@@ -225,14 +197,44 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0930",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769de",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d85"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0931"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e0",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769ec",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769ef"
+                ],
+                "data": {
+                    "search": {
+                        "exclude": false
+                    },
+                    "xattr": [],
+                    "text": false,
+                    "displayName": "",
+                    "attr": {
+                        "id": "splide-2"
+                    },
+                    "visibility": {
+                        "conditions": []
+                    },
+                    "tag": "div"
+                }
+            },
+            {
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e0",
+                "type": "Block",
+                "tag": "div",
+                "classes": [
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d86"
+                ],
+                "children": [
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e1"
                 ],
                 "data": {
                     "search": {
@@ -251,18 +253,19 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0931",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e1",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d87"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0932",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0935",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0938",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093b",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093e"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e2",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e4",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e6",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e8",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769ea"
                 ],
                 "data": {
                     "search": {
@@ -281,14 +284,15 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0932",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e2",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0933"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e3"
                 ],
                 "data": {
                     "search": {
@@ -307,49 +311,23 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0933",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
-                ],
-                "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0934"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0934",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e3",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
                 ],
                 "children": [],
                 "data": {
                     "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1.png",
+                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
                         "loading": "lazy",
                         "height": "auto",
                         "id": "",
                         "width": "auto"
                     },
                     "img": {
-                        "id": "637a93afe002802a3a62dcca",
+                        "id": "637c0a456dbeef60f776a19c",
                         "sizes": [
                             {
                                 "max": 479,
@@ -357,11 +335,11 @@
                             },
                             {
                                 "max": 767,
-                                "size": "19vw"
+                                "size": "86vw"
                             },
                             {
                                 "max": 10000,
-                                "size": "18vw"
+                                "size": "85vw"
                             }
                         ]
                     },
@@ -376,14 +354,15 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0935",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e4",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0936"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e5"
                 ],
                 "data": {
                     "search": {
@@ -402,49 +381,23 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0936",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
-                ],
-                "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0937"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0937",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e5",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
                 ],
                 "children": [],
                 "data": {
                     "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2.png",
+                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
                         "loading": "lazy",
                         "width": "auto",
                         "height": "auto",
                         "id": ""
                     },
                     "img": {
-                        "id": "637a93afe00280052662dcd6",
+                        "id": "637c0a456dbeef7cc276a1a4",
                         "sizes": [
                             {
                                 "max": 479,
@@ -452,11 +405,11 @@
                             },
                             {
                                 "max": 767,
-                                "size": "19vw"
+                                "size": "86vw"
                             },
                             {
                                 "max": 10000,
-                                "size": "18vw"
+                                "size": "85vw"
                             }
                         ]
                     },
@@ -471,14 +424,15 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0938",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e6",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0939"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e7"
                 ],
                 "data": {
                     "search": {
@@ -497,49 +451,23 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0939",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
-                ],
-                "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093a"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093a",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e7",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
                 ],
                 "children": [],
                 "data": {
                     "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3.png",
+                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
                         "loading": "lazy",
                         "width": "auto",
                         "height": "auto",
                         "id": ""
                     },
                     "img": {
-                        "id": "637a93afe002802e3c62dcce",
+                        "id": "637c0a456dbeef52b176a1ac",
                         "sizes": [
                             {
                                 "max": 479,
@@ -547,11 +475,11 @@
                             },
                             {
                                 "max": 767,
-                                "size": "19vw"
+                                "size": "86vw"
                             },
                             {
                                 "max": 10000,
-                                "size": "18vw"
+                                "size": "85vw"
                             }
                         ]
                     },
@@ -566,14 +494,15 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093b",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e8",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093c"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769e9"
                 ],
                 "data": {
                     "search": {
@@ -592,49 +521,23 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093c",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
-                ],
-                "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093d"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093d",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e9",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
                 ],
                 "children": [],
                 "data": {
                     "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4.png",
+                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
                         "loading": "lazy",
                         "width": "auto",
                         "height": "auto",
                         "id": ""
                     },
                     "img": {
-                        "id": "637a93afe00280fce462dcc6",
+                        "id": "637c0a456dbeeff5c476a1a0",
                         "sizes": [
                             {
                                 "max": 479,
@@ -642,11 +545,11 @@
                             },
                             {
                                 "max": 767,
-                                "size": "19vw"
+                                "size": "86vw"
                             },
                             {
                                 "max": 10000,
-                                "size": "18vw"
+                                "size": "85vw"
                             }
                         ]
                     },
@@ -661,14 +564,15 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093e",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ea",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c093f"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769eb"
                 ],
                 "data": {
                     "search": {
@@ -687,49 +591,23 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c093f",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137"
-                ],
-                "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0940"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0940",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769eb",
                 "type": "Image",
                 "tag": "img",
                 "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
                 ],
                 "children": [],
                 "data": {
                     "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5.png",
+                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
                         "loading": "lazy",
                         "width": "auto",
                         "height": "auto",
                         "id": ""
                     },
                     "img": {
-                        "id": "637a93afe00280ad0662dcd2",
+                        "id": "637c0a456dbeefd61476a1a8",
                         "sizes": [
                             {
                                 "max": 479,
@@ -737,11 +615,11 @@
                             },
                             {
                                 "max": 767,
-                                "size": "19vw"
+                                "size": "86vw"
                             },
                             {
                                 "max": 10000,
-                                "size": "18vw"
+                                "size": "85vw"
                             }
                         ]
                     },
@@ -756,16 +634,17 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0941",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ec",
                 "type": "List",
                 "tag": "ul",
                 "classes": [
                     "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d89",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8d"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0942",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0943"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769ed",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769ee"
                 ],
                 "data": {
                     "search": {
@@ -787,7 +666,7 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0942",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ed",
                 "type": "ListItem",
                 "tag": "li",
                 "classes": [
@@ -813,7 +692,7 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0943",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ee",
                 "type": "ListItem",
                 "tag": "li",
                 "classes": [
@@ -838,16 +717,17 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0944",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ef",
                 "type": "Block",
                 "tag": "div",
                 "classes": [
                     "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b"
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8a",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8b"
                 ],
                 "children": [
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0945",
-                    "2c0b8fe2-cdfa-1d51-505b-0134c06c0946"
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769f0",
+                    "e0a863dd-cf05-183c-fa5e-fcefc77769f1"
                 ],
                 "data": {
                     "search": {
@@ -866,15 +746,16 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0945",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769f0",
                 "type": "HtmlEmbed",
                 "tag": "div",
                 "classes": [
                     "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8e"
                 ],
                 "children": [],
-                "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"100%\" height=\"100%\">\n  \t<path d=\"M16,32L0,16,16,0l2.1,2.1L5.7,14.5h26.3v3H5.7l12.4,12.4-2.1,2.1Z\"/>\n\t</svg>\n</button>",
+                "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z\"/>\n</svg>\n</button>",
                 "data": {
                     "insideRTE": false,
                     "search": {
@@ -891,7 +772,7 @@
                     "embed": {
                         "type": "html",
                         "meta": {
-                            "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"100%\" height=\"100%\">\n  \t<path d=\"M16,32L0,16,16,0l2.1,2.1L5.7,14.5h26.3v3H5.7l12.4,12.4-2.1,2.1Z\"/>\n\t</svg>\n</button>",
+                            "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z\"/>\n</svg>\n</button>",
                             "div": false,
                             "iframe": false,
                             "script": false,
@@ -901,15 +782,16 @@
                 }
             },
             {
-                "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0946",
+                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769f1",
                 "type": "HtmlEmbed",
                 "tag": "div",
                 "classes": [
                     "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e"
+                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8c"
                 ],
                 "children": [],
-                "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n  <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"100%\" height=\"100%\">\n    <path d=\"M16,32l-2.1-2.15,12.35-12.35H0v-3H26.25L13.9,2.15l2.1-2.15,16,16-16,16Z\"/>\n  </svg>\n </button>",
+                "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z\"/>\n</svg>\n </button>",
                 "data": {
                     "insideRTE": false,
                     "search": {
@@ -926,7 +808,7 @@
                     "embed": {
                         "type": "html",
                         "meta": {
-                            "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n  <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"100%\" height=\"100%\">\n    <path d=\"M16,32l-2.1-2.15,12.35-12.35H0v-3H26.25L13.9,2.15l2.1-2.15,16,16-16,16Z\"/>\n  </svg>\n </button>",
+                            "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z\"/>\n</svg>\n </button>",
                             "div": false,
                             "iframe": false,
                             "script": false,
@@ -937,6 +819,19 @@
             }
         ],
         "styles": [
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d88",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "position: relative; padding-top: 56.25%;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
             {
                 "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
                 "fake": false,
@@ -964,6 +859,45 @@
                 "children": [
                     "848371fd-ebe2-d0b3-42ed-0a29e0720d86"
                 ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8c",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "left: auto; top: auto; right: 0%; bottom: 0%;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d84",
+                "fake": false,
+                "type": "class",
+                "name": "gallery2_image",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d86",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "flex-grow: 1; flex-shrink: 1; flex-basis: 0%;",
+                "variants": {},
+                "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
@@ -1012,6 +946,19 @@
                 "selector": null
             },
             {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d87",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "display: flex; flex-direction: column;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
                 "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
                 "fake": false,
                 "type": "class",
@@ -1027,23 +974,38 @@
                 "selector": null
             },
             {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8131",
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8d",
                 "fake": false,
                 "type": "class",
-                "name": "img",
+                "name": "is-gallery2",
                 "namespace": "",
-                "comb": "",
-                "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover;",
+                "comb": "&",
+                "styleLess": "margin-right: 1rem; margin-bottom: 0px; margin-left: 2rem; padding-top: 0rem; padding-bottom: 0rem; flex-direction: column; grid-column-gap: 0.5rem; grid-row-gap: 0.5rem;",
                 "variants": {},
                 "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
             {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8139",
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d89",
                 "fake": false,
                 "type": "class",
-                "name": "splide-code",
+                "name": "splide__pagination--ttb",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "display: flex; padding-top: 1rem; padding-right: 0px; padding-bottom: 1rem; padding-left: 0px; justify-content: center; grid-column-gap: 0.5rem;",
+                "variants": {},
+                "children": [
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8d"
+                ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d83",
+                "fake": false,
+                "type": "class",
+                "name": "gallery2_splide-code",
                 "namespace": "",
                 "comb": "",
                 "styleLess": "",
@@ -1099,6 +1061,19 @@
                     "958a5e16-2841-2e79-63c2-294d56721f90",
                     "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
                 ],
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8b",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "margin-top: 0rem; grid-column-gap: 0rem;",
+                "variants": {},
+                "children": [],
+                "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
             {
@@ -1161,26 +1136,28 @@
                 "selector": null
             },
             {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination--ltr",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "display: flex; padding-top: 1rem; padding-right: 0px; padding-bottom: 1rem; padding-left: 0px; justify-content: center; grid-column-gap: 0.5rem;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b",
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8a",
                 "fake": false,
                 "type": "class",
                 "name": "wb-arrows",
                 "namespace": "",
                 "comb": "&",
-                "styleLess": "position: relative; display: flex; margin-top: 1rem; justify-content: center; grid-column-gap: 1rem;",
+                "styleLess": "position: relative; display: flex; margin-top: 1rem; flex-direction: column; justify-content: space-between; grid-column-gap: 1rem;",
+                "variants": {},
+                "children": [
+                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8b"
+                ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d85",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "display: flex; grid-auto-columns: 1fr; grid-template-columns: 1fr auto; grid-template-rows: auto auto;",
                 "variants": {},
                 "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
@@ -1198,6 +1175,19 @@
                 "children": [
                     "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
                 ],
+                "createdBy": "6105ef3f19602768b12c8a43",
+                "selector": null
+            },
+            {
+                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8e",
+                "fake": false,
+                "type": "class",
+                "name": "is-gallery2",
+                "namespace": "",
+                "comb": "&",
+                "styleLess": "left: auto; top: 0%; right: 0%; bottom: auto;",
+                "variants": {},
+                "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
             },
@@ -1257,266 +1247,258 @@
                 "children": [],
                 "createdBy": "6105ef3f19602768b12c8a43",
                 "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8137",
-                "fake": false,
-                "type": "class",
-                "name": "image-height",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "position: relative; width: 100%; padding-top: 100%;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
             }
         ],
         "assets": [
             {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1.png",
+                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
                 "siteId": "632c810da53ace0dadd9a59a",
-                "width": 1000,
                 "isHD": false,
-                "height": 1000,
-                "fileName": "637a93afe002802a3a62dcca_webbae-placeholder-1.png",
-                "createdOn": "2022-11-20T20:53:03.761Z",
-                "origFileName": "webbae-placeholder-1.png",
-                "fileHash": "794799fde1b7b57f0a1361194fe9ea5a",
+                "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
+                "createdOn": "2022-11-21T23:31:17.652Z",
+                "origFileName": "placeholder-1-16x9.jpg",
+                "fileHash": "90dd5bf4cd0714bcce31d2338c030ec3",
                 "variants": [
                     {
-                        "_id": "6378729103cd69f57edbb4b5",
-                        "origFileName": "webbae-placeholder-1-p-500.png",
-                        "fileName": "637a93afe002802a3a62dcca_webbae-placeholder-1-p-500.png",
-                        "format": "png",
-                        "size": 3723,
+                        "size": 3516,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
                         "width": 500,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-500.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-500.png"
+                        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
+                        "origFileName": "placeholder-1-16x9-p-500.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
+                        "format": "jpg",
+                        "_id": "637c0941160fdd4f3f682401",
+                        "quality": 100
                     },
                     {
-                        "_id": "6378729103cd692c65dbb4b6",
-                        "origFileName": "webbae-placeholder-1-p-800.png",
-                        "fileName": "637a93afe002802a3a62dcca_webbae-placeholder-1-p-800.png",
-                        "format": "png",
-                        "size": 6455,
+                        "size": 6518,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
                         "width": 800,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-800.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-800.png"
+                        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
+                        "origFileName": "placeholder-1-16x9-p-800.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
+                        "format": "jpg",
+                        "_id": "637c0941160fdd2739682402",
+                        "quality": 100
                     },
                     {
-                        "_id": "637a93afe00280899462dccd",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-130x130q80.png",
-                        "fileName": "637a93afe002802a3a62dcca_webbae-placeholder-1-p-130x130q80.png",
-                        "origFileName": "webbae-placeholder-1-p-130x130q80.png",
-                        "format": "png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-130x130q80.png"
+                        "size": 9676,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
+                        "width": 1080,
+                        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
+                        "origFileName": "placeholder-1-16x9-p-1080.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
+                        "format": "jpg",
+                        "_id": "637c0941160fdd1f1c682403",
+                        "quality": 100
                     }
                 ],
-                "mimeType": "image/png",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1.png",
-                "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-130x130q80.png",
-                "_id": "637a93afe002802a3a62dcca",
-                "updatedOn": "2022-11-20T20:53:03.992Z",
-                "fileSize": 10716
+                "mimeType": "image/jpeg",
+                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
+                "_id": "637c0a456dbeef60f776a19c",
+                "updatedOn": "2022-11-21T23:31:17.828Z",
+                "markedAsDeleted": false,
+                "fileSize": 22291
             },
             {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2.png",
+                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
                 "siteId": "632c810da53ace0dadd9a59a",
-                "width": 1000,
                 "isHD": false,
-                "height": 1000,
-                "fileName": "637a93afe00280052662dcd6_webbae-placeholder-2.png",
-                "createdOn": "2022-11-20T20:53:03.786Z",
-                "origFileName": "webbae-placeholder-2.png",
-                "fileHash": "e278cccf728a7edf27c6d5ad3309ccb3",
+                "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
+                "createdOn": "2022-11-21T23:31:17.669Z",
+                "origFileName": "placeholder-2-16x9.jpg",
+                "fileHash": "856502e9ed22ed6d9442ec6ec3b05662",
                 "variants": [
                     {
-                        "_id": "6378729154cc504810e7fadc",
-                        "origFileName": "webbae-placeholder-2-p-500.png",
-                        "fileName": "637a93afe00280052662dcd6_webbae-placeholder-2-p-500.png",
-                        "format": "png",
-                        "size": 6094,
+                        "size": 4301,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
                         "width": 500,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-500.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-500.png"
+                        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
+                        "origFileName": "placeholder-2-16x9-p-500.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
+                        "format": "jpg",
+                        "_id": "637c094160019a471e5466a0",
+                        "quality": 100
                     },
                     {
-                        "_id": "6378729154cc502774e7fadd",
-                        "origFileName": "webbae-placeholder-2-p-800.png",
-                        "fileName": "637a93afe00280052662dcd6_webbae-placeholder-2-p-800.png",
-                        "format": "png",
-                        "size": 10194,
+                        "size": 7819,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
                         "width": 800,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-800.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-800.png"
+                        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
+                        "origFileName": "placeholder-2-16x9-p-800.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
+                        "format": "jpg",
+                        "_id": "637c094160019a5b565466a1",
+                        "quality": 100
                     },
                     {
-                        "_id": "637a93afe00280adbc62dcd9",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-130x130q80.png",
-                        "fileName": "637a93afe00280052662dcd6_webbae-placeholder-2-p-130x130q80.png",
-                        "origFileName": "webbae-placeholder-2-p-130x130q80.png",
-                        "format": "png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-130x130q80.png"
+                        "size": 11318,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
+                        "width": 1080,
+                        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
+                        "origFileName": "placeholder-2-16x9-p-1080.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
+                        "format": "jpg",
+                        "_id": "637c094160019a3d0b5466a2",
+                        "quality": 100
                     }
                 ],
-                "mimeType": "image/png",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2.png",
-                "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-130x130q80.png",
-                "_id": "637a93afe00280052662dcd6",
-                "updatedOn": "2022-11-20T20:53:04.114Z",
-                "fileSize": 15563
+                "mimeType": "image/jpeg",
+                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
+                "_id": "637c0a456dbeef7cc276a1a4",
+                "updatedOn": "2022-11-21T23:31:17.892Z",
+                "markedAsDeleted": false,
+                "fileSize": 25485
             },
             {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3.png",
+                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
                 "siteId": "632c810da53ace0dadd9a59a",
-                "width": 1000,
                 "isHD": false,
-                "height": 1000,
-                "fileName": "637a93afe002802e3c62dcce_webbae-placeholder-3.png",
-                "createdOn": "2022-11-20T20:53:03.769Z",
-                "origFileName": "webbae-placeholder-3.png",
-                "fileHash": "4c8849e9134ac4f8528adaba3c9f9bab",
+                "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
+                "createdOn": "2022-11-21T23:31:17.683Z",
+                "origFileName": "placeholder-3-16x9.jpg",
+                "fileHash": "22bfb674f762c7eefed5679dedbe6253",
                 "variants": [
                     {
-                        "_id": "637872916a668a2b8296f544",
-                        "origFileName": "webbae-placeholder-3-p-500.png",
-                        "fileName": "637a93afe002802e3c62dcce_webbae-placeholder-3-p-500.png",
-                        "format": "png",
-                        "size": 5596,
+                        "size": 4331,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
                         "width": 500,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-500.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-500.png"
+                        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
+                        "origFileName": "placeholder-3-16x9-p-500.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
+                        "format": "jpg",
+                        "_id": "637c094160019a411c546699",
+                        "quality": 100
                     },
                     {
-                        "_id": "637872916a668a78f796f545",
-                        "origFileName": "webbae-placeholder-3-p-800.png",
-                        "fileName": "637a93afe002802e3c62dcce_webbae-placeholder-3-p-800.png",
-                        "format": "png",
-                        "size": 9517,
+                        "size": 7713,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
                         "width": 800,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-800.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-800.png"
+                        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
+                        "origFileName": "placeholder-3-16x9-p-800.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
+                        "format": "jpg",
+                        "_id": "637c094160019a8ab354669a",
+                        "quality": 100
                     },
                     {
-                        "_id": "637a93afe0028003c662dcd1",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-130x130q80.png",
-                        "fileName": "637a93afe002802e3c62dcce_webbae-placeholder-3-p-130x130q80.png",
-                        "origFileName": "webbae-placeholder-3-p-130x130q80.png",
-                        "format": "png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-130x130q80.png"
+                        "size": 11388,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
+                        "width": 1080,
+                        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
+                        "origFileName": "placeholder-3-16x9-p-1080.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
+                        "format": "jpg",
+                        "_id": "637c094160019a07ae54669b",
+                        "quality": 100
                     }
                 ],
-                "mimeType": "image/png",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3.png",
-                "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-130x130q80.png",
-                "_id": "637a93afe002802e3c62dcce",
-                "updatedOn": "2022-11-20T20:53:04.023Z",
-                "fileSize": 14956
+                "mimeType": "image/jpeg",
+                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
+                "_id": "637c0a456dbeef52b176a1ac",
+                "updatedOn": "2022-11-21T23:31:17.858Z",
+                "markedAsDeleted": false,
+                "fileSize": 25210
             },
             {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4.png",
+                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
                 "siteId": "632c810da53ace0dadd9a59a",
-                "width": 1000,
                 "isHD": false,
-                "height": 1000,
-                "fileName": "637a93afe00280fce462dcc6_webbae-placeholder-4.png",
-                "createdOn": "2022-11-20T20:53:03.752Z",
-                "origFileName": "webbae-placeholder-4.png",
-                "fileHash": "7214a598d53b18bcbadddeade97c0aeb",
+                "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
+                "createdOn": "2022-11-21T23:31:17.660Z",
+                "origFileName": "placeholder-4-16x9.jpg",
+                "fileHash": "4d46d44ab91004137f504d7a52fc4fa2",
                 "variants": [
                     {
-                        "_id": "637872918d9ddabcb9c77571",
-                        "origFileName": "webbae-placeholder-4-p-500.png",
-                        "fileName": "637a93afe00280fce462dcc6_webbae-placeholder-4-p-500.png",
-                        "format": "png",
-                        "size": 4380,
+                        "size": 4094,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
                         "width": 500,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-500.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-500.png"
+                        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
+                        "origFileName": "placeholder-4-16x9-p-500.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
+                        "format": "jpg",
+                        "_id": "637c0941726da759156b4867",
+                        "quality": 100
                     },
                     {
-                        "_id": "637872918d9dda1cd3c77572",
-                        "origFileName": "webbae-placeholder-4-p-800.png",
-                        "fileName": "637a93afe00280fce462dcc6_webbae-placeholder-4-p-800.png",
-                        "format": "png",
-                        "size": 8415,
+                        "size": 7277,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
                         "width": 800,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-800.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-800.png"
+                        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
+                        "origFileName": "placeholder-4-16x9-p-800.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
+                        "format": "jpg",
+                        "_id": "637c0941726da7a8436b4868",
+                        "quality": 100
                     },
                     {
-                        "_id": "637a93afe002808c0862dcc9",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-130x130q80.png",
-                        "fileName": "637a93afe00280fce462dcc6_webbae-placeholder-4-p-130x130q80.png",
-                        "origFileName": "webbae-placeholder-4-p-130x130q80.png",
-                        "format": "png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-130x130q80.png"
+                        "size": 10750,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
+                        "width": 1080,
+                        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
+                        "origFileName": "placeholder-4-16x9-p-1080.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
+                        "format": "jpg",
+                        "_id": "637c0941726da791076b4869",
+                        "quality": 100
                     }
                 ],
-                "mimeType": "image/png",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4.png",
-                "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-130x130q80.png",
-                "_id": "637a93afe00280fce462dcc6",
-                "updatedOn": "2022-11-20T20:53:04.005Z",
-                "fileSize": 13778
+                "mimeType": "image/jpeg",
+                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
+                "_id": "637c0a456dbeeff5c476a1a0",
+                "updatedOn": "2022-11-21T23:31:17.802Z",
+                "markedAsDeleted": false,
+                "fileSize": 24065
             },
             {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5.png",
+                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
                 "siteId": "632c810da53ace0dadd9a59a",
-                "width": 1000,
                 "isHD": false,
-                "height": 1000,
-                "fileName": "637a93afe00280ad0662dcd2_webbae-placeholder-5.png",
-                "createdOn": "2022-11-20T20:53:03.776Z",
-                "origFileName": "webbae-placeholder-5.png",
-                "fileHash": "f0f3388d0bf951c9fcaaefd9142dfcf2",
+                "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
+                "createdOn": "2022-11-21T23:31:17.676Z",
+                "origFileName": "placeholder-5-16x9.jpg",
+                "fileHash": "0915f829ea60fc5bc461a1cf49f882a0",
                 "variants": [
                     {
-                        "_id": "63787291e86a45960b2aae03",
-                        "origFileName": "webbae-placeholder-5-p-500.png",
-                        "fileName": "637a93afe00280ad0662dcd2_webbae-placeholder-5-p-500.png",
-                        "format": "png",
-                        "size": 5423,
+                        "size": 4206,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
                         "width": 500,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-500.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-500.png"
+                        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
+                        "origFileName": "placeholder-5-16x9-p-500.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
+                        "format": "jpg",
+                        "_id": "637c09411ce82b442b86d9c3",
+                        "quality": 100
                     },
                     {
-                        "_id": "63787291e86a453dda2aae04",
-                        "origFileName": "webbae-placeholder-5-p-800.png",
-                        "fileName": "637a93afe00280ad0662dcd2_webbae-placeholder-5-p-800.png",
-                        "format": "png",
-                        "size": 8942,
+                        "size": 7548,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
                         "width": 800,
-                        "quality": 100,
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-800.png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-800.png"
+                        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
+                        "origFileName": "placeholder-5-16x9-p-800.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
+                        "format": "jpg",
+                        "_id": "637c09411ce82bc7de86d9c4",
+                        "quality": 100
                     },
                     {
-                        "_id": "637a93afe00280208a62dcd5",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-130x130q80.png",
-                        "fileName": "637a93afe00280ad0662dcd2_webbae-placeholder-5-p-130x130q80.png",
-                        "origFileName": "webbae-placeholder-5-p-130x130q80.png",
-                        "format": "png",
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-130x130q80.png"
+                        "size": 11140,
+                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
+                        "width": 1080,
+                        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
+                        "origFileName": "placeholder-5-16x9-p-1080.jpg",
+                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
+                        "format": "jpg",
+                        "_id": "637c09411ce82b5cf886d9c5",
+                        "quality": 100
                     }
                 ],
-                "mimeType": "image/png",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5.png",
-                "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-130x130q80.png",
-                "_id": "637a93afe00280ad0662dcd2",
-                "updatedOn": "2022-11-20T20:53:03.996Z",
-                "fileSize": 13847
+                "mimeType": "image/jpeg",
+                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
+                "_id": "637c0a456dbeefd61476a1a8",
+                "updatedOn": "2022-11-21T23:31:17.896Z",
+                "markedAsDeleted": false,
+                "fileSize": 24845
             }
         ],
         "ix1": [],

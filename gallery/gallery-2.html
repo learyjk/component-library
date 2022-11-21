@@ -1,0 +1,175 @@
+<section class="section">
+    <div class="padding-global">
+        <div class="container-large">
+            <div class="padding-section-large">
+                <div class="margin-bottom margin-medium">
+                    <h1>Gallery 2 - Splide Vertical 16:9</h1>
+                </div>
+                <div class="gallery2_splide-code w-embed w-script">
+                    <!-- Load Splide min css code -->
+                    <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+                    <!-- Load Splide min JS code -->
+                    <script defer=""
+                        src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+                    <!-- Create Splide Element -->
+                    <script>
+                        // Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots
+                        const removeDotsGallery2 = () => {
+                            const paginationStyles = document.querySelectorAll(
+                                ".splide__pagination__page"
+                            );
+                            paginationStyles.forEach((dot) => {
+                                dot.remove();
+                            });
+                        };
+
+                        const buildGallery2 = () => {
+                            removeDotsGallery2();
+                            const splide = new Splide("#splide-2", {
+                                type: "slide",
+                                // perMove: 1,
+                                // perPage: 1,
+                                lazyLoad: false,
+                                direction: 'ttb',
+                                paginationDirection: 'ttb',
+                                heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625
+                                //gap: "3rem",
+                                //omitEnd: true,
+                                arrows: true,
+                                pagination: true,
+                                drag: true,
+                            });
+
+                            splide.mount();
+                        };
+
+                        if (document.readyState === "complete" || document.readyState === "loaded") {
+                            buildGallery2()
+                        } else {
+                            document.addEventListener("DOMContentLoaded", buildGallery2)
+                        }
+                    </script>
+
+                    <style>
+                        /* You can use the combo classes below to style specific slides or to help with debugging*/
+                        /*
+                        .splide__slide.is-visible {
+                            padding: 1rem;
+                        background-color: green;
+                        }
+                        .splide__slide.is-next {
+                            padding: 1rem;
+                        background-color: blue;
+                        }
+                        .splide__slide.is-prev {
+                            padding: 1rem;
+                        background-color: yellow;
+                        }
+                        .splide__slide.is-active {
+                            padding: 1rem;
+                        background-color: red;
+                        }
+                        */
+
+                        .splide__arrow:disabled {
+                            opacity: 0.5;
+                        }
+                    </style>
+                </div>
+                <div id="splide-2"
+                    class="splide is-gallery2 splide--slide splide--ttb splide--draggable is-active is-overflow is-initialized"
+                    role="region" aria-roledescription="carousel">
+                    <div class="splide__track is-gallery2 splide__track--slide splide__track--ttb splide__track--draggable"
+                        id="splide-2-track" style="padding-top: 0px; padding-bottom: 0px; height: calc(512.438px);"
+                        aria-live="polite" aria-atomic="true" aria-busy="false">
+                        <div class="splide__list is-gallery2" id="splide-2-list" role="presentation"
+                            style="transform: translateY(0px);">
+                            <div class="splide__slide is-gallery2 is-active is-visible" id="splide-2-slide01"
+                                role="tabpanel" aria-roledescription="slide" aria-label="1 of 5"
+                                style="height: calc(100%);"><img
+                                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg"
+                                    loading="lazy"
+                                    srcset="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg 500w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg 800w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg 1080w"
+                                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, 85vw" alt=""
+                                    class="gallery2_image"></div>
+                            <div class="splide__slide is-gallery2 is-next" id="splide-2-slide02" role="tabpanel"
+                                aria-roledescription="slide" aria-label="2 of 5" style="height: calc(100%);"
+                                aria-hidden="true"><img
+                                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg"
+                                    loading="lazy"
+                                    srcset="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg 500w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg 800w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg 1080w"
+                                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, 85vw" alt=""
+                                    class="gallery2_image"></div>
+                            <div class="splide__slide is-gallery2" id="splide-2-slide03" role="tabpanel"
+                                aria-roledescription="slide" aria-label="3 of 5" style="height: calc(100%);"
+                                aria-hidden="true"><img
+                                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg"
+                                    loading="lazy"
+                                    srcset="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg 500w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg 800w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg 1080w"
+                                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, 85vw" alt=""
+                                    class="gallery2_image"></div>
+                            <div class="splide__slide is-gallery2" id="splide-2-slide04" role="tabpanel"
+                                aria-roledescription="slide" aria-label="4 of 5" style="height: calc(100%);"
+                                aria-hidden="true"><img
+                                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg"
+                                    loading="lazy"
+                                    srcset="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg 500w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg 800w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg 1080w"
+                                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, 85vw" alt=""
+                                    class="gallery2_image"></div>
+                            <div class="splide__slide is-gallery2" id="splide-2-slide05" role="tabpanel"
+                                aria-roledescription="slide" aria-label="5 of 5" style="height: calc(100%);"
+                                aria-hidden="true"><img
+                                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg"
+                                    loading="lazy"
+                                    srcset="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg 500w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg 800w, https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg 1080w"
+                                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 86vw, 85vw" alt=""
+                                    class="gallery2_image"></div>
+                        </div>
+                    </div>
+                    <ul role="tablist" class="splide__pagination splide__pagination--ttb is-gallery2"
+                        aria-label="Select a slide to show" aria-orientation="vertical">
+                        <li role="presentation"><button class="splide__pagination__page is-active" type="button"
+                                role="tab" aria-controls="splide-2-slide01" aria-label="Go to slide 1"
+                                aria-selected="true"></button></li>
+                        <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
+                                aria-controls="splide-2-slide02" aria-label="Go to slide 2" tabindex="-1"></button></li>
+                        <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
+                                aria-controls="splide-2-slide03" aria-label="Go to slide 3" tabindex="-1"></button></li>
+                        <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
+                                aria-controls="splide-2-slide04" aria-label="Go to slide 4" tabindex="-1"></button></li>
+                        <li role="presentation"><button class="splide__pagination__page" type="button" role="tab"
+                                aria-controls="splide-2-slide05" aria-label="Go to slide 5" tabindex="-1"></button></li>
+                    </ul>
+                    <div class="splide__arrows wb-arrows is-gallery2 splide__arrows--ttb">
+                        <div class="wb-custom-arrow is-prev is-gallery2 w-embed">
+                            <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
+                            <button class="splide__arrow splide__arrow--prev wb-custom-arrow"
+                                aria-label="Previous slide" aria-controls="splide-2-track" disabled="">
+
+                                <!--?xml version="1.0" encoding="UTF-8"?-->
+                                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32">
+                                    <path d="M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="wb-custom-arrow is-next is-gallery2 w-embed">
+                            <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
+                            <button class="splide__arrow splide__arrow--next wb-custom-arrow" aria-label="Next slide"
+                                aria-controls="splide-2-track">
+                                <!--?xml version="1.0" encoding="UTF-8"?-->
+                                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32">
+                                    <path d="M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

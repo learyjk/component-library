@@ -124,8 +124,9 @@ const init = async () => {
     }))
 
     Promise.all(externalScriptsPromises).then((values) => {
-      //console.log('all scripts loaded, ', values)
+      // console.log('all external scripts loaded, ', values)
       scriptsInline.forEach(scriptInline => {
+        // execute inline scripts
         eval(scriptInline.innerHTML)
       })
     })
