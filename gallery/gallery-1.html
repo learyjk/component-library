@@ -53,7 +53,13 @@
                                 });
                                 splide.mount();
                             };
-                            buildSplide();
+                            if (document.readyState === "complete" || document.readyState === "loaded") {
+                                console.log('build splide right away')
+                                buildSplide()
+                            } else {
+                                console.log('wait for DOMContentLoaded to build splide')
+                                document.addEventListener("DOMContentLoaded", buildSplide)
+                            }
                         </script>
 
                         <style>
