@@ -107,39 +107,29 @@ const init = async () => {
     })
     // console.log({ scriptsExternal })
     // console.log({ scriptsInline })
-    scriptsExternal.forEach((scriptExt, index) => {
-      (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) { return; }
-        js = d.createElement(s); js.id = id;
-        js.onload = function () {
-          // remote script has loaded
-          // console.log('remote script has loaded')
-          if (index === scriptsExternal.length - 1) {
-            console.log('index: ', index)
-            scriptsInline.forEach((scriptIn) => {
-              console.log('inside')
-              eval(scriptIn.innerHTML)
-            })
-          }
-        };
-        js.async = true;
-        js.src = scriptExt.src;
-        fjs.parentNode?.insertBefore(js, fjs);
-      }(document, 'script', 'wb'));
+    const externalScriptsPromises: Promise<any>[] = [];
 
+    (scriptsExternal.forEach((scriptExt, index) => {
+      externalScriptsPromises.push(new Promise((resolve, reject) => {
+        (function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) { return; }
+          js = d.createElement(s); js.id = id;
+          js.onload = resolve;
+          js.async = true;
+          js.src = scriptExt.src;
+          fjs.parentNode?.insertBefore(js, fjs);
+        }(document, 'script', 'wb'));
+      }))
+    }))
+    console.log(externalScriptsPromises)
+
+    Promise.all(externalScriptsPromises).then((values) => {
+      console.log('all scripts loaded, ', values)
+      scriptsInline.forEach(scriptInline => {
+        eval(scriptInline.innerHTML)
+      })
     })
-
-    // Add preview to page
-    // if (category !== "navbar") {
-    //   //let preview = htmlToElement(parsedHTML.querySelector('body').firstChild);
-
-    //   document
-    //     .querySelector('[wb-data="preview-wrapper"]')
-    //     .append(parsedHTML.querySelector("body").firstChild);
-    //   evaluateCode(document.querySelector('[wb-data="preview-wrapper"]'));
-    //   console.log("done appending");
-    // }
 
     // escape html and show it below.
     // const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
