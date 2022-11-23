@@ -1,0 +1,332 @@
+<section class="section">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-medium">
+          <div class="text-align-center"><h1>Gallery 3 - Swiper Cards</h1></div>
+        </div>
+        <div class="max-width-medium align-center">
+          <div class="gallery3_styles w-embed">
+            <style>
+              /* Styles used to make the component more friendly with Webflow designer */
+              .swiper-slide {
+                display: none;
+              }
+              .swiper-slide:first-child {
+                display: block;
+              }
+            </style>
+          </div>
+          <div class="gallery3_code w-embed w-script">
+            <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+            />
+            <script
+              defer=""
+              src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+            ></script>
+            <script>
+              // Undo styling from gallery3_styles embed
+              const updateStylesGallery3 = () => {
+                const slides = document.querySelectorAll(".swiper-slide");
+                if (slides.length <= 0) return;
+                const masterDisplay = getComputedStyle(
+                  slides[0]
+                ).getPropertyValue("display");
+                slides.forEach((slide) => {
+                  slide.style.display = masterDisplay;
+                });
+              };
+
+              // creates slider
+              const buildGallery3 = () => {
+                updateStylesGallery3();
+                let swiper = new Swiper("#gallery-3", {
+                  effect: "cards",
+                  grabCursor: true,
+                  loop: true,
+                  keyboard: true,
+                });
+              };
+
+              if (
+                document.readyState === "complete" ||
+                document.readyState === "loaded"
+              ) {
+                buildGallery3();
+              } else {
+                document.addEventListener("DOMContentLoaded", buildGallery3);
+              }
+            </script>
+          </div>
+          <div
+            id="gallery-3"
+            class="swiper is-gallery3 swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress"
+          >
+            <div
+              class="swiper-wrapper is-gallery3"
+              id="swiper-wrapper-10057b241077e265e9"
+              aria-live="polite"
+              style="cursor: grab; transition-duration: 0ms"
+            >
+              <div
+                class="swiper-slide is-gallery3 swiper-slide-duplicate swiper-slide-prev"
+                data-swiper-slide-index="5"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 7;
+                  transform: translate3d(calc(0px + -7.25%), 0px, -100px)
+                    rotateZ(-2deg) scale(1);
+                "
+                role="group"
+                aria-label="6 / 6"
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e3355206dc4faca_webbae-placeholder-2x3-6.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e3355206dc4faca_webbae-placeholder-2x3-6-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 0px, 100vw"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3 swiper-slide-visible swiper-slide-active"
+                data-swiper-slide-index="0"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 8;
+                  transform: translate3d(-512px, 0px, 0px) rotateZ(0deg)
+                    scale(1);
+                "
+                role="group"
+                aria-label="1 / 6"
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e3355803cc4fad4_webbae-placeholder-2x3-1.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e3355803cc4fad4_webbae-placeholder-2x3-1-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 100vw, 300px"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 0; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3 swiper-slide-next"
+                data-swiper-slide-index="1"
+                role="group"
+                aria-label="2 / 6"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 7;
+                  transform: translate3d(calc(-1024px + 7.25%), 0px, -100px)
+                    rotateZ(2deg) scale(1);
+                "
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e33555065c4fad0_webbae-placeholder-2x3-2.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e33555065c4fad0_webbae-placeholder-2x3-2-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 0px, 100vw"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3"
+                data-swiper-slide-index="2"
+                role="group"
+                aria-label="3 / 6"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 6;
+                  transform: translate3d(calc(-1536px + 13%), 0px, -200px)
+                    rotateZ(4deg) scale(1);
+                "
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e33555873c4fad2_webbae-placeholder-2x3-3.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e33555873c4fad2_webbae-placeholder-2x3-3-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 0px, 100vw"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3"
+                data-swiper-slide-index="3"
+                role="group"
+                aria-label="4 / 6"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 5;
+                  transform: translate3d(calc(-2048px + 17.25%), 0px, -300px)
+                    rotateZ(6deg) scale(1);
+                "
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e3355bdf0c4face_webbae-placeholder-2x3-4.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e3355bdf0c4face_webbae-placeholder-2x3-4-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 0px, 100vw"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3"
+                data-swiper-slide-index="4"
+                role="group"
+                aria-label="5 / 6"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 4;
+                  transform: translate3d(calc(-2560px + 20%), 0px, -400px)
+                    rotateZ(8deg) scale(1);
+                "
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e33553432c4facc_webbae-placeholder-2x3-5.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e33553432c4facc_webbae-placeholder-2x3-5-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 0px, 100vw"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3 swiper-slide-duplicate-prev"
+                data-swiper-slide-index="5"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 3;
+                  transform: translate3d(calc(-3072px + 20%), 0px, -400px)
+                    rotateZ(8deg) scale(1);
+                "
+                role="group"
+                aria-label="6 / 6"
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e3355206dc4faca_webbae-placeholder-2x3-6.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e77091e3355206dc4faca_webbae-placeholder-2x3-6-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 0px, 100vw"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide is-gallery3 swiper-slide-duplicate swiper-slide-duplicate-active"
+                data-swiper-slide-index="0"
+                style="
+                  display: block;
+                  width: 512px;
+                  transition-duration: 0ms;
+                  z-index: 2;
+                  transform: translate3d(calc(-3584px + 20%), 0px, -400px)
+                    rotateZ(8deg) scale(1);
+                "
+                role="group"
+                aria-label="1 / 6"
+              >
+                <div class="gallery3_image-height">
+                  <img
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e3355803cc4fad4_webbae-placeholder-2x3-1.jpg"
+                    loading="lazy"
+                    srcset="
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637e770a1e3355803cc4fad4_webbae-placeholder-2x3-1-p-500.jpg 500w
+                    "
+                    sizes="(max-width: 479px) 100vw, 300px"
+                    alt=""
+                    class="gallery3_image"
+                  />
+                </div>
+                <div
+                  class="swiper-slide-shadow"
+                  style="opacity: 1; transition-duration: 0ms"
+                ></div>
+              </div>
+            </div>
+            <span
+              class="swiper-notification"
+              aria-live="assertive"
+              aria-atomic="true"
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
