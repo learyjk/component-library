@@ -94,42 +94,49 @@ const init = async () => {
     if (!parsedHTML) return;
     //console.log({ parsedHTML });
 
-    const elToAdd = parsedHTML.querySelector("body")?.firstChild as HTMLDivElement;
-    if (!elToAdd) return
-    document.querySelector('[wb-data="preview-wrapper"]')?.append(elToAdd)
-    const scriptTags = elToAdd.querySelectorAll('script')
+    const elToAdd = parsedHTML.querySelector("body")
+      ?.firstChild as HTMLDivElement;
+    if (!elToAdd) return;
+    document.querySelector('[wb-data="preview-wrapper"]')?.append(elToAdd);
+    const scriptTags = elToAdd.querySelectorAll("script");
     scriptTags.forEach((scriptTag) => {
       if (scriptTag.src !== "") {
-        scriptsExternal.push(scriptTag)
+        scriptsExternal.push(scriptTag);
       } else {
         scriptsInline.push(scriptTag);
       }
-    })
-    // console.log({ scriptsExternal })
-    // console.log({ scriptsInline })
+    });
+    console.log({ scriptsExternal });
+    console.log({ scriptsInline });
     const externalScriptsPromises: Promise<any>[] = [];
 
-    (scriptsExternal.forEach((scriptExt, index) => {
-      externalScriptsPromises.push(new Promise((resolve, reject) => {
-        (function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) { return; }
-          js = d.createElement(s); js.id = id;
-          js.onload = resolve;
-          js.async = true;
-          js.src = scriptExt.src;
-          fjs.parentNode?.insertBefore(js, fjs);
-        }(document, 'script', 'wb'));
-      }))
-    }))
+    scriptsExternal.forEach((scriptExt, index) => {
+      externalScriptsPromises.push(
+        new Promise((resolve, reject) => {
+          (function (d, s, id) {
+            var js,
+              fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+              return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.onload = resolve;
+            js.async = true;
+            js.src = scriptExt.src;
+            fjs.parentNode?.insertBefore(js, fjs);
+          })(document, "script", "wb");
+        })
+      );
+    });
 
-    Promise.all(externalScriptsPromises).then((values) => {
-      // console.log('all external scripts loaded, ', values)
-      scriptsInline.forEach(scriptInline => {
+    Promise.allSettled(externalScriptsPromises).then((values) => {
+      console.log("all external scripts loaded, ", values);
+      scriptsInline.forEach((scriptInline) => {
         // execute inline scripts
-        eval(scriptInline.innerHTML)
-      })
-    })
+        eval(scriptInline.innerHTML);
+      });
+    });
 
     // escape html and show it below.
     // const escapedHtml = `<pre><code>${escapeHtml(data)}</code></pre>`;
@@ -146,7 +153,7 @@ const init = async () => {
 };
 
 //document.addEventListener("DOMContentLoaded", init);
-window.addEventListener("load", init)
+window.addEventListener("load", init);
 
 addGlobalEventListener("click", '[wb-data="copy-button"]', async (e) => {
   const copyButton = e.target.closest('[wb-data="copy-button"]');

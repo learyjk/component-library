@@ -22,6 +22,7 @@
           <script>
             // Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots
             const removeDotsGallery1 = () => {
+              console.log("removeDots1");
               const paginationStyles = document.querySelectorAll(
                 "#splide-1 .splide__pagination__page"
               );
@@ -31,6 +32,7 @@
             };
 
             const buildGallery1 = () => {
+              console.log("build1");
               removeDotsGallery1();
               const splide = new Splide("#splide-1", {
                 // EDIT OPTIONS BELOW
@@ -53,29 +55,37 @@
               });
 
               splide.mount();
+              console.log("completebuild1");
             };
 
-            document.addEventListener("DOMContentLoaded", buildGallery1);
+            if (
+              document.readyState === "complete" ||
+              document.readyState === "loaded"
+            ) {
+              buildGallery1();
+            } else {
+              document.addEventListener("DOMContentLoaded", buildGallery1);
+            }
           </script>
           <style>
             /* You can use the combo classes below to style specific slides or to help with debugging*/
             /*
-    .splide__slide.is-visible {
-        padding: 1rem;
-      background-color: green;
-    }
-    .splide__slide.is-next {
-        padding: 1rem;
-      background-color: blue;
-    }
-    .splide__slide.is-prev {
-        padding: 1rem;
-      background-color: yellow;
-    }
-    .splide__slide.is-active {
-        padding: 1rem;
-      background-color: red;
-    }*/
+  .splide__slide.is-visible {
+    padding: 1rem;
+    background-color: green;
+  }
+  .splide__slide.is-next {
+    padding: 1rem;
+    background-color: blue;
+  }
+  .splide__slide.is-prev {
+    padding: 1rem;
+    background-color: yellow;
+  }
+  .splide__slide.is-active {
+    padding: 1rem;
+    background-color: red;
+  }*/
 
             .splide__arrow:disabled {
               opacity: 0.5;
@@ -94,7 +104,6 @@
             style="padding-left: 0px; padding-right: 0px"
             aria-live="polite"
             aria-atomic="true"
-            aria-busy="false"
           >
             <div
               class="splide__list"
@@ -115,14 +124,14 @@
               >
                 <div class="image-height">
                   <img
-                    src="https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646fac804476e_webbae-placeholder-1.png"
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1.png"
                     loading="eager"
                     srcset="
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646fac804476e_webbae-placeholder-1-p-500.png  500w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646fac804476e_webbae-placeholder-1-p-800.png  800w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646fac804476e_webbae-placeholder-1.png       1000w
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-500.png  500w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1-p-800.png  800w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802a3a62dcca_webbae-placeholder-1.png       1000w
                     "
-                    sizes="(max-width: 479px) 18vw, (max-width: 767px) 19vw, 18vw"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, (max-width: 991px) 18vw, 19vw"
                     alt=""
                     class="img"
                   />
@@ -141,13 +150,13 @@
               >
                 <div class="image-height">
                   <img
-                    src="https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966465a7104476a_webbae-placeholder-2.png"
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2.png"
                     loading="eager"
-                    sizes="(max-width: 479px) 18vw, (max-width: 767px) 19vw, 18vw"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, (max-width: 991px) 18vw, 19vw"
                     srcset="
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966465a7104476a_webbae-placeholder-2-p-500.png  500w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966465a7104476a_webbae-placeholder-2-p-800.png  800w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966465a7104476a_webbae-placeholder-2.png       1000w
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-500.png  500w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2-p-800.png  800w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280052662dcd6_webbae-placeholder-2.png       1000w
                     "
                     alt=""
                     class="img"
@@ -167,13 +176,13 @@
               >
                 <div class="image-height">
                   <img
-                    src="https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966467b2b044772_webbae-placeholder-3.png"
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3.png"
                     loading="eager"
-                    sizes="(max-width: 479px) 18vw, (max-width: 767px) 19vw, 18vw"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, (max-width: 991px) 18vw, 19vw"
                     srcset="
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966467b2b044772_webbae-placeholder-3-p-500.png  500w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966467b2b044772_webbae-placeholder-3-p-800.png  800w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a966467b2b044772_webbae-placeholder-3.png       1000w
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-500.png  500w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3-p-800.png  800w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe002802e3c62dcce_webbae-placeholder-3.png       1000w
                     "
                     alt=""
                     class="img"
@@ -194,13 +203,13 @@
               >
                 <div class="image-height">
                   <img
-                    src="https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646e05904477a_webbae-placeholder-4.png"
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4.png"
                     loading="eager"
-                    sizes="(max-width: 479px) 18vw, (max-width: 767px) 19vw, 18vw"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, (max-width: 991px) 18vw, 19vw"
                     srcset="
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646e05904477a_webbae-placeholder-4-p-500.png  500w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646e05904477a_webbae-placeholder-4-p-800.png  800w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a96646e05904477a_webbae-placeholder-4.png       1000w
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-500.png  500w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4-p-800.png  800w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280fce462dcc6_webbae-placeholder-4.png       1000w
                     "
                     alt=""
                     class="img"
@@ -221,13 +230,13 @@
               >
                 <div class="image-height">
                   <img
-                    src="https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a9664686ad044776_webbae-placeholder-5.png"
+                    src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5.png"
                     loading="eager"
-                    sizes="(max-width: 479px) 18vw, (max-width: 767px) 19vw, 18vw"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 19vw, (max-width: 991px) 18vw, 19vw"
                     srcset="
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a9664686ad044776_webbae-placeholder-5-p-500.png  500w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a9664686ad044776_webbae-placeholder-5-p-800.png  800w,
-                      https://assets.website-files.com/63c0eb89f02e2d9110722bf6/63c0f443a9664686ad044776_webbae-placeholder-5.png       1000w
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-500.png  500w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5-p-800.png  800w,
+                      https://assets.website-files.com/632c810da53ace0dadd9a59a/637a93afe00280ad0662dcd2_webbae-placeholder-5.png       1000w
                     "
                     alt="logo"
                     class="img"
@@ -277,9 +286,9 @@
               <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
               <button
                 class="splide__arrow splide__arrow--prev wb-custom-arrow"
+                disabled=""
                 aria-label="Previous slide"
                 aria-controls="splide-1-track"
-                disabled=""
               >
                 <svg
                   id="Layer_1"
@@ -323,6 +332,3 @@
     </div>
   </div>
 </section>
-<script>
-  console.log("gallery 1 done parsing");
-</script>
