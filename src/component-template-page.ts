@@ -131,7 +131,7 @@ const init = async () => {
     });
 
     Promise.allSettled(externalScriptsPromises).then((values) => {
-      console.log("all external scripts loaded, ", values);
+      // console.log("all external scripts loaded, ", values);
       scriptsInline.forEach((scriptInline) => {
         // execute inline scripts
         eval(scriptInline.innerHTML);

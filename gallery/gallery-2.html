@@ -21,7 +21,6 @@
           <script>
             // Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots
             const removeDotsGallery2 = () => {
-              console.log("remove2");
               const paginationStyles = document.querySelectorAll(
                 "#splide-2 .splide__pagination__page"
               );
@@ -31,7 +30,6 @@
             };
 
             const buildGallery2 = () => {
-              console.log("build2");
               removeDotsGallery2();
               const splide = new Splide("#splide-2", {
                 type: "slide",
@@ -49,7 +47,6 @@
               });
 
               splide.mount();
-              console.log("endbuild2");
             };
 
             if (
@@ -100,7 +97,7 @@
             style="
               padding-top: 0px;
               padding-bottom: 0px;
-              height: calc(523.125px);
+              height: calc(576.562px);
             "
             aria-live="polite"
             aria-atomic="true"
