@@ -1,1518 +1,1219 @@
 {
-    "type": "@webflow/XscpData",
-    "payload": {
-        "nodes": [
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d7",
-                "type": "Block",
-                "tag": "section",
-                "classes": [
-                    "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769d8"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "section"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d8",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769d9"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d9",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "7eccb33a-59b5-c5e6-f6ad-6117c1c82605"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769da"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769da",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769db",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769df",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769de"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769db",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
-                    "958a5e16-2841-2e79-63c2-294d56721f90"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769dc"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769dc",
-                "type": "Heading",
-                "tag": "h1",
-                "classes": [],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769dd"
-                ],
-                "data": {
-                    "tag": "h1",
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769dd",
-                "text": true,
-                "v": "Gallery 2 - Splide Vertical 16:9"
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769df",
-                "type": "HtmlEmbed",
-                "tag": "div",
-                "classes": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d83"
-                ],
-                "children": [],
-                "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery2 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery2 = () => {\n    removeDotsGallery2();\n    const splide = new Splide(\"#splide-2\", {\n        type: \"slide\",\n        // perMove: 1,\n        // perPage: 1,\n        lazyLoad: false,\n        direction: 'ttb',\n        paginationDirection: 'ttb',\n        heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625\n        //gap: \"3rem\",\n        //omitEnd: true,\n        arrows: true,\n        pagination: true,\n        drag: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery2()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery2)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
-                "data": {
-                    "insideRTE": false,
-                    "search": {
-                        "exclude": true
-                    },
-                    "xattr": [],
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "embed": {
-                        "type": "html",
-                        "meta": {
-                            "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery2 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \".splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery2 = () => {\n    removeDotsGallery2();\n    const splide = new Splide(\"#splide-2\", {\n        type: \"slide\",\n        // perMove: 1,\n        // perPage: 1,\n        lazyLoad: false,\n        direction: 'ttb',\n        paginationDirection: 'ttb',\n        heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625\n        //gap: \"3rem\",\n        //omitEnd: true,\n        arrows: true,\n        pagination: true,\n        drag: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery2()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery2)\n}\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
-                            "div": false,
-                            "iframe": false,
-                            "script": true
-                        }
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769de",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d85"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e0",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769ec",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769ef"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": "splide-2"
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e0",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d86"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e1"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e1",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d87"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e2",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e4",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e6",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e8",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769ea"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e2",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e3"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e3",
-                "type": "Image",
-                "tag": "img",
-                "classes": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
-                ],
-                "children": [],
-                "data": {
-                    "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
-                        "loading": "lazy",
-                        "height": "auto",
-                        "id": "",
-                        "width": "auto"
-                    },
-                    "img": {
-                        "id": "637c0a456dbeef60f776a19c",
-                        "sizes": [
-                            {
-                                "max": 479,
-                                "size": "100vw"
-                            },
-                            {
-                                "max": 767,
-                                "size": "86vw"
-                            },
-                            {
-                                "max": 10000,
-                                "size": "85vw"
-                            }
-                        ]
-                    },
-                    "displayName": "",
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e4",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e5"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e5",
-                "type": "Image",
-                "tag": "img",
-                "classes": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
-                ],
-                "children": [],
-                "data": {
-                    "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
-                        "loading": "lazy",
-                        "width": "auto",
-                        "height": "auto",
-                        "id": ""
-                    },
-                    "img": {
-                        "id": "637c0a456dbeef7cc276a1a4",
-                        "sizes": [
-                            {
-                                "max": 479,
-                                "size": "100vw"
-                            },
-                            {
-                                "max": 767,
-                                "size": "86vw"
-                            },
-                            {
-                                "max": 10000,
-                                "size": "85vw"
-                            }
-                        ]
-                    },
-                    "displayName": "",
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e6",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e7"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e7",
-                "type": "Image",
-                "tag": "img",
-                "classes": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
-                ],
-                "children": [],
-                "data": {
-                    "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
-                        "loading": "lazy",
-                        "width": "auto",
-                        "height": "auto",
-                        "id": ""
-                    },
-                    "img": {
-                        "id": "637c0a456dbeef52b176a1ac",
-                        "sizes": [
-                            {
-                                "max": 479,
-                                "size": "100vw"
-                            },
-                            {
-                                "max": 767,
-                                "size": "86vw"
-                            },
-                            {
-                                "max": 10000,
-                                "size": "85vw"
-                            }
-                        ]
-                    },
-                    "displayName": "",
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e8",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769e9"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e9",
-                "type": "Image",
-                "tag": "img",
-                "classes": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
-                ],
-                "children": [],
-                "data": {
-                    "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
-                        "loading": "lazy",
-                        "width": "auto",
-                        "height": "auto",
-                        "id": ""
-                    },
-                    "img": {
-                        "id": "637c0a456dbeeff5c476a1a0",
-                        "sizes": [
-                            {
-                                "max": 479,
-                                "size": "100vw"
-                            },
-                            {
-                                "max": 767,
-                                "size": "86vw"
-                            },
-                            {
-                                "max": 10000,
-                                "size": "85vw"
-                            }
-                        ]
-                    },
-                    "displayName": "",
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ea",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769eb"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769eb",
-                "type": "Image",
-                "tag": "img",
-                "classes": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d84"
-                ],
-                "children": [],
-                "data": {
-                    "attr": {
-                        "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
-                        "loading": "lazy",
-                        "width": "auto",
-                        "height": "auto",
-                        "id": ""
-                    },
-                    "img": {
-                        "id": "637c0a456dbeefd61476a1a8",
-                        "sizes": [
-                            {
-                                "max": 479,
-                                "size": "100vw"
-                            },
-                            {
-                                "max": 767,
-                                "size": "86vw"
-                            },
-                            {
-                                "max": 10000,
-                                "size": "85vw"
-                            }
-                        ]
-                    },
-                    "displayName": "",
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ec",
-                "type": "List",
-                "tag": "ul",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d89",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8d"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769ed",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769ee"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "ul",
-                    "list": {
-                        "type": "list",
-                        "unstyled": false
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ed",
-                "type": "ListItem",
-                "tag": "li",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
-                ],
-                "children": [],
-                "data": {
-                    "list": {
-                        "type": "item"
-                    },
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ee",
-                "type": "ListItem",
-                "tag": "li",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a"
-                ],
-                "children": [],
-                "data": {
-                    "list": {
-                        "type": "item"
-                    },
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "xattr": [],
-                    "search": {
-                        "exclude": false
-                    },
-                    "visibility": {
-                        "conditions": []
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ef",
-                "type": "Block",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8a",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8b"
-                ],
-                "children": [
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769f0",
-                    "e0a863dd-cf05-183c-fa5e-fcefc77769f1"
-                ],
-                "data": {
-                    "search": {
-                        "exclude": false
-                    },
-                    "xattr": [],
-                    "text": false,
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "tag": "div"
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769f0",
-                "type": "HtmlEmbed",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8e"
-                ],
-                "children": [],
-                "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z\"/>\n</svg>\n</button>",
-                "data": {
-                    "insideRTE": false,
-                    "search": {
-                        "exclude": true
-                    },
-                    "xattr": [],
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "embed": {
-                        "type": "html",
-                        "meta": {
-                            "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z\"/>\n</svg>\n</button>",
-                            "div": false,
-                            "iframe": false,
-                            "script": false,
-                            "compilable": false
-                        }
-                    }
-                }
-            },
-            {
-                "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769f1",
-                "type": "HtmlEmbed",
-                "tag": "div",
-                "classes": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8c"
-                ],
-                "children": [],
-                "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z\"/>\n</svg>\n </button>",
-                "data": {
-                    "insideRTE": false,
-                    "search": {
-                        "exclude": true
-                    },
-                    "xattr": [],
-                    "displayName": "",
-                    "attr": {
-                        "id": ""
-                    },
-                    "visibility": {
-                        "conditions": []
-                    },
-                    "embed": {
-                        "type": "html",
-                        "meta": {
-                            "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z\"/>\n</svg>\n </button>",
-                            "div": false,
-                            "iframe": false,
-                            "script": false,
-                            "compilable": false
-                        }
-                    }
-                }
-            }
-        ],
-        "styles": [
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d88",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "position: relative; padding-top: 56.25%;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
-                "fake": false,
-                "type": "class",
-                "name": "is-next",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "position: absolute; left: auto; top: 0%; right: 0%; bottom: auto;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8c"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130",
-                "fake": false,
-                "type": "class",
-                "name": "splide__track",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d86"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8c",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "left: auto; top: auto; right: 0%; bottom: 0%;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d84",
-                "fake": false,
-                "type": "class",
-                "name": "gallery2_image",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d86",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "flex-grow: 1; flex-shrink: 1; flex-basis: 0%;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
-                "fake": false,
-                "type": "class",
-                "name": "wb-custom-arrow",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "display: flex; width: 3rem; height: 3rem; padding-top: 0.5rem; padding-right: 0.5rem; padding-bottom: 0.5rem; padding-left: 0.5rem; flex-direction: column; justify-content: center; align-items: center; background-color: hsla(0, 0.00%, 92.55%, 1.00); transition-property: opacity; transition-duration: 200ms; transition-timing-function: ease;",
-                "variants": {},
-                "children": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "958a5e16-2841-2e79-63c2-294d56721f90",
-                "fake": false,
-                "type": "class",
-                "name": "margin-medium",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135",
-                "fake": false,
-                "type": "class",
-                "name": "splide__list",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "display: flex; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d87"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d87",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "display: flex; flex-direction: column;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
-                "fake": false,
-                "type": "class",
-                "name": "is-prev",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "position: absolute; left: 0%; top: 0%; right: auto; bottom: auto;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8e"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8d",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "margin-right: 1rem; margin-bottom: 0px; margin-left: 2rem; padding-top: 0rem; padding-bottom: 0rem; flex-direction: column; grid-column-gap: 0.5rem; grid-row-gap: 0.5rem;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d89",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination--ttb",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "display: flex; padding-top: 1rem; padding-right: 0px; padding-bottom: 1rem; padding-left: 0px; justify-content: center; grid-column-gap: 0.5rem;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8d"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d83",
-                "fake": false,
-                "type": "class",
-                "name": "gallery2_splide-code",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
-                "fake": false,
-                "type": "class",
-                "name": "padding-section-large",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
-                "variants": {
-                    "medium": {
-                        "styleLess": "padding-top: 6rem; padding-bottom: 6rem;"
-                    },
-                    "small": {
-                        "styleLess": "padding-top: 4rem; padding-bottom: 4rem;"
-                    }
-                },
-                "children": [],
-                "createdBy": "54441c96b0981db6504faf03",
-                "selector": null
-            },
-            {
-                "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
-                "fake": false,
-                "type": "class",
-                "name": "margin-bottom",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
-                "variants": {
-                    "medium": {
-                        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-                    },
-                    "small": {
-                        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-                    },
-                    "tiny": {
-                        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
-                    }
-                },
-                "children": [
-                    "9d004126-fc55-e79b-1834-e9fec67f49bc",
-                    "d636392d-e17a-9f2e-fd46-fdee33931652",
-                    "27251a35-bc44-1dde-6e36-8f5109b1cced",
-                    "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
-                    "958a5e16-2841-2e79-63c2-294d56721f90",
-                    "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
-                ],
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8b",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "margin-top: 0rem; grid-column-gap: 0rem;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
-                "fake": false,
-                "type": "class",
-                "name": "padding-global",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
-                "variants": {
-                    "small": {
-                        "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
-                    }
-                },
-                "children": [],
-                "selector": null
-            },
-            {
-                "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
-                "fake": false,
-                "type": "class",
-                "name": "container-large",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
-                "variants": {},
-                "children": [],
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
-                "fake": false,
-                "type": "class",
-                "name": "splide__arrows",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8a"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
-                "fake": false,
-                "type": "class",
-                "name": "splide__slide",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "width: 100%;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8a",
-                "fake": false,
-                "type": "class",
-                "name": "wb-arrows",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "position: relative; display: flex; margin-top: 1rem; flex-direction: column; justify-content: space-between; grid-column-gap: 1rem;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d8b"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d85",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "display: flex; grid-auto-columns: 1fr; grid-template-columns: 1fr auto; grid-template-rows: auto auto;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination__page",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "width: 1rem; height: 1rem; background-color: hsla(0, 0.00%, 92.55%, 1.00); list-style-type: none;",
-                "variants": {},
-                "children": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8e",
-                "fake": false,
-                "type": "class",
-                "name": "is-gallery2",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "left: auto; top: 0%; right: 0%; bottom: auto;",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
-                "fake": false,
-                "type": "class",
-                "name": "splide",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "width: 100%; margin-right: auto; margin-left: auto;",
-                "variants": {},
-                "children": [
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d85"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d",
-                "fake": false,
-                "type": "class",
-                "name": "is-active",
-                "namespace": "",
-                "comb": "&",
-                "styleLess": "background-color: hsla(0, 0.00%, 0.00%, 1.00);",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
-                "fake": false,
-                "type": "class",
-                "name": "splide__pagination",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [
-                    "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c",
-                    "848371fd-ebe2-d0b3-42ed-0a29e0720d89"
-                ],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            },
-            {
-                "_id": "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6",
-                "fake": false,
-                "type": "class",
-                "name": "section",
-                "namespace": "",
-                "comb": "",
-                "styleLess": "",
-                "variants": {},
-                "children": [],
-                "createdBy": "6105ef3f19602768b12c8a43",
-                "selector": null
-            }
-        ],
-        "assets": [
-            {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
-                "siteId": "632c810da53ace0dadd9a59a",
-                "isHD": false,
-                "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
-                "createdOn": "2022-11-21T23:31:17.652Z",
-                "origFileName": "placeholder-1-16x9.jpg",
-                "fileHash": "90dd5bf4cd0714bcce31d2338c030ec3",
-                "variants": [
-                    {
-                        "size": 3516,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
-                        "width": 500,
-                        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
-                        "origFileName": "placeholder-1-16x9-p-500.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
-                        "format": "jpg",
-                        "_id": "637c0941160fdd4f3f682401",
-                        "quality": 100
-                    },
-                    {
-                        "size": 6518,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
-                        "width": 800,
-                        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
-                        "origFileName": "placeholder-1-16x9-p-800.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
-                        "format": "jpg",
-                        "_id": "637c0941160fdd2739682402",
-                        "quality": 100
-                    },
-                    {
-                        "size": 9676,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
-                        "width": 1080,
-                        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
-                        "origFileName": "placeholder-1-16x9-p-1080.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
-                        "format": "jpg",
-                        "_id": "637c0941160fdd1f1c682403",
-                        "quality": 100
-                    }
-                ],
-                "mimeType": "image/jpeg",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
-                "_id": "637c0a456dbeef60f776a19c",
-                "updatedOn": "2022-11-21T23:31:17.828Z",
-                "markedAsDeleted": false,
-                "fileSize": 22291
-            },
-            {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
-                "siteId": "632c810da53ace0dadd9a59a",
-                "isHD": false,
-                "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
-                "createdOn": "2022-11-21T23:31:17.669Z",
-                "origFileName": "placeholder-2-16x9.jpg",
-                "fileHash": "856502e9ed22ed6d9442ec6ec3b05662",
-                "variants": [
-                    {
-                        "size": 4301,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
-                        "width": 500,
-                        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
-                        "origFileName": "placeholder-2-16x9-p-500.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
-                        "format": "jpg",
-                        "_id": "637c094160019a471e5466a0",
-                        "quality": 100
-                    },
-                    {
-                        "size": 7819,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
-                        "width": 800,
-                        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
-                        "origFileName": "placeholder-2-16x9-p-800.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
-                        "format": "jpg",
-                        "_id": "637c094160019a5b565466a1",
-                        "quality": 100
-                    },
-                    {
-                        "size": 11318,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
-                        "width": 1080,
-                        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
-                        "origFileName": "placeholder-2-16x9-p-1080.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
-                        "format": "jpg",
-                        "_id": "637c094160019a3d0b5466a2",
-                        "quality": 100
-                    }
-                ],
-                "mimeType": "image/jpeg",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
-                "_id": "637c0a456dbeef7cc276a1a4",
-                "updatedOn": "2022-11-21T23:31:17.892Z",
-                "markedAsDeleted": false,
-                "fileSize": 25485
-            },
-            {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
-                "siteId": "632c810da53ace0dadd9a59a",
-                "isHD": false,
-                "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
-                "createdOn": "2022-11-21T23:31:17.683Z",
-                "origFileName": "placeholder-3-16x9.jpg",
-                "fileHash": "22bfb674f762c7eefed5679dedbe6253",
-                "variants": [
-                    {
-                        "size": 4331,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
-                        "width": 500,
-                        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
-                        "origFileName": "placeholder-3-16x9-p-500.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
-                        "format": "jpg",
-                        "_id": "637c094160019a411c546699",
-                        "quality": 100
-                    },
-                    {
-                        "size": 7713,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
-                        "width": 800,
-                        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
-                        "origFileName": "placeholder-3-16x9-p-800.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
-                        "format": "jpg",
-                        "_id": "637c094160019a8ab354669a",
-                        "quality": 100
-                    },
-                    {
-                        "size": 11388,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
-                        "width": 1080,
-                        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
-                        "origFileName": "placeholder-3-16x9-p-1080.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
-                        "format": "jpg",
-                        "_id": "637c094160019a07ae54669b",
-                        "quality": 100
-                    }
-                ],
-                "mimeType": "image/jpeg",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
-                "_id": "637c0a456dbeef52b176a1ac",
-                "updatedOn": "2022-11-21T23:31:17.858Z",
-                "markedAsDeleted": false,
-                "fileSize": 25210
-            },
-            {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
-                "siteId": "632c810da53ace0dadd9a59a",
-                "isHD": false,
-                "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
-                "createdOn": "2022-11-21T23:31:17.660Z",
-                "origFileName": "placeholder-4-16x9.jpg",
-                "fileHash": "4d46d44ab91004137f504d7a52fc4fa2",
-                "variants": [
-                    {
-                        "size": 4094,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
-                        "width": 500,
-                        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
-                        "origFileName": "placeholder-4-16x9-p-500.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
-                        "format": "jpg",
-                        "_id": "637c0941726da759156b4867",
-                        "quality": 100
-                    },
-                    {
-                        "size": 7277,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
-                        "width": 800,
-                        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
-                        "origFileName": "placeholder-4-16x9-p-800.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
-                        "format": "jpg",
-                        "_id": "637c0941726da7a8436b4868",
-                        "quality": 100
-                    },
-                    {
-                        "size": 10750,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
-                        "width": 1080,
-                        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
-                        "origFileName": "placeholder-4-16x9-p-1080.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
-                        "format": "jpg",
-                        "_id": "637c0941726da791076b4869",
-                        "quality": 100
-                    }
-                ],
-                "mimeType": "image/jpeg",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
-                "_id": "637c0a456dbeeff5c476a1a0",
-                "updatedOn": "2022-11-21T23:31:17.802Z",
-                "markedAsDeleted": false,
-                "fileSize": 24065
-            },
-            {
-                "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
-                "siteId": "632c810da53ace0dadd9a59a",
-                "isHD": false,
-                "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
-                "createdOn": "2022-11-21T23:31:17.676Z",
-                "origFileName": "placeholder-5-16x9.jpg",
-                "fileHash": "0915f829ea60fc5bc461a1cf49f882a0",
-                "variants": [
-                    {
-                        "size": 4206,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
-                        "width": 500,
-                        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
-                        "origFileName": "placeholder-5-16x9-p-500.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
-                        "format": "jpg",
-                        "_id": "637c09411ce82b442b86d9c3",
-                        "quality": 100
-                    },
-                    {
-                        "size": 7548,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
-                        "width": 800,
-                        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
-                        "origFileName": "placeholder-5-16x9-p-800.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
-                        "format": "jpg",
-                        "_id": "637c09411ce82bc7de86d9c4",
-                        "quality": 100
-                    },
-                    {
-                        "size": 11140,
-                        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
-                        "width": 1080,
-                        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
-                        "origFileName": "placeholder-5-16x9-p-1080.jpg",
-                        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
-                        "format": "jpg",
-                        "_id": "637c09411ce82b5cf886d9c5",
-                        "quality": 100
-                    }
-                ],
-                "mimeType": "image/jpeg",
-                "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
-                "_id": "637c0a456dbeefd61476a1a8",
-                "updatedOn": "2022-11-21T23:31:17.896Z",
-                "markedAsDeleted": false,
-                "fileSize": 24845
-            }
-        ],
-        "ix1": [],
-        "ix2": {
-            "interactions": [],
-            "events": [],
-            "actionLists": []
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d7",
+        "type": "Block",
+        "tag": "section",
+        "classes": ["6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6"],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769d8"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
         }
-    },
-    "meta": {
-        "unlinkedSymbolCount": 0,
-        "droppedLinks": 0,
-        "dynBindRemovedCount": 0,
-        "dynListBindRemovedCount": 0,
-        "paginationRemovedCount": 0
-    }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d8",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769d9"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769d9",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769da"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769da",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": [
+          "e0a863dd-cf05-183c-fa5e-fcefc77769db",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769df",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769de"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769db",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+          "958a5e16-2841-2e79-63c2-294d56721f90"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769dc"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769dc",
+        "type": "Heading",
+        "tag": "h1",
+        "classes": [],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769dd"],
+        "data": {
+          "tag": "h1",
+          "displayName": "",
+          "attr": { "id": "" },
+          "xattr": [],
+          "search": { "exclude": false },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769dd",
+        "text": true,
+        "v": "Gallery 2 - Splide Vertical 16:9"
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769df",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": ["848371fd-ebe2-d0b3-42ed-0a29e0720d83"],
+        "children": [],
+        "v": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery2 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \"#splide-2 .splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery2 = () => {\n    removeDotsGallery2();\n    const splide = new Splide(\"#splide-2\", {\n        type: \"slide\",\n        // perMove: 1,\n        // perPage: 1,\n        lazyLoad: false,\n        direction: 'ttb',\n        paginationDirection: 'ttb',\n        heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625\n        //gap: \"3rem\",\n        //omitEnd: true,\n        arrows: true,\n        pagination: true,\n        drag: true,\n    });\n\n    splide.mount();\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", buildGallery2)\n\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery2 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \"#splide-2 .splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery2 = () => {\n    removeDotsGallery2();\n    const splide = new Splide(\"#splide-2\", {\n        type: \"slide\",\n        // perMove: 1,\n        // perPage: 1,\n        lazyLoad: false,\n        direction: 'ttb',\n        paginationDirection: 'ttb',\n        heightRatio: 0.5625, // aspect ratio 9/16 = 0.5625\n        //gap: \"3rem\",\n        //omitEnd: true,\n        arrows: true,\n        pagination: true,\n        drag: true,\n    });\n\n    splide.mount();\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", buildGallery2)\n\n</script>\n\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}\n*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
+              "div": false,
+              "iframe": false,
+              "script": true
+            }
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769de",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d85"
+        ],
+        "children": [
+          "e0a863dd-cf05-183c-fa5e-fcefc77769e0",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769ec",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769ef"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "splide-2" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e0",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d86"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769e1"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e1",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d87"
+        ],
+        "children": [
+          "e0a863dd-cf05-183c-fa5e-fcefc77769e2",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769e4",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769e6",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769e8",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769ea"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e2",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769e3"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e3",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["848371fd-ebe2-d0b3-42ed-0a29e0720d84"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
+            "loading": "eager",
+            "height": "auto",
+            "width": "auto"
+          },
+          "img": {
+            "id": "637c0a456dbeef60f776a19c",
+            "sizes": [
+              { "max": 479, "size": "100vw" },
+              { "max": 767, "size": "86vw" },
+              { "max": 991, "size": "85vw" },
+              { "max": 10000, "size": "89vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e4",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769e5"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e5",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["848371fd-ebe2-d0b3-42ed-0a29e0720d84"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
+            "loading": "eager",
+            "width": "auto",
+            "height": "auto"
+          },
+          "img": {
+            "id": "637c0a456dbeef7cc276a1a4",
+            "sizes": [
+              { "max": 479, "size": "100vw" },
+              { "max": 767, "size": "86vw" },
+              { "max": 991, "size": "85vw" },
+              { "max": 10000, "size": "89vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e6",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769e7"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e7",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["848371fd-ebe2-d0b3-42ed-0a29e0720d84"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
+            "loading": "eager",
+            "width": "auto",
+            "height": "auto"
+          },
+          "img": {
+            "id": "637c0a456dbeef52b176a1ac",
+            "sizes": [
+              { "max": 479, "size": "100vw" },
+              { "max": 767, "size": "86vw" },
+              { "max": 991, "size": "85vw" },
+              { "max": 10000, "size": "89vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e8",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769e9"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769e9",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["848371fd-ebe2-d0b3-42ed-0a29e0720d84"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
+            "loading": "eager",
+            "width": "auto",
+            "height": "auto"
+          },
+          "img": {
+            "id": "637c0a456dbeeff5c476a1a0",
+            "sizes": [
+              { "max": 479, "size": "100vw" },
+              { "max": 767, "size": "86vw" },
+              { "max": 991, "size": "85vw" },
+              { "max": 10000, "size": "89vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ea",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d88"
+        ],
+        "children": ["e0a863dd-cf05-183c-fa5e-fcefc77769eb"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769eb",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["848371fd-ebe2-d0b3-42ed-0a29e0720d84"],
+        "children": [],
+        "data": {
+          "attr": {
+            "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
+            "loading": "eager",
+            "width": "auto",
+            "height": "auto"
+          },
+          "img": {
+            "id": "637c0a456dbeefd61476a1a8",
+            "sizes": [
+              { "max": 479, "size": "100vw" },
+              { "max": 767, "size": "86vw" },
+              { "max": 991, "size": "85vw" },
+              { "max": 10000, "size": "89vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ec",
+        "type": "List",
+        "tag": "ul",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d89",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d8d"
+        ],
+        "children": [
+          "e0a863dd-cf05-183c-fa5e-fcefc77769ed",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769ee"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "ul",
+          "list": { "type": "list", "unstyled": false }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ed",
+        "type": "ListItem",
+        "tag": "li",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
+        ],
+        "children": [],
+        "data": { "list": { "type": "item" } }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ee",
+        "type": "ListItem",
+        "tag": "li",
+        "classes": ["f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a"],
+        "children": [],
+        "data": { "list": { "type": "item" } }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769ef",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d8a",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d8b"
+        ],
+        "children": [
+          "e0a863dd-cf05-183c-fa5e-fcefc77769f0",
+          "e0a863dd-cf05-183c-fa5e-fcefc77769f1"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769f0",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d8e"
+        ],
+        "children": [],
+        "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z\"/>\n</svg>\n</button>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--prev wb-custom-arrow\">\n\n\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M14.5,32V5.7L2.1,18.1l-2.1-2.1L16,0l16,16-2.1,2.1L17.5,5.7v26.3h-3Z\"/>\n</svg>\n</button>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      },
+      {
+        "_id": "e0a863dd-cf05-183c-fa5e-fcefc77769f1",
+        "type": "HtmlEmbed",
+        "tag": "div",
+        "classes": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d8c"
+        ],
+        "children": [],
+        "v": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z\"/>\n</svg>\n </button>",
+        "data": {
+          "insideRTE": false,
+          "search": { "exclude": true },
+          "embed": {
+            "type": "html",
+            "meta": {
+              "html": "<!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->\n<button class=\"splide__arrow splide__arrow--next wb-custom-arrow\">\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\">\n  <path d=\"M16,32L0,16l2.1-2.1,12.4,12.4V0h3V26.3l12.4-12.4,2.1,2.1-16,16Z\"/>\n</svg>\n </button>",
+              "div": false,
+              "iframe": false,
+              "script": false,
+              "compilable": false
+            }
+          }
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d88",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "position: relative; padding-top: 56.25%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
+        "fake": false,
+        "type": "class",
+        "name": "is-next",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "position: absolute; left: auto; top: 0%; right: 0%; bottom: auto;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d8c"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8130",
+        "fake": false,
+        "type": "class",
+        "name": "splide__track",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d86"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8c",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "left: auto; top: auto; right: 0%; bottom: 0%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d84",
+        "fake": false,
+        "type": "class",
+        "name": "gallery2_image",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "position: absolute; left: 0%; top: 0%; right: 0%; bottom: 0%; width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d86",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "flex-grow: 1; flex-shrink: 1; flex-basis: 0%;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8136",
+        "fake": false,
+        "type": "class",
+        "name": "wb-custom-arrow",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; width: 3rem; height: 3rem; padding-top: 0.5rem; padding-right: 0.5rem; padding-bottom: 0.5rem; padding-left: 0.5rem; flex-direction: column; justify-content: center; align-items: center; background-color: hsla(0, 0.00%, 92.55%, 1.00); transition-property: opacity; transition-duration: 200ms; transition-timing-function: ease;",
+        "variants": {},
+        "children": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813e",
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f"
+        ],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "958a5e16-2841-2e79-63c2-294d56721f90",
+        "fake": false,
+        "type": "class",
+        "name": "margin-medium",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8135",
+        "fake": false,
+        "type": "class",
+        "name": "splide__list",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d87"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d87",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "display: flex; flex-direction: column;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813f",
+        "fake": false,
+        "type": "class",
+        "name": "is-prev",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "position: absolute; left: 0%; top: 0%; right: auto; bottom: auto;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d8e"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8d",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "margin-right: 1rem; margin-bottom: 0px; margin-left: 2rem; padding-top: 0rem; padding-bottom: 0rem; flex-direction: column; grid-column-gap: 0.5rem; grid-row-gap: 0.5rem;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d89",
+        "fake": false,
+        "type": "class",
+        "name": "splide__pagination--ttb",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "display: flex; padding-top: 1rem; padding-right: 0px; padding-bottom: 1rem; padding-left: 0px; justify-content: center; grid-column-gap: 0.5rem;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d8d"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d83",
+        "fake": false,
+        "type": "class",
+        "name": "gallery2_splide-code",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
+        "fake": false,
+        "type": "class",
+        "name": "splide__pagination__page",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 1rem; height: 1rem; background-color: hsla(0, 0.00%, 88.00%, 1.00); list-style-type: none;",
+        "variants": {},
+        "children": ["f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+        "fake": false,
+        "type": "class",
+        "name": "margin-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          }
+        },
+        "children": [
+          "9d004126-fc55-e79b-1834-e9fec67f49bc",
+          "d636392d-e17a-9f2e-fd46-fdee33931652",
+          "27251a35-bc44-1dde-6e36-8f5109b1cced",
+          "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
+          "958a5e16-2841-2e79-63c2-294d56721f90",
+          "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8b",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "margin-top: 0rem; grid-column-gap: 0rem;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
+        "fake": false,
+        "type": "class",
+        "name": "container-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8132",
+        "fake": false,
+        "type": "class",
+        "name": "splide__arrows",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813b",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d8a"
+        ],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8138",
+        "fake": false,
+        "type": "class",
+        "name": "splide__slide",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d88"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8a",
+        "fake": false,
+        "type": "class",
+        "name": "wb-arrows",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "position: relative; display: flex; margin-top: 1rem; flex-direction: column; justify-content: space-between; grid-column-gap: 1rem;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d8b"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d85",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "display: flex; grid-auto-columns: 1fr; grid-template-columns: 1fr auto; grid-template-rows: auto auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "848371fd-ebe2-d0b3-42ed-0a29e0720d8e",
+        "fake": false,
+        "type": "class",
+        "name": "is-gallery2",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "left: auto; top: 0%; right: 0%; bottom: auto;",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
+        "fake": false,
+        "type": "class",
+        "name": "splide",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": ["848371fd-ebe2-d0b3-42ed-0a29e0720d85"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d",
+        "fake": false,
+        "type": "class",
+        "name": "is-active",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "background-color: hsla(0, 0.00%, 0.00%, 1.00);",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8134",
+        "fake": false,
+        "type": "class",
+        "name": "splide__pagination",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [
+          "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c",
+          "848371fd-ebe2-d0b3-42ed-0a29e0720d89"
+        ],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6",
+        "fake": false,
+        "type": "class",
+        "name": "section",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 1280,
+        "isHD": false,
+        "height": 720,
+        "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
+        "createdOn": "2022-11-21T23:31:17.652Z",
+        "origFileName": "placeholder-1-16x9.jpg",
+        "fileHash": "90dd5bf4cd0714bcce31d2338c030ec3",
+        "variants": [
+          {
+            "_id": "637c0941160fdd4f3f682401",
+            "origFileName": "placeholder-1-16x9-p-500.jpg",
+            "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
+            "format": "jpg",
+            "size": 3516,
+            "width": 500,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-500.jpg"
+          },
+          {
+            "_id": "637c0941160fdd2739682402",
+            "origFileName": "placeholder-1-16x9-p-800.jpg",
+            "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
+            "format": "jpg",
+            "size": 6518,
+            "width": 800,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-800.jpg"
+          },
+          {
+            "_id": "637c0941160fdd1f1c682403",
+            "origFileName": "placeholder-1-16x9-p-1080.jpg",
+            "fileName": "637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
+            "format": "jpg",
+            "size": 9676,
+            "width": 1080,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-1080.jpg"
+          }
+        ],
+        "mimeType": "image/jpeg",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg",
+        "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9-p-130x130q80.jpg",
+        "_id": "637c0a456dbeef60f776a19c",
+        "updatedOn": "2022-11-21T23:53:51.829Z",
+        "markedAsDeleted": false,
+        "fileSize": 22291
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 1280,
+        "isHD": false,
+        "height": 720,
+        "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
+        "createdOn": "2022-11-21T23:31:17.669Z",
+        "origFileName": "placeholder-2-16x9.jpg",
+        "fileHash": "856502e9ed22ed6d9442ec6ec3b05662",
+        "variants": [
+          {
+            "_id": "637c094160019a471e5466a0",
+            "origFileName": "placeholder-2-16x9-p-500.jpg",
+            "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
+            "format": "jpg",
+            "size": 4301,
+            "width": 500,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-500.jpg"
+          },
+          {
+            "_id": "637c094160019a5b565466a1",
+            "origFileName": "placeholder-2-16x9-p-800.jpg",
+            "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
+            "format": "jpg",
+            "size": 7819,
+            "width": 800,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-800.jpg"
+          },
+          {
+            "_id": "637c094160019a3d0b5466a2",
+            "origFileName": "placeholder-2-16x9-p-1080.jpg",
+            "fileName": "637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
+            "format": "jpg",
+            "size": 11318,
+            "width": 1080,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-1080.jpg"
+          }
+        ],
+        "mimeType": "image/jpeg",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9.jpg",
+        "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/632c810da53ace0dadd9a59a/637c0a456dbeef7cc276a1a4_placeholder-2-16x9-p-130x130q80.jpg",
+        "_id": "637c0a456dbeef7cc276a1a4",
+        "updatedOn": "2022-11-21T23:53:51.779Z",
+        "markedAsDeleted": false,
+        "fileSize": 25485
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 1280,
+        "isHD": false,
+        "height": 720,
+        "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
+        "createdOn": "2022-11-21T23:31:17.683Z",
+        "origFileName": "placeholder-3-16x9.jpg",
+        "fileHash": "22bfb674f762c7eefed5679dedbe6253",
+        "variants": [
+          {
+            "_id": "637c094160019a411c546699",
+            "origFileName": "placeholder-3-16x9-p-500.jpg",
+            "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
+            "format": "jpg",
+            "size": 4331,
+            "width": 500,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-500.jpg"
+          },
+          {
+            "_id": "637c094160019a8ab354669a",
+            "origFileName": "placeholder-3-16x9-p-800.jpg",
+            "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
+            "format": "jpg",
+            "size": 7713,
+            "width": 800,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-800.jpg"
+          },
+          {
+            "_id": "637c094160019a07ae54669b",
+            "origFileName": "placeholder-3-16x9-p-1080.jpg",
+            "fileName": "637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
+            "format": "jpg",
+            "size": 11388,
+            "width": 1080,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-1080.jpg"
+          }
+        ],
+        "mimeType": "image/jpeg",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9.jpg",
+        "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/632c810da53ace0dadd9a59a/637c0a456dbeef52b176a1ac_placeholder-3-16x9-p-130x130q80.jpg",
+        "_id": "637c0a456dbeef52b176a1ac",
+        "updatedOn": "2022-11-21T23:53:51.734Z",
+        "markedAsDeleted": false,
+        "fileSize": 25210
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 1280,
+        "isHD": false,
+        "height": 720,
+        "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
+        "createdOn": "2022-11-21T23:31:17.660Z",
+        "origFileName": "placeholder-4-16x9.jpg",
+        "fileHash": "4d46d44ab91004137f504d7a52fc4fa2",
+        "variants": [
+          {
+            "_id": "637c0941726da759156b4867",
+            "origFileName": "placeholder-4-16x9-p-500.jpg",
+            "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
+            "format": "jpg",
+            "size": 4094,
+            "width": 500,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-500.jpg"
+          },
+          {
+            "_id": "637c0941726da7a8436b4868",
+            "origFileName": "placeholder-4-16x9-p-800.jpg",
+            "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
+            "format": "jpg",
+            "size": 7277,
+            "width": 800,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-800.jpg"
+          },
+          {
+            "_id": "637c0941726da791076b4869",
+            "origFileName": "placeholder-4-16x9-p-1080.jpg",
+            "fileName": "637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
+            "format": "jpg",
+            "size": 10750,
+            "width": 1080,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-1080.jpg"
+          }
+        ],
+        "mimeType": "image/jpeg",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9.jpg",
+        "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/632c810da53ace0dadd9a59a/637c0a456dbeeff5c476a1a0_placeholder-4-16x9-p-130x130q80.jpg",
+        "_id": "637c0a456dbeeff5c476a1a0",
+        "updatedOn": "2022-11-21T23:53:51.781Z",
+        "markedAsDeleted": false,
+        "fileSize": 24065
+      },
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "width": 1280,
+        "isHD": false,
+        "height": 720,
+        "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
+        "createdOn": "2022-11-21T23:31:17.676Z",
+        "origFileName": "placeholder-5-16x9.jpg",
+        "fileHash": "0915f829ea60fc5bc461a1cf49f882a0",
+        "variants": [
+          {
+            "_id": "637c09411ce82b442b86d9c3",
+            "origFileName": "placeholder-5-16x9-p-500.jpg",
+            "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
+            "format": "jpg",
+            "size": 4206,
+            "width": 500,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-500.jpg"
+          },
+          {
+            "_id": "637c09411ce82bc7de86d9c4",
+            "origFileName": "placeholder-5-16x9-p-800.jpg",
+            "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
+            "format": "jpg",
+            "size": 7548,
+            "width": 800,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-800.jpg"
+          },
+          {
+            "_id": "637c09411ce82b5cf886d9c5",
+            "origFileName": "placeholder-5-16x9-p-1080.jpg",
+            "fileName": "637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
+            "format": "jpg",
+            "size": 11140,
+            "width": 1080,
+            "quality": 100,
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg",
+            "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-1080.jpg"
+          }
+        ],
+        "mimeType": "image/jpeg",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg",
+        "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9-p-130x130q80.jpg",
+        "_id": "637c0a456dbeefd61476a1a8",
+        "updatedOn": "2022-11-21T23:53:51.738Z",
+        "markedAsDeleted": false,
+        "fileSize": 24845
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
 }
