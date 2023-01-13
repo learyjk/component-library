@@ -21,6 +21,7 @@
           <script>
             // Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots
             const removeDotsGallery2 = () => {
+              console.log("remove2");
               const paginationStyles = document.querySelectorAll(
                 "#splide-2 .splide__pagination__page"
               );
@@ -30,6 +31,7 @@
             };
 
             const buildGallery2 = () => {
+              console.log("build2");
               removeDotsGallery2();
               const splide = new Splide("#splide-2", {
                 type: "slide",
@@ -47,31 +49,39 @@
               });
 
               splide.mount();
+              console.log("endbuild2");
             };
 
-            document.addEventListener("DOMContentLoaded", buildGallery2);
+            if (
+              document.readyState === "complete" ||
+              document.readyState === "loaded"
+            ) {
+              buildGallery2();
+            } else {
+              document.addEventListener("DOMContentLoaded", buildGallery2);
+            }
           </script>
 
           <style>
             /* You can use the combo classes below to style specific slides or to help with debugging*/
             /*
-    .splide__slide.is-visible {
-        padding: 1rem;
-      background-color: green;
-    }
-    .splide__slide.is-next {
-        padding: 1rem;
-      background-color: blue;
-    }
-    .splide__slide.is-prev {
-        padding: 1rem;
-      background-color: yellow;
-    }
-    .splide__slide.is-active {
-        padding: 1rem;
-      background-color: red;
-    }
-    */
+  .splide__slide.is-visible {
+    padding: 1rem;
+    background-color: green;
+  }
+  .splide__slide.is-next {
+    padding: 1rem;
+    background-color: blue;
+  }
+  .splide__slide.is-prev {
+    padding: 1rem;
+    background-color: yellow;
+  }
+  .splide__slide.is-active {
+    padding: 1rem;
+    background-color: red;
+  }
+  */
 
             .splide__arrow:disabled {
               opacity: 0.5;
@@ -90,26 +100,24 @@
             style="
               padding-top: 0px;
               padding-bottom: 0px;
-              height: calc(585.562px);
+              height: calc(523.125px);
             "
             aria-live="polite"
             aria-atomic="true"
-            aria-busy="false"
           >
             <div
               class="splide__list is-gallery2"
               id="splide-2-list"
               role="presentation"
-              style="transform: translateY(-2342.25px)"
+              style="transform: translateY(0px)"
             >
               <div
-                class="splide__slide is-gallery2"
+                class="splide__slide is-gallery2 is-active is-visible"
                 id="splide-2-slide01"
                 role="tabpanel"
                 aria-roledescription="slide"
                 aria-label="1 of 5"
                 style="height: calc(100%)"
-                aria-hidden="true"
               >
                 <img
                   src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeef60f776a19c_placeholder-1-16x9.jpg"
@@ -126,7 +134,7 @@
                 />
               </div>
               <div
-                class="splide__slide is-gallery2"
+                class="splide__slide is-gallery2 is-next"
                 id="splide-2-slide02"
                 role="tabpanel"
                 aria-roledescription="slide"
@@ -172,7 +180,7 @@
                 />
               </div>
               <div
-                class="splide__slide is-gallery2 is-prev"
+                class="splide__slide is-gallery2"
                 id="splide-2-slide04"
                 role="tabpanel"
                 aria-roledescription="slide"
@@ -195,12 +203,13 @@
                 />
               </div>
               <div
-                class="splide__slide is-gallery2 is-active is-visible"
+                class="splide__slide is-gallery2"
                 id="splide-2-slide05"
                 role="tabpanel"
                 aria-roledescription="slide"
                 aria-label="5 of 5"
                 style="height: calc(100%)"
+                aria-hidden="true"
               >
                 <img
                   src="https://assets.website-files.com/632c810da53ace0dadd9a59a/637c0a456dbeefd61476a1a8_placeholder-5-16x9.jpg"
@@ -226,12 +235,12 @@
           >
             <li role="presentation">
               <button
-                class="splide__pagination__page"
+                class="splide__pagination__page is-active"
                 type="button"
                 role="tab"
                 aria-controls="splide-2-slide01"
                 aria-label="Go to slide 1"
-                tabindex="-1"
+                aria-selected="true"
               ></button>
             </li>
             <li role="presentation">
@@ -266,12 +275,12 @@
             </li>
             <li role="presentation">
               <button
-                class="splide__pagination__page is-active"
+                class="splide__pagination__page"
                 type="button"
                 role="tab"
                 aria-controls="splide-2-slide05"
                 aria-label="Go to slide 5"
-                aria-selected="true"
+                tabindex="-1"
               ></button>
             </li>
           </ul>
@@ -280,6 +289,7 @@
               <!--Note that each arrow must be <button> to receive focus and a disabled attribute.-->
               <button
                 class="splide__arrow splide__arrow--prev wb-custom-arrow"
+                disabled=""
                 aria-label="Previous slide"
                 aria-controls="splide-2-track"
               >
@@ -302,7 +312,6 @@
                 class="splide__arrow splide__arrow--next wb-custom-arrow"
                 aria-label="Next slide"
                 aria-controls="splide-2-track"
-                disabled=""
               >
                 <!--?xml version="1.0" encoding="UTF-8"?-->
                 <svg
