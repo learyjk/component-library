@@ -1,1 +1,1270 @@
-{"type":"@webflow/XscpData","payload":{"nodes":[{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be87","type":"Block","tag":"section","classes":[],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be88"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"section"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be88","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be89"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be89","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be8a"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be8a","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be8b","3dede2c3-72e4-8e85-f097-7498de0aba8a"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be8b","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82622","958a5e16-2841-2e79-63c2-294d56721f90"],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be8c"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be8c","type":"Heading","tag":"h2","classes":[],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be8d"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h2"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be8d","text":true,"v":"Feature 7 Component"},{"_id":"3dede2c3-72e4-8e85-f097-7498de0aba8a","type":"Block","tag":"div","classes":["850f5fa7-073e-7cbc-5913-5d78db6c1921"],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be8f","50d89033-8f86-3578-ecc2-255fe0560332","6e115dbc-2326-0ade-b8f1-72a5f36b1b35","9ec06537-1c6d-518d-fc69-c6afc9d59a04","c3af8bcc-224f-edb4-bb83-73f78f5aa786","bd3138e4-69f8-077d-cd37-1aa2caada9d4"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be8f","type":"Block","tag":"div","classes":["fb8c8c26-99cc-8c62-1942-77681b421858"],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be91","261c2ac0-e3c8-ef7b-03bb-2000ff78be93","4b8823b9-45c6-1628-74a8-48de190a5d62"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be91","type":"Heading","tag":"h3","classes":[],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be92"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h3"}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be92","text":true,"v":"Bless Up"},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be93","type":"Paragraph","tag":"p","classes":[],"children":["261c2ac0-e3c8-ef7b-03bb-2000ff78be94"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]}}},{"_id":"261c2ac0-e3c8-ef7b-03bb-2000ff78be94","text":true,"v":"I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."},{"_id":"4b8823b9-45c6-1628-74a8-48de190a5d62","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","56168fa1-629c-32d5-738d-a3a3589aecf9"],"children":["3a20c215-90d8-9102-f9da-027ee94a1214"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"3a20c215-90d8-9102-f9da-027ee94a1214","type":"Link","tag":"a","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],"children":["3a20c215-90d8-9102-f9da-027ee94a1215"],"data":{"search":{"exclude":true},"xattr":[],"block":"","displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"button":true,"link":{"mode":"external","url":"#"}}},{"_id":"3a20c215-90d8-9102-f9da-027ee94a1215","text":true,"v":"Learn More"},{"_id":"50d89033-8f86-3578-ecc2-255fe0560332","type":"Block","tag":"div","classes":["fb8c8c26-99cc-8c62-1942-77681b421858"],"children":["50d89033-8f86-3578-ecc2-255fe0560333","50d89033-8f86-3578-ecc2-255fe0560335","50d89033-8f86-3578-ecc2-255fe0560337"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"50d89033-8f86-3578-ecc2-255fe0560333","type":"Heading","tag":"h3","classes":[],"children":["50d89033-8f86-3578-ecc2-255fe0560334"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h3"}},{"_id":"50d89033-8f86-3578-ecc2-255fe0560334","text":true,"v":"Bless Up"},{"_id":"50d89033-8f86-3578-ecc2-255fe0560335","type":"Paragraph","tag":"p","classes":[],"children":["50d89033-8f86-3578-ecc2-255fe0560336"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]}}},{"_id":"50d89033-8f86-3578-ecc2-255fe0560336","text":true,"v":"I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."},{"_id":"50d89033-8f86-3578-ecc2-255fe0560337","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","56168fa1-629c-32d5-738d-a3a3589aecf9"],"children":["50d89033-8f86-3578-ecc2-255fe0560338"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"50d89033-8f86-3578-ecc2-255fe0560338","type":"Link","tag":"a","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],"children":["50d89033-8f86-3578-ecc2-255fe0560339"],"data":{"search":{"exclude":true},"xattr":[],"block":"","displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"button":true,"link":{"mode":"external","url":"#"}}},{"_id":"50d89033-8f86-3578-ecc2-255fe0560339","text":true,"v":"Learn More"},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b35","type":"Block","tag":"div","classes":["fb8c8c26-99cc-8c62-1942-77681b421858"],"children":["6e115dbc-2326-0ade-b8f1-72a5f36b1b36","6e115dbc-2326-0ade-b8f1-72a5f36b1b38","6e115dbc-2326-0ade-b8f1-72a5f36b1b3a"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b36","type":"Heading","tag":"h3","classes":[],"children":["6e115dbc-2326-0ade-b8f1-72a5f36b1b37"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h3"}},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b37","text":true,"v":"Bless Up"},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b38","type":"Paragraph","tag":"p","classes":[],"children":["6e115dbc-2326-0ade-b8f1-72a5f36b1b39"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]}}},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b39","text":true,"v":"I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b3a","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","56168fa1-629c-32d5-738d-a3a3589aecf9"],"children":["6e115dbc-2326-0ade-b8f1-72a5f36b1b3b"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b3b","type":"Link","tag":"a","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],"children":["6e115dbc-2326-0ade-b8f1-72a5f36b1b3c"],"data":{"search":{"exclude":true},"xattr":[],"block":"","displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"button":true,"link":{"mode":"external","url":"#"}}},{"_id":"6e115dbc-2326-0ade-b8f1-72a5f36b1b3c","text":true,"v":"Learn More"},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a04","type":"Block","tag":"div","classes":["fb8c8c26-99cc-8c62-1942-77681b421858"],"children":["9ec06537-1c6d-518d-fc69-c6afc9d59a05","9ec06537-1c6d-518d-fc69-c6afc9d59a07","9ec06537-1c6d-518d-fc69-c6afc9d59a09"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a05","type":"Heading","tag":"h3","classes":[],"children":["9ec06537-1c6d-518d-fc69-c6afc9d59a06"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h3"}},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a06","text":true,"v":"Bless Up"},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a07","type":"Paragraph","tag":"p","classes":[],"children":["9ec06537-1c6d-518d-fc69-c6afc9d59a08"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]}}},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a08","text":true,"v":"I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a09","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","56168fa1-629c-32d5-738d-a3a3589aecf9"],"children":["9ec06537-1c6d-518d-fc69-c6afc9d59a0a"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a0a","type":"Link","tag":"a","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],"children":["9ec06537-1c6d-518d-fc69-c6afc9d59a0b"],"data":{"search":{"exclude":true},"xattr":[],"block":"","displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"button":true,"link":{"mode":"external","url":"#"}}},{"_id":"9ec06537-1c6d-518d-fc69-c6afc9d59a0b","text":true,"v":"Learn More"},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa786","type":"Block","tag":"div","classes":["fb8c8c26-99cc-8c62-1942-77681b421858"],"children":["c3af8bcc-224f-edb4-bb83-73f78f5aa787","c3af8bcc-224f-edb4-bb83-73f78f5aa789","c3af8bcc-224f-edb4-bb83-73f78f5aa78b"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa787","type":"Heading","tag":"h3","classes":[],"children":["c3af8bcc-224f-edb4-bb83-73f78f5aa788"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h3"}},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa788","text":true,"v":"Bless Up"},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa789","type":"Paragraph","tag":"p","classes":[],"children":["c3af8bcc-224f-edb4-bb83-73f78f5aa78a"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]}}},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa78a","text":true,"v":"I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa78b","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","56168fa1-629c-32d5-738d-a3a3589aecf9"],"children":["c3af8bcc-224f-edb4-bb83-73f78f5aa78c"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa78c","type":"Link","tag":"a","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],"children":["c3af8bcc-224f-edb4-bb83-73f78f5aa78d"],"data":{"search":{"exclude":true},"xattr":[],"block":"","displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"button":true,"link":{"mode":"external","url":"#"}}},{"_id":"c3af8bcc-224f-edb4-bb83-73f78f5aa78d","text":true,"v":"Learn More"},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9d4","type":"Block","tag":"div","classes":["fb8c8c26-99cc-8c62-1942-77681b421858"],"children":["bd3138e4-69f8-077d-cd37-1aa2caada9d5","bd3138e4-69f8-077d-cd37-1aa2caada9d7","bd3138e4-69f8-077d-cd37-1aa2caada9d9"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9d5","type":"Heading","tag":"h3","classes":[],"children":["bd3138e4-69f8-077d-cd37-1aa2caada9d6"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"h3"}},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9d6","text":true,"v":"Bless Up"},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9d7","type":"Paragraph","tag":"p","classes":[],"children":["bd3138e4-69f8-077d-cd37-1aa2caada9d8"],"data":{"search":{"exclude":false},"xattr":[],"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]}}},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9d8","text":true,"v":"I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9d9","type":"Block","tag":"div","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","56168fa1-629c-32d5-738d-a3a3589aecf9"],"children":["bd3138e4-69f8-077d-cd37-1aa2caada9da"],"data":{"search":{"exclude":false},"xattr":[],"text":false,"displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"tag":"div"}},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9da","type":"Link","tag":"a","classes":["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],"children":["bd3138e4-69f8-077d-cd37-1aa2caada9db"],"data":{"search":{"exclude":true},"xattr":[],"block":"","displayName":"","devlink":{"runtimeProps":{},"slot":""},"style":{"base":{"main":{"noPseudo":{"gridColumnStart":"span 1","gridColumnEnd":"span 1","gridRowStart":"span 1","gridRowEnd":"span 1"}}}},"attr":{"id":""},"visibility":{"conditions":[]},"button":true,"link":{"mode":"external","url":"#"}}},{"_id":"bd3138e4-69f8-077d-cd37-1aa2caada9db","text":true,"v":"Learn More"}],"styles":[{"_id":"958a5e16-2841-2e79-63c2-294d56721f90","fake":false,"type":"class","name":"margin-medium","namespace":"","comb":"&","styleLess":"","variants":{},"children":[],"createdBy":"6105ef3f19602768b12c8a43","selector":null},{"_id":"fb8c8c26-99cc-8c62-1942-77681b421858","fake":false,"type":"class","name":"feature7_card","namespace":"","comb":"","styleLess":"display: grid; padding-top: 2rem; padding-right: 2.5rem; padding-bottom: 2rem; padding-left: 2.5rem; justify-items: start; grid-auto-columns: 1fr; grid-column-gap: 0.75rem; grid-row-gap: 0.75rem; grid-template-columns: 1fr; grid-template-rows: auto auto; background-image: @img_633c80f6b1dd333eec5319b4; background-position: 0px 0px; background-size: cover; background-repeat: no-repeat;","variants":{"medium":{"styleLess":"background-position: 50% 50%;"}},"children":[],"createdBy":"6105ef3f19602768b12c8a43","selector":null},{"_id":"7eccb33a-59b5-c5e6-f6ad-6117c1c825fc","fake":false,"type":"class","name":"padding-top","namespace":"","comb":"","styleLess":"padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;","variants":{"medium":{"styleLess":"padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"},"small":{"styleLess":"padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"},"tiny":{"styleLess":"padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"}},"children":["56168fa1-629c-32d5-738d-a3a3589aecf9","8af2357b-cd8d-bb36-3801-838dd2e93671","2ea8e7d3-fb8a-cc94-92cc-2bd142feb352"],"selector":null},{"_id":"7eccb33a-59b5-c5e6-f6ad-6117c1c8265f","fake":false,"type":"class","name":"padding-section-large","namespace":"","comb":"","styleLess":"padding-top: 8rem; padding-bottom: 8rem;","variants":{"medium":{"styleLess":"padding-top: 6rem; padding-bottom: 6rem;"},"small":{"styleLess":"padding-top: 4rem; padding-bottom: 4rem;"}},"children":[],"createdBy":"54441c96b0981db6504faf03","selector":null},{"_id":"7eccb33a-59b5-c5e6-f6ad-6117c1c82622","fake":false,"type":"class","name":"margin-bottom","namespace":"","comb":"","styleLess":"margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;","variants":{"medium":{"styleLess":"margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"},"small":{"styleLess":"margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"},"tiny":{"styleLess":"margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"}},"children":["9d004126-fc55-e79b-1834-e9fec67f49bc","d636392d-e17a-9f2e-fd46-fdee33931652","27251a35-bc44-1dde-6e36-8f5109b1cced","224ba9f7-4e41-9a8b-2270-f25b4163c02c","958a5e16-2841-2e79-63c2-294d56721f90","ddc4e436-52f2-f75a-47eb-f1cd12f84663"],"selector":null},{"_id":"7eccb33a-59b5-c5e6-f6ad-6117c1c825fe","fake":false,"type":"class","name":"padding-global","namespace":"","comb":"","styleLess":"padding-right: 2.5rem; padding-left: 2.5rem;","variants":{"small":{"styleLess":"padding-right: 1.25rem; padding-left: 1.25rem;"}},"children":[],"selector":null},{"_id":"7eccb33a-59b5-c5e6-f6ad-6117c1c82605","fake":false,"type":"class","name":"container-large","namespace":"","comb":"","styleLess":"width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;","variants":{},"children":[],"selector":null},{"_id":"7eccb33a-59b5-c5e6-f6ad-6117c1c82628","fake":false,"type":"class","name":"button","namespace":"","comb":"","styleLess":"padding-top: 0.75rem; padding-right: 1.5rem; padding-bottom: 0.75rem; padding-left: 1.5rem; background-color: hsla(222, 0.00%, 0.00%, 1.00); color: hsla(0, 0.00%, 100.00%, 1.00); font-weight: 600; text-align: center;","variants":{},"children":["7eccb33a-59b5-c5e6-f6ad-6117c1c82689","7eccb33a-59b5-c5e6-f6ad-6117c1c8268c","7eccb33a-59b5-c5e6-f6ad-6117c1c8268f","7eccb33a-59b5-c5e6-f6ad-6117c1c82690","7eccb33a-59b5-c5e6-f6ad-6117c1c82691","7eccb33a-59b5-c5e6-f6ad-6117c1c82693","2aaab7de-2b14-5091-266f-bdc286c1cdc9","1e8706ea-f96e-971f-a34e-5f58313ee2d6","3d365896-0b87-8f50-05d4-efe94ccde578","eafbf473-1f74-aecc-545a-67ba541b5fa9"],"selector":null},{"_id":"850f5fa7-073e-7cbc-5913-5d78db6c1921","fake":false,"type":"class","name":"feature7_grid","namespace":"","comb":"","styleLess":"display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto auto;","variants":{},"children":[],"createdBy":"6105ef3f19602768b12c8a43","selector":null},{"_id":"56168fa1-629c-32d5-738d-a3a3589aecf9","fake":false,"type":"class","name":"padding-medium","namespace":"","comb":"&","styleLess":"","variants":{},"children":[],"createdBy":"6105ef3f19602768b12c8a43","selector":null}],"assets":[{"cdnUrl":"https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg","siteId":"632c810da53ace0dadd9a59a","isHD":false,"fileName":"633c80f6b1dd333eec5319b4_placeholder-square.svg","createdOn":"2022-10-04T18:52:38.633Z","origFileName":"placeholder-square.svg","fileHash":"6f8c275b399d2fbc2fb47a78481176cd","variants":[],"mimeType":"image/svg+xml","s3Url":"https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg","thumbUrl":"https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg","_id":"633c80f6b1dd333eec5319b4","updatedOn":"2022-10-04T18:52:38.633Z","fileSize":1299}],"ix1":[],"ix2":{"interactions":[],"events":[],"actionLists":[]}},"meta":{"unlinkedSymbolCount":0,"droppedLinks":0,"dynBindRemovedCount":0,"dynListBindRemovedCount":0,"paginationRemovedCount":0}}
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be87",
+        "type": "Block",
+        "tag": "section",
+        "classes": [],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be88"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "section"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be88",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c825fe"],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be89"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be89",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82605"],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be8a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be8a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c8265f"],
+        "children": [
+          "261c2ac0-e3c8-ef7b-03bb-2000ff78be8b",
+          "3dede2c3-72e4-8e85-f097-7498de0aba8a"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be8b",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+          "958a5e16-2841-2e79-63c2-294d56721f90"
+        ],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be8c"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be8c",
+        "type": "Heading",
+        "tag": "h2",
+        "classes": [],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be8d"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h2"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be8d",
+        "text": true,
+        "v": "Feature 7 Component"
+      },
+      {
+        "_id": "3dede2c3-72e4-8e85-f097-7498de0aba8a",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["850f5fa7-073e-7cbc-5913-5d78db6c1921"],
+        "children": [
+          "261c2ac0-e3c8-ef7b-03bb-2000ff78be8f",
+          "50d89033-8f86-3578-ecc2-255fe0560332",
+          "6e115dbc-2326-0ade-b8f1-72a5f36b1b35",
+          "9ec06537-1c6d-518d-fc69-c6afc9d59a04",
+          "c3af8bcc-224f-edb4-bb83-73f78f5aa786",
+          "bd3138e4-69f8-077d-cd37-1aa2caada9d4"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be8f",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["fb8c8c26-99cc-8c62-1942-77681b421858"],
+        "children": [
+          "261c2ac0-e3c8-ef7b-03bb-2000ff78be91",
+          "261c2ac0-e3c8-ef7b-03bb-2000ff78be93",
+          "4b8823b9-45c6-1628-74a8-48de190a5d62"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be91",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be92"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be92",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be93",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["261c2ac0-e3c8-ef7b-03bb-2000ff78be94"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "261c2ac0-e3c8-ef7b-03bb-2000ff78be94",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "4b8823b9-45c6-1628-74a8-48de190a5d62",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9"
+        ],
+        "children": ["3a20c215-90d8-9102-f9da-027ee94a1214"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "3a20c215-90d8-9102-f9da-027ee94a1214",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["3a20c215-90d8-9102-f9da-027ee94a1215"],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "3a20c215-90d8-9102-f9da-027ee94a1215",
+        "text": true,
+        "v": "Learn More"
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560332",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["fb8c8c26-99cc-8c62-1942-77681b421858"],
+        "children": [
+          "50d89033-8f86-3578-ecc2-255fe0560333",
+          "50d89033-8f86-3578-ecc2-255fe0560335",
+          "50d89033-8f86-3578-ecc2-255fe0560337"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560333",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["50d89033-8f86-3578-ecc2-255fe0560334"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560334",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560335",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["50d89033-8f86-3578-ecc2-255fe0560336"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560336",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560337",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9"
+        ],
+        "children": ["50d89033-8f86-3578-ecc2-255fe0560338"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560338",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["50d89033-8f86-3578-ecc2-255fe0560339"],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "50d89033-8f86-3578-ecc2-255fe0560339",
+        "text": true,
+        "v": "Learn More"
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b35",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["fb8c8c26-99cc-8c62-1942-77681b421858"],
+        "children": [
+          "6e115dbc-2326-0ade-b8f1-72a5f36b1b36",
+          "6e115dbc-2326-0ade-b8f1-72a5f36b1b38",
+          "6e115dbc-2326-0ade-b8f1-72a5f36b1b3a"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b36",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["6e115dbc-2326-0ade-b8f1-72a5f36b1b37"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b37",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b38",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["6e115dbc-2326-0ade-b8f1-72a5f36b1b39"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b39",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b3a",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9"
+        ],
+        "children": ["6e115dbc-2326-0ade-b8f1-72a5f36b1b3b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b3b",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["6e115dbc-2326-0ade-b8f1-72a5f36b1b3c"],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "6e115dbc-2326-0ade-b8f1-72a5f36b1b3c",
+        "text": true,
+        "v": "Learn More"
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a04",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["fb8c8c26-99cc-8c62-1942-77681b421858"],
+        "children": [
+          "9ec06537-1c6d-518d-fc69-c6afc9d59a05",
+          "9ec06537-1c6d-518d-fc69-c6afc9d59a07",
+          "9ec06537-1c6d-518d-fc69-c6afc9d59a09"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a05",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["9ec06537-1c6d-518d-fc69-c6afc9d59a06"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a06",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a07",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["9ec06537-1c6d-518d-fc69-c6afc9d59a08"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a08",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a09",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9"
+        ],
+        "children": ["9ec06537-1c6d-518d-fc69-c6afc9d59a0a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a0a",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["9ec06537-1c6d-518d-fc69-c6afc9d59a0b"],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "9ec06537-1c6d-518d-fc69-c6afc9d59a0b",
+        "text": true,
+        "v": "Learn More"
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa786",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["fb8c8c26-99cc-8c62-1942-77681b421858"],
+        "children": [
+          "c3af8bcc-224f-edb4-bb83-73f78f5aa787",
+          "c3af8bcc-224f-edb4-bb83-73f78f5aa789",
+          "c3af8bcc-224f-edb4-bb83-73f78f5aa78b"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa787",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["c3af8bcc-224f-edb4-bb83-73f78f5aa788"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa788",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa789",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["c3af8bcc-224f-edb4-bb83-73f78f5aa78a"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa78a",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa78b",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9"
+        ],
+        "children": ["c3af8bcc-224f-edb4-bb83-73f78f5aa78c"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa78c",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["c3af8bcc-224f-edb4-bb83-73f78f5aa78d"],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "c3af8bcc-224f-edb4-bb83-73f78f5aa78d",
+        "text": true,
+        "v": "Learn More"
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9d4",
+        "type": "Block",
+        "tag": "div",
+        "classes": ["fb8c8c26-99cc-8c62-1942-77681b421858"],
+        "children": [
+          "bd3138e4-69f8-077d-cd37-1aa2caada9d5",
+          "bd3138e4-69f8-077d-cd37-1aa2caada9d7",
+          "bd3138e4-69f8-077d-cd37-1aa2caada9d9"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9d5",
+        "type": "Heading",
+        "tag": "h3",
+        "classes": [],
+        "children": ["bd3138e4-69f8-077d-cd37-1aa2caada9d6"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h3"
+        }
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9d6",
+        "text": true,
+        "v": "Bless Up"
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9d7",
+        "type": "Paragraph",
+        "tag": "p",
+        "classes": [],
+        "children": ["bd3138e4-69f8-077d-cd37-1aa2caada9d8"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] }
+        }
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9d8",
+        "text": true,
+        "v": "I’m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. Eliptical talk. Look at the sunset, life is amazing, life is beautiful."
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9d9",
+        "type": "Block",
+        "tag": "div",
+        "classes": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+          "56168fa1-629c-32d5-738d-a3a3589aecf9"
+        ],
+        "children": ["bd3138e4-69f8-077d-cd37-1aa2caada9da"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "text": false,
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9da",
+        "type": "Link",
+        "tag": "a",
+        "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82628"],
+        "children": ["bd3138e4-69f8-077d-cd37-1aa2caada9db"],
+        "data": {
+          "search": { "exclude": true },
+          "xattr": [],
+          "block": "",
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "style": {
+            "base": {
+              "main": {
+                "noPseudo": {
+                  "gridColumnStart": "span 1",
+                  "gridColumnEnd": "span 1",
+                  "gridRowStart": "span 1",
+                  "gridRowEnd": "span 1"
+                }
+              }
+            }
+          },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "button": true,
+          "link": { "mode": "external", "url": "#" }
+        }
+      },
+      {
+        "_id": "bd3138e4-69f8-077d-cd37-1aa2caada9db",
+        "text": true,
+        "v": "Learn More"
+      }
+    ],
+    "styles": [
+      {
+        "_id": "958a5e16-2841-2e79-63c2-294d56721f90",
+        "fake": false,
+        "type": "class",
+        "name": "margin-medium",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "fb8c8c26-99cc-8c62-1942-77681b421858",
+        "fake": false,
+        "type": "class",
+        "name": "feature7_card",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; padding-top: 2rem; padding-right: 2.5rem; padding-bottom: 2rem; padding-left: 2.5rem; justify-items: start; grid-auto-columns: 1fr; grid-column-gap: 0.75rem; grid-row-gap: 0.75rem; grid-template-columns: 1fr; grid-template-rows: auto auto; background-image: @img_633c80f6b1dd333eec5319b4; background-position: 0px 0px; background-size: cover; background-repeat: no-repeat;",
+        "variants": {
+          "medium": { "styleLess": "background-position: 50% 50%;" }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fc",
+        "fake": false,
+        "type": "class",
+        "name": "padding-top",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "padding-right: 0rem; padding-bottom: 0rem; padding-left: 0rem;"
+          }
+        },
+        "children": [
+          "56168fa1-629c-32d5-738d-a3a3589aecf9",
+          "8af2357b-cd8d-bb36-3801-838dd2e93671",
+          "2ea8e7d3-fb8a-cc94-92cc-2bd142feb352"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8265f",
+        "fake": false,
+        "type": "class",
+        "name": "padding-section-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 8rem; padding-bottom: 8rem;",
+        "variants": {
+          "medium": { "styleLess": "padding-top: 6rem; padding-bottom: 6rem;" },
+          "small": { "styleLess": "padding-top: 4rem; padding-bottom: 4rem;" }
+        },
+        "children": [],
+        "createdBy": "54441c96b0981db6504faf03",
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82622",
+        "fake": false,
+        "type": "class",
+        "name": "margin-bottom",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;",
+        "variants": {
+          "medium": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "small": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          },
+          "tiny": {
+            "styleLess": "margin-top: 0rem; margin-right: 0rem; margin-left: 0rem;"
+          }
+        },
+        "children": [
+          "9d004126-fc55-e79b-1834-e9fec67f49bc",
+          "d636392d-e17a-9f2e-fd46-fdee33931652",
+          "27251a35-bc44-1dde-6e36-8f5109b1cced",
+          "224ba9f7-4e41-9a8b-2270-f25b4163c02c",
+          "958a5e16-2841-2e79-63c2-294d56721f90",
+          "ddc4e436-52f2-f75a-47eb-f1cd12f84663"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c825fe",
+        "fake": false,
+        "type": "class",
+        "name": "padding-global",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-right: 2.5rem; padding-left: 2.5rem;",
+        "variants": {
+          "small": {
+            "styleLess": "padding-right: 1.25rem; padding-left: 1.25rem;"
+          }
+        },
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82605",
+        "fake": false,
+        "type": "class",
+        "name": "container-large",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
+        "variants": {},
+        "children": [],
+        "selector": null
+      },
+      {
+        "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c82628",
+        "fake": false,
+        "type": "class",
+        "name": "button",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "padding-top: 0.75rem; padding-right: 1.5rem; padding-bottom: 0.75rem; padding-left: 1.5rem; background-color: hsla(222, 0.00%, 0.00%, 1.00); color: hsla(0, 0.00%, 100.00%, 1.00); font-weight: 600; text-align: center;",
+        "variants": {},
+        "children": [
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82689",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268c",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c8268f",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82690",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82691",
+          "7eccb33a-59b5-c5e6-f6ad-6117c1c82693",
+          "2aaab7de-2b14-5091-266f-bdc286c1cdc9",
+          "1e8706ea-f96e-971f-a34e-5f58313ee2d6",
+          "3d365896-0b87-8f50-05d4-efe94ccde578",
+          "eafbf473-1f74-aecc-545a-67ba541b5fa9"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "850f5fa7-073e-7cbc-5913-5d78db6c1921",
+        "fake": false,
+        "type": "class",
+        "name": "feature7_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto auto;",
+        "variants": {
+          "tiny": {
+            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "56168fa1-629c-32d5-738d-a3a3589aecf9",
+        "fake": false,
+        "type": "class",
+        "name": "padding-medium",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "siteId": "632c810da53ace0dadd9a59a",
+        "isHD": false,
+        "fileName": "633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "createdOn": "2022-10-04T18:52:38.633Z",
+        "origFileName": "placeholder-square.svg",
+        "fileHash": "6f8c275b399d2fbc2fb47a78481176cd",
+        "variants": [],
+        "mimeType": "image/svg+xml",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "thumbUrl": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
+        "_id": "633c80f6b1dd333eec5319b4",
+        "updatedOn": "2022-10-04T18:52:38.633Z",
+        "fileSize": 1299
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 0,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
