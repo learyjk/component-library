@@ -13,6 +13,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "section"
@@ -29,6 +30,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -45,6 +47,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -61,6 +64,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -83,6 +87,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -102,6 +107,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -114,12 +120,13 @@
         "classes": ["7eccb33a-59b5-c5e6-f6ad-6117c1c82675"],
         "children": ["c465df33-0260-b4b4-606f-e5be364218e4"],
         "data": {
-          "tag": "h1",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
           "visibility": { "conditions": [] },
-          "displayName": ""
+          "tag": "h1"
         }
       },
       {
@@ -142,6 +149,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -158,14 +166,15 @@
             "src": "https://uploads-ssl.webflow.com/632c810da53ace0dadd9a59a/633c80f6b1dd333eec5319b4_placeholder-square.svg",
             "loading": "lazy",
             "height": "auto",
-            "id": "",
-            "width": "auto"
+            "width": "auto",
+            "id": ""
           },
           "img": { "id": "633c80f6b1dd333eec5319b4" },
+          "displayName": "",
           "xattr": [],
           "search": { "exclude": false },
           "visibility": { "conditions": [] },
-          "displayName": ""
+          "devlink": { "runtimeProps": {}, "slot": "" }
         }
       },
       {
@@ -178,11 +187,12 @@
         ],
         "children": ["c465df33-0260-b4b4-606f-e5be364218e8"],
         "data": {
+          "displayName": "",
           "attr": { "id": "" },
           "xattr": [],
           "search": { "exclude": false },
           "visibility": { "conditions": [] },
-          "displayName": ""
+          "devlink": { "runtimeProps": {}, "slot": "" }
         }
       },
       {
@@ -201,6 +211,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "style": {
             "base": {
               "main": {
@@ -232,6 +243,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "style": {
             "base": {
               "main": {
@@ -260,6 +272,7 @@
           "xattr": [],
           "text": true,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -281,6 +294,7 @@
           "xattr": [],
           "text": true,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
