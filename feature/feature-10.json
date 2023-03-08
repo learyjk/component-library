@@ -1029,6 +1029,23 @@
         "selector": null
       },
       {
+        "_id": "3e8fbb49-8df1-aa42-7503-9188ed8a12dd",
+        "fake": false,
+        "type": "class",
+        "name": "feature10_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto;",
+        "variants": {
+          "tiny": {
+            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
+          }
+        },
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
         "_id": "8908ad88-76ce-5b52-018c-4ced9c74c163",
         "fake": false,
         "type": "class",
@@ -1096,23 +1113,6 @@
         "styleLess": "width: 100%; max-width: 80rem; margin-right: auto; margin-left: auto;",
         "variants": {},
         "children": [],
-        "selector": null
-      },
-      {
-        "_id": "3e8fbb49-8df1-aa42-7503-9188ed8a12dd",
-        "fake": false,
-        "type": "class",
-        "name": "feature10_grid",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto;",
-        "variants": {
-          "tiny": {
-            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
-          }
-        },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
       {

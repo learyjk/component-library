@@ -940,23 +940,6 @@
         "selector": null
       },
       {
-        "_id": "09969ac6-eb51-c9ed-f88c-fada1675fd87",
-        "fake": false,
-        "type": "class",
-        "name": "feature6_grid",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 6rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto auto;",
-        "variants": {
-          "tiny": {
-            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
-          }
-        },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
         "_id": "9a4d055c-ff08-bc65-859b-17bfdc21c63f",
         "fake": false,
         "type": "class",
@@ -1064,6 +1047,23 @@
         "comb": "&",
         "styleLess": "",
         "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "09969ac6-eb51-c9ed-f88c-fada1675fd87",
+        "fake": false,
+        "type": "class",
+        "name": "feature6_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 6rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto auto;",
+        "variants": {
+          "tiny": {
+            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
+          }
+        },
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null

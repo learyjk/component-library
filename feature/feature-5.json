@@ -846,7 +846,11 @@
         "namespace": "",
         "comb": "",
         "styleLess": "display: grid; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));",
-        "variants": {},
+        "variants": {
+          "tiny": {
+            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
+          }
+        },
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null

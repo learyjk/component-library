@@ -1190,23 +1190,6 @@
         "selector": null
       },
       {
-        "_id": "945b42e9-f1da-8c6e-86a9-11b6cbf1958b",
-        "fake": false,
-        "type": "class",
-        "name": "feature11_grid",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto auto;",
-        "variants": {
-          "tiny": {
-            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
-          }
-        },
-        "children": [],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
         "_id": "7eccb33a-59b5-c5e6-f6ad-6117c1c8260d",
         "fake": false,
         "type": "class",
@@ -1297,6 +1280,23 @@
         "comb": "",
         "styleLess": "display: flex; padding-bottom: 2rem; flex-direction: column; justify-items: start; grid-auto-columns: 1fr; grid-column-gap: 1.5rem; grid-row-gap: 1.5rem; grid-template-columns: 1fr; grid-template-rows: auto auto; background-color: hsla(0, 0.00%, 100.00%, 1.00); text-align: left;",
         "variants": {},
+        "children": [],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
+        "_id": "945b42e9-f1da-8c6e-86a9-11b6cbf1958b",
+        "fake": false,
+        "type": "class",
+        "name": "feature11_grid",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: grid; grid-auto-columns: 1fr; grid-column-gap: 2rem; grid-row-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-template-rows: auto auto;",
+        "variants": {
+          "tiny": {
+            "styleLess": "grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));"
+          }
+        },
         "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
