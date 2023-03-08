@@ -91,7 +91,7 @@
         </div>
         <div
           id="splide-1"
-          class="splide splide--slide splide--ltr splide--draggable is-active is-overflow is-initialized"
+          class="splide is-overflow is-initialized splide--slide splide--ltr splide--draggable is-active"
           role="region"
           aria-roledescription="carousel"
         >
@@ -116,7 +116,7 @@
                 aria-label="1 of 5"
                 style="
                   margin-right: 3rem;
-                  width: calc(((100% + 3rem) / 3) - 3rem);
+                  width: calc(((100% + 3rem) / 2) - 3rem);
                 "
               >
                 <div class="image-height">
@@ -142,7 +142,7 @@
                 aria-label="2 of 5"
                 style="
                   margin-right: 3rem;
-                  width: calc(((100% + 3rem) / 3) - 3rem);
+                  width: calc(((100% + 3rem) / 2) - 3rem);
                 "
               >
                 <div class="image-height">
@@ -161,15 +161,16 @@
                 </div>
               </div>
               <div
-                class="splide__slide is-visible"
+                class="splide__slide"
                 id="splide-1-slide03"
                 role="tabpanel"
                 aria-roledescription="slide"
                 aria-label="3 of 5"
                 style="
                   margin-right: 3rem;
-                  width: calc(((100% + 3rem) / 3) - 3rem);
+                  width: calc(((100% + 3rem) / 2) - 3rem);
                 "
+                aria-hidden="true"
               >
                 <div class="image-height">
                   <img
@@ -194,7 +195,7 @@
                 aria-label="4 of 5"
                 style="
                   margin-right: 3rem;
-                  width: calc(((100% + 3rem) / 3) - 3rem);
+                  width: calc(((100% + 3rem) / 2) - 3rem);
                 "
                 aria-hidden="true"
               >
@@ -221,7 +222,7 @@
                 aria-label="5 of 5"
                 style="
                   margin-right: 3rem;
-                  width: calc(((100% + 3rem) / 3) - 3rem);
+                  width: calc(((100% + 3rem) / 2) - 3rem);
                 "
                 aria-hidden="true"
               >
@@ -274,6 +275,16 @@
                 role="tab"
                 aria-controls="splide-1-slide03"
                 aria-label="Go to slide 3"
+                tabindex="-1"
+              ></button>
+            </li>
+            <li role="presentation">
+              <button
+                class="splide__pagination__page"
+                type="button"
+                role="tab"
+                aria-controls="splide-1-slide04"
+                aria-label="Go to slide 4"
                 tabindex="-1"
               ></button>
             </li>

@@ -13,6 +13,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "section"
@@ -29,6 +30,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -45,6 +47,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -65,6 +68,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -84,6 +88,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -96,12 +101,13 @@
         "classes": [],
         "children": ["2c0b8fe2-cdfa-1d51-505b-0134c06c092d"],
         "data": {
-          "tag": "h1",
-          "displayName": "",
-          "attr": { "id": "" },
-          "xattr": [],
           "search": { "exclude": false },
-          "visibility": { "conditions": [] }
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "h1"
         }
       },
       {
@@ -125,7 +131,8 @@
               "html": "<!-- Load Splide min css code -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css\"/>\n\n<!-- Load Splide min JS code -->\n<script defer src=\"https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js\"></script>\n\n<!-- Create Splide Element -->\n<script>\n// Pagination Elements used to style in designer must be removed before splide loads to prevent duplicate pagination dots\nconst removeDotsGallery1 = () => {\n    const paginationStyles = document.querySelectorAll(\n        \"#splide-1 .splide__pagination__page\"\n    );\n    paginationStyles.forEach((dot) => {\n        dot.remove();\n    });\n};\n\nconst buildGallery1 = () => {\n    removeDotsGallery1();\n    const splide = new Splide(\"#splide-1\", {\n    \t\t// EDIT OPTIONS BELOW\n        // https://splidejs.com/guides/options/\n        type: \"slide\",\n        perMove: 1,\n        perPage: 3,\n        lazyLoad: false,\n        gap: \"3rem\",\n        breakpoints: {\n            991: {\n                perPage: 2\n            },\n            767: {\n                perPage: 1,\n            }\n        },\n        focus: 0,\n        omitEnd: true,\n    });\n\n    splide.mount();\n};\n\nif (document.readyState === \"complete\" || document.readyState === \"loaded\") {\n  buildGallery1()\n} else {\n\tdocument.addEventListener(\"DOMContentLoaded\", buildGallery1)\n}\n</script>\n<style>\n/* You can use the combo classes below to style specific slides or to help with debugging*/\n/*\n.splide__slide.is-visible {\n\tpadding: 1rem;\n  background-color: green;\n}\n.splide__slide.is-next {\n\tpadding: 1rem;\n  background-color: blue;\n}\n.splide__slide.is-prev {\n\tpadding: 1rem;\n  background-color: yellow;\n}\n.splide__slide.is-active {\n\tpadding: 1rem;\n  background-color: red;\n}*/\n\n.splide__arrow:disabled {\n\topacity: 0.5;\n}\n</style>",
               "div": false,
               "iframe": false,
-              "script": true
+              "script": true,
+              "compilable": false
             }
           }
         }
@@ -145,6 +152,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "splide-1" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -161,6 +169,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -183,6 +192,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -199,6 +209,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -215,6 +226,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -255,6 +267,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -271,6 +284,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -311,6 +325,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -327,6 +342,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -367,6 +383,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -383,6 +400,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -423,6 +441,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -439,6 +458,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -484,6 +504,7 @@
           "search": { "exclude": false },
           "xattr": [],
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "ul",
@@ -499,7 +520,7 @@
           "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"
         ],
         "children": [],
-        "data": { "list": { "type": "item" } }
+        "data": { "list": { "type": "item" }, "text": false }
       },
       {
         "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0943",
@@ -507,7 +528,7 @@
         "tag": "li",
         "classes": ["f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a"],
         "children": [],
-        "data": { "list": { "type": "item" } }
+        "data": { "list": { "type": "item" }, "text": false }
       },
       {
         "_id": "2c0b8fe2-cdfa-1d51-505b-0134c06c0944",
@@ -526,6 +547,7 @@
           "xattr": [],
           "text": false,
           "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
           "attr": { "id": "" },
           "visibility": { "conditions": [] },
           "tag": "div"
@@ -678,15 +700,18 @@
         "selector": null
       },
       {
-        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
+        "_id": "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6",
         "fake": false,
         "type": "class",
-        "name": "splide__pagination__page",
+        "name": "section",
         "namespace": "",
         "comb": "",
-        "styleLess": "width: 1rem; height: 1rem; background-color: hsla(0, 0.00%, 88.00%, 1.00); list-style-type: none;",
+        "styleLess": "",
         "variants": {},
-        "children": ["f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"],
+        "children": [
+          "0d2ed67e-8312-1c94-3bc1-06b6125b17a3",
+          "9ff8fba4-b8c9-b840-55a3-31e5f8c4fc29"
+        ],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
@@ -832,6 +857,19 @@
         "selector": null
       },
       {
+        "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813a",
+        "fake": false,
+        "type": "class",
+        "name": "splide__pagination__page",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "width: 1rem; height: 1rem; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-color: hsla(0, 0.00%, 88.00%, 1.00); list-style-type: none;",
+        "variants": {},
+        "children": ["f2d2c76b-6c2d-1fd9-a1bc-d460e43b813d"],
+        "createdBy": "6105ef3f19602768b12c8a43",
+        "selector": null
+      },
+      {
         "_id": "f2d2c76b-6c2d-1fd9-a1bc-d460e43b8133",
         "fake": false,
         "type": "class",
@@ -870,19 +908,6 @@
           "f2d2c76b-6c2d-1fd9-a1bc-d460e43b813c",
           "848371fd-ebe2-d0b3-42ed-0a29e0720d89"
         ],
-        "createdBy": "6105ef3f19602768b12c8a43",
-        "selector": null
-      },
-      {
-        "_id": "6dc1b6da-ab1f-64e9-10b3-fafd1fbb5de6",
-        "fake": false,
-        "type": "class",
-        "name": "section",
-        "namespace": "",
-        "comb": "",
-        "styleLess": "",
-        "variants": {},
-        "children": [],
         "createdBy": "6105ef3f19602768b12c8a43",
         "selector": null
       },
